@@ -1,5 +1,6 @@
 import OpenAI from "openai";
 import { classifyError, logLlmCall } from "../log";
+import { extractJson } from "../json-util";
 import type { LlmRunOptions, LlmRunResult } from "../llm";
 
 /**
@@ -24,12 +25,28 @@ const BACKOFF_MAX_MS = 60_000;
 // Cloudflare / proxy status codes that are worth retrying.
 const RETRYABLE_STATUS = new Set([408, 409, 425, 429, 500, 502, 503, 504, 524, 530]);
 
+/**
+ * Thrown when the HTTP call "succeeds" (2xx) but the body is unusable —
+ * empty, or a truncated/incomplete JSON payload. The OpenAI-compatible
+ * callers all expect JSON, so a malformed body is treated as a transient
+ * upstream glitch (proxy cut the stream, etc.) and retried like a 5xx.
+ */
+class RetryableBackendError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "RetryableBackendError";
+  }
+}
+
 interface RetryDecision {
   retryable: boolean;
   waitMs: number;
 }
 
 function isRetryable(err: unknown): RetryDecision {
+  if (err instanceof RetryableBackendError) {
+    return { retryable: true, waitMs: BACKOFF_BASE_MS };
+  }
   const msg = err instanceof Error ? err.message : String(err ?? "");
 
   // Truncated / malformed responses from a flaky proxy — transient.
@@ -178,6 +195,21 @@ export async function runOpenAICompat(
         { timeout: timeoutMs },
       );
       const text = (resp.choices[0]?.message?.content ?? "").trim();
+      // All OpenAI-compatible callers expect JSON. A 2xx response with an
+      // empty body or a truncated JSON payload (proxy cut the stream) is
+      // unusable and indistinguishable from a transient glitch downstream —
+      // surface it as a RetryableBackendError so the loop above re-tries
+      // instead of letting JSON.parse blow up the whole run.
+      const cleaned = extractJson(text);
+      if (cleaned.trim() === "") {
+        throw new RetryableBackendError("empty response body from model");
+      }
+      const truncated =
+        (cleaned.startsWith("{") && !cleaned.endsWith("}")) ||
+        (cleaned.startsWith("[") && !cleaned.endsWith("]"));
+      if (truncated) {
+        throw new RetryableBackendError("truncated/incomplete JSON response from model");
+      }
       const durationMs = Date.now() - started;
       logLlmCall({
         ts: new Date(started).toISOString(),
