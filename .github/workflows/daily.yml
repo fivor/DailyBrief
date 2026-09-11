@@ -237,11 +237,16 @@ jobs:
           #                                tried when the primary gateway is down
           #                                (e.g. a 2nd New API instance / OpenRouter)
           #   OPENAI_BASE_URL_FALLBACK    backend-specific alias for the above
+          #   LLM_API_KEY_FALLBACK /      API key used for the fallback endpoint
+          #   OPENAI_API_KEY_FALLBACK     (falls back to the primary key when
+          #                                unset, e.g. a 2nd gateway sharing creds)
           #   LLM_BACKEND_FALLBACK        ordered backend ids to try next, e.g.
           #                                "deepseek,anthropic" (only those with a
           #                                key set are actually attempted)
           LLM_BASE_URL_FALLBACK: ${{ vars.LLM_BASE_URL_FALLBACK }}
           OPENAI_BASE_URL_FALLBACK: ${{ vars.OPENAI_BASE_URL_FALLBACK }}
+          LLM_API_KEY_FALLBACK: ${{ secrets.LLM_API_KEY_FALLBACK }}
+          OPENAI_API_KEY_FALLBACK: ${{ secrets.OPENAI_API_KEY_FALLBACK }}
           LLM_BACKEND_FALLBACK: ${{ vars.LLM_BACKEND_FALLBACK }}
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
           REPORT_TZ: ${{ vars.REPORT_TZ }}
