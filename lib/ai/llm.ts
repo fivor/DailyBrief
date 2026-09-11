@@ -89,19 +89,82 @@ export function getModelTag(): string {
   return `${backend}-${getActiveModel(backend)}`;
 }
 
-export async function runLlm(opts: LlmRunOptions): Promise<LlmRunResult> {
-  const backend = getBackend();
-  switch (backend) {
-    case "claude-cli":
-      return runClaudeCli(opts);
-    case "anthropic":
-    case "zhipu":
-      return runAnthropicCompat(opts, ANTHROPIC_PRESETS[backend]);
-    case "openai":
-    case "deepseek":
-    case "minimax":
-      return runOpenAICompat(opts, OPENAI_PRESETS[backend]);
+/**
+ * Does the given backend have usable credentials in the environment? Used to
+ * skip fallback backends that would just error out on a missing key, so a
+ * failover chain only ever tries backends the user actually configured.
+ */
+function backendHasCredentials(backend: LlmBackendId): boolean {
+  if (backend === "claude-cli") return true;
+  const required: Record<Exclude<LlmBackendId, "claude-cli">, string> = {
+    anthropic: "ANTHROPIC_API_KEY",
+    openai: "OPENAI_API_KEY",
+    deepseek: "DEEPSEEK_API_KEY",
+    minimax: "MINIMAX_API_KEY",
+    zhipu: "ZHIPU_API_KEY",
+  };
+  return !!(process.env[required[backend]] || process.env.LLM_API_KEY);
+}
+
+/**
+ * Build the ordered backend chain: the configured primary first, then any
+ * backends listed in `LLM_BACKEND_FALLBACK` (comma-separated) that have
+ * credentials present. Backends without keys are skipped with a warning
+ * rather than attempted. The result is always at least [primary].
+ */
+function buildBackendChain(): LlmBackendId[] {
+  const primary = getBackend();
+  const chain: LlmBackendId[] = [primary];
+  const fbRaw = (process.env.LLM_BACKEND_FALLBACK?.trim() || "").toLowerCase();
+  if (!fbRaw) return chain;
+  for (const b of fbRaw.split(",")) {
+    const b2 = b.trim() as LlmBackendId;
+    if (!VALID_BACKENDS.has(b2) || chain.includes(b2)) continue;
+    if (backendHasCredentials(b2)) {
+      chain.push(b2);
+    } else {
+      console.warn(
+        `[llm] skipping fallback backend '${b2}' — no credentials present; set its key or remove it from LLM_BACKEND_FALLBACK`,
+      );
+    }
   }
+  return chain;
+}
+
+export async function runLlm(opts: LlmRunOptions): Promise<LlmRunResult> {
+  const chain = buildBackendChain();
+  let lastErr: unknown;
+  for (let i = 0; i < chain.length; i++) {
+    const backend = chain[i];
+    try {
+      switch (backend) {
+        case "claude-cli":
+          return await runClaudeCli(opts);
+        case "anthropic":
+        case "zhipu":
+          return await runAnthropicCompat(opts, ANTHROPIC_PRESETS[backend]);
+        case "openai":
+        case "deepseek":
+        case "minimax":
+          return await runOpenAICompat(opts, OPENAI_PRESETS[backend]);
+      }
+    } catch (err) {
+      lastErr = err;
+      if (i === chain.length - 1) {
+        console.warn(
+          `[llm] all ${chain.length} backend(s) in chain exhausted; last error: ${(
+            err instanceof Error ? err.message : String(err)
+          ).slice(0, 160)}`,
+        );
+        throw err;
+      }
+      console.warn(
+        `[llm] backend '${backend}' failed; failing over to '${chain[i + 1]}'`,
+      );
+    }
+  }
+  // Unreachable: the loop returns on success or throws on the last backend.
+  throw lastErr;
 }
 /**
  * Cheap startup sanity-check so a misconfigured backend errors in <1s

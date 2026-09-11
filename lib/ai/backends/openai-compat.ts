@@ -6,21 +6,33 @@ import type { LlmRunOptions, LlmRunResult } from "../llm";
 /**
  * OpenAI-compatible backend. Reused for any provider that exposes the
  * standard `/chat/completions` endpoint: OpenAI itself, DeepSeek, MiniMax,
- * Groq, Together, OpenRouter, local LM Studio / Ollama, etc.
+ * Groq, Together, OpenRouter, local LM Studio / Ollama, or a self-hosted
+ * gateway such as New API / One API.
  *
- * Retry policy (added after the 2026-09-11 incident where transient
- * provider / Cloudflare errors — 429 rate-limit, 524 origin timeout,
- * 530 origin unreachable, truncated-JSON — failed whole daily runs):
- *   • up to MAX_ATTEMPTS tries
+ * Retry policy (hardened after the 2026-09-11 incident where the user's own
+ * self-hosted gateway `newapi.fivor.dev` was intermittently unreachable in
+ * the evening, surfacing as Cloudflare 502/524/530 / empty-body errors):
+ *   • up to MAX_ATTEMPTS tries per base URL
  *   • exponential backoff, capped at BACKOFF_MAX_MS
- *   • honors the proxy's `Retry-After` header (e.g. sensenova/Cloudflare
- *     returns `retry-after: 120` on 429)
- *   • only retries *transient* conditions; 401/402/403/404 are fatal and
- *     surfaced immediately so a config problem isn't masked by retries
+ *   • honors the proxy's `Retry-After` header
+ *   • only retries *transient* conditions; 401/402/403/404 are fatal
+ *   • validates the 2xx body (empty / truncated JSON counts as transient)
+ *
+ * Failover (new in this revision): when one base URL is unreachable, the call
+ * is retried against a fallback base URL (e.g. a second New API instance or a
+ * different provider endpoint) before giving up. This keeps a daily run green
+ * even if the primary gateway blips, without needing a totally different
+ * backend. Configure via `OPENAI_BASE_URL_FALLBACK` / `DEEPSEEK_BASE_URL_-
+ * FALLBACK` / `MINIMAX_BASE_URL_FALLBACK` / generic `LLM_BASE_URL_FALLBACK`
+ * (comma-separated). When any fallback is present the per-URL budget is
+ * tightened (fewer attempts + shorter backoff) so we fail over fast instead of
+ * burning the whole job timeout on a dead endpoint.
  */
 const MAX_ATTEMPTS = 5;
+const ATTEMPTS_WITH_FALLBACK = 2;
 const BACKOFF_BASE_MS = 2_000;
 const BACKOFF_MAX_MS = 60_000;
+const BACKOFF_MAX_MS_WITH_FALLBACK = 15_000;
 
 // Cloudflare / proxy status codes that are worth retrying.
 const RETRYABLE_STATUS = new Set([408, 409, 425, 429, 500, 502, 503, 504, 524, 530]);
@@ -100,6 +112,8 @@ export interface OpenAICompatConfig {
   defaultModel: string;
   apiKeyEnv: string;
   baseUrlEnv: string;
+  /** Optional env var holding comma-separated fallback base URLs. */
+  baseUrlFallbackEnv?: string;
 }
 
 export const PRESETS: Record<OpenAICompatConfig["backend"], OpenAICompatConfig> = {
@@ -109,6 +123,7 @@ export const PRESETS: Record<OpenAICompatConfig["backend"], OpenAICompatConfig> 
     defaultModel: "gpt-4o-mini",
     apiKeyEnv: "OPENAI_API_KEY",
     baseUrlEnv: "OPENAI_BASE_URL",
+    baseUrlFallbackEnv: "OPENAI_BASE_URL_FALLBACK",
   },
   deepseek: {
     backend: "deepseek",
@@ -118,6 +133,7 @@ export const PRESETS: Record<OpenAICompatConfig["backend"], OpenAICompatConfig> 
     defaultModel: "deepseek-v4-flash",
     apiKeyEnv: "DEEPSEEK_API_KEY",
     baseUrlEnv: "DEEPSEEK_BASE_URL",
+    baseUrlFallbackEnv: "DEEPSEEK_BASE_URL_FALLBACK",
   },
   minimax: {
     backend: "minimax",
@@ -125,12 +141,38 @@ export const PRESETS: Record<OpenAICompatConfig["backend"], OpenAICompatConfig> 
     defaultModel: "MiniMax-M2.7",
     apiKeyEnv: "MINIMAX_API_KEY",
     baseUrlEnv: "MINIMAX_BASE_URL",
+    baseUrlFallbackEnv: "MINIMAX_BASE_URL_FALLBACK",
   },
 };
 
 const clientCache = new Map<string, OpenAI>();
 
-function getClient(cfg: OpenAICompatConfig): { client: OpenAI; model: string } {
+/**
+ * Resolve the ordered list of base URLs to try: the configured primary first,
+ * then any fallback URLs. Duplicate/empty entries are dropped.
+ */
+function resolveBaseUrls(cfg: OpenAICompatConfig): string[] {
+  const primary =
+    process.env[cfg.baseUrlEnv]?.trim() ||
+    process.env.LLM_BASE_URL?.trim() ||
+    cfg.defaultBaseUrl;
+  const out: string[] = [primary];
+
+  const rawFallbacks: (string | undefined)[] = [
+    cfg.baseUrlFallbackEnv ? process.env[cfg.baseUrlFallbackEnv] : undefined,
+    process.env.LLM_BASE_URL_FALLBACK?.trim(),
+  ];
+  for (const raw of rawFallbacks) {
+    if (!raw) continue;
+    for (const u of raw.split(",")) {
+      const u2 = u.trim();
+      if (u2 && !out.includes(u2)) out.push(u2);
+    }
+  }
+  return out;
+}
+
+function getClient(baseURL: string, cfg: OpenAICompatConfig): { client: OpenAI; model: string } {
   // Provider-specific env wins; LLM_API_KEY / LLM_BASE_URL are generic
   // aliases so users pointing at a non-preset OpenAI-compatible service
   // (Moonshot, SiliconFlow, OpenRouter, self-hosted vLLM, ...) don't have
@@ -141,10 +183,6 @@ function getClient(cfg: OpenAICompatConfig): { client: OpenAI; model: string } {
       `${cfg.apiKeyEnv} (or generic LLM_API_KEY) is required for LLM_BACKEND=${cfg.backend}. Set it in .env.local.`,
     );
   }
-  const baseURL =
-    process.env[cfg.baseUrlEnv]?.trim() ||
-    process.env.LLM_BASE_URL?.trim() ||
-    cfg.defaultBaseUrl;
   const model = process.env.LLM_MODEL?.trim() || cfg.defaultModel;
 
   const cacheKey = `${baseURL}::${apiKey.slice(-6)}`;
@@ -162,17 +200,24 @@ export function openaiCompatModel(cfg: OpenAICompatConfig): string {
   return process.env.LLM_MODEL?.trim() || cfg.defaultModel;
 }
 
-export async function runOpenAICompat(
+/**
+ * Retry loop against a single base URL. Extracted so `runOpenAICompat` can
+ * walk a list of base URLs and fail over on exhaustion.
+ */
+async function attemptBaseUrl(
   opts: LlmRunOptions,
   cfg: OpenAICompatConfig,
+  baseURL: string,
+  attempts: number,
+  backoffMax: number,
 ): Promise<LlmRunResult> {
-  const { client, model } = getClient(cfg);
+  const { client, model } = getClient(baseURL, cfg);
   const started = Date.now();
   const inputChars = opts.systemPrompt.length + opts.userPrompt.length;
   const timeoutMs = opts.timeoutMs ?? 180_000;
 
   let lastErr: unknown = undefined;
-  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+  for (let attempt = 1; attempt <= attempts; attempt++) {
     try {
       const resp = await client.chat.completions.create(
         {
@@ -247,7 +292,7 @@ export async function runOpenAICompat(
         throw err;
       }
 
-      if (attempt === MAX_ATTEMPTS) {
+      if (attempt === attempts) {
         const durationMs = Date.now() - started;
         logLlmCall({
           ts: new Date(started).toISOString(),
@@ -261,22 +306,57 @@ export async function runOpenAICompat(
           errorSnippet: msg.slice(0, 200),
         });
         console.warn(
-          `[openai-compat:${cfg.backend}] all ${MAX_ATTEMPTS} attempts failed: ${msg.slice(0, 160)}`,
+          `[openai-compat:${cfg.backend}@${baseURL}] all ${attempts} attempts failed: ${msg.slice(0, 160)}`,
         );
         throw err;
       }
 
       const delay = Math.min(
         waitMs || BACKOFF_BASE_MS * 2 ** (attempt - 1),
-        BACKOFF_MAX_MS,
+        backoffMax,
       );
       console.warn(
-        `[openai-compat:${cfg.backend}] attempt ${attempt}/${MAX_ATTEMPTS} failed (${msg.slice(0, 80)}); retrying in ${(delay / 1000).toFixed(1)}s`,
+        `[openai-compat:${cfg.backend}@${baseURL}] attempt ${attempt}/${attempts} failed (${msg.slice(0, 80)}); retrying in ${(delay / 1000).toFixed(1)}s`,
       );
       await sleep(delay);
     }
   }
   // Unreachable: the loop either returns on success or throws on the last
   // attempt. Kept to satisfy the type checker that lastErr is assigned.
+  throw lastErr;
+}
+
+export async function runOpenAICompat(
+  opts: LlmRunOptions,
+  cfg: OpenAICompatConfig,
+): Promise<LlmRunResult> {
+  const baseUrls = resolveBaseUrls(cfg);
+  const hasFallback = baseUrls.length > 1;
+  // With a fallback configured, fail over fast (we have somewhere to go).
+  // Without one, keep the full budget like before.
+  const attempts = hasFallback ? ATTEMPTS_WITH_FALLBACK : MAX_ATTEMPTS;
+  const backoffMax = hasFallback ? BACKOFF_MAX_MS_WITH_FALLBACK : BACKOFF_MAX_MS;
+
+  let lastErr: unknown = undefined;
+  for (let i = 0; i < baseUrls.length; i++) {
+    const baseURL = baseUrls[i];
+    try {
+      return await attemptBaseUrl(opts, cfg, baseURL, attempts, backoffMax);
+    } catch (err) {
+      lastErr = err;
+      if (i === baseUrls.length - 1) {
+        console.warn(
+          `[openai-compat:${cfg.backend}] all ${baseUrls.length} base URL(s) exhausted; last error: ${(
+            err instanceof Error ? err.message : String(err)
+          ).slice(0, 160)}`,
+        );
+        throw err;
+      }
+      console.warn(
+        `[openai-compat:${cfg.backend}] ${baseURL} unreachable; failing over to ${baseUrls[i + 1]}`,
+      );
+    }
+  }
+  // Unreachable: loop returns or throws. Keeps the checker happy.
   throw lastErr;
 }

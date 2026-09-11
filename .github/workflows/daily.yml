@@ -232,6 +232,17 @@ jobs:
           # vars above take precedence when both are set.
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          # Failover knobs (all optional, no-op when unset):
+          #   LLM_BASE_URL_FALLBACK       secondary OpenAI-compatible endpoint
+          #                                tried when the primary gateway is down
+          #                                (e.g. a 2nd New API instance / OpenRouter)
+          #   OPENAI_BASE_URL_FALLBACK    backend-specific alias for the above
+          #   LLM_BACKEND_FALLBACK        ordered backend ids to try next, e.g.
+          #                                "deepseek,anthropic" (only those with a
+          #                                key set are actually attempted)
+          LLM_BASE_URL_FALLBACK: ${{ vars.LLM_BASE_URL_FALLBACK }}
+          OPENAI_BASE_URL_FALLBACK: ${{ vars.OPENAI_BASE_URL_FALLBACK }}
+          LLM_BACKEND_FALLBACK: ${{ vars.LLM_BACKEND_FALLBACK }}
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           # Sources to skip in CI (comma-separated ids). linux.do's WAF blocks
