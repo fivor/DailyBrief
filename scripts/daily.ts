@@ -299,7 +299,27 @@ async function main() {
   console.log(`[daily] done.`);
 }
 
-main().catch((e) => {
-  console.error(`[daily] FAILED:`, e);
-  process.exit(1);
-});
+/**
+ * The event loop can stay alive long after all work is done: undici's
+ * keep-alive sockets (used by the OpenAI SDK and global fetch) linger, so
+ * `main()` resolving does NOT end the process. In CI this showed up as a
+ * 10–60 minute hang *after* "[daily] done." — the report was already on disk,
+ * but the step never finished and the job hit its 60-minute timeout (the
+ * failure path exits promptly via process.exit(1), which is why failing runs
+ * looked "shorter" than successful ones). Flush stdio, then exit explicitly.
+ */
+function exitAfterFlush(code: number): void {
+  let remaining = 2;
+  const finish = (): void => {
+    if (--remaining === 0) process.exit(code);
+  };
+  process.stdout.write("", finish);
+  process.stderr.write("", finish);
+}
+
+main()
+  .then(() => exitAfterFlush(0))
+  .catch((e) => {
+    console.error(`[daily] FAILED:`, e);
+    exitAfterFlush(1);
+  });
