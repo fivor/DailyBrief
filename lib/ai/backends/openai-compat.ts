@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import type { ChatCompletionCreateParamsNonStreaming } from "openai/resources/chat/completions";
 import { classifyError, logLlmCall } from "../log";
 import { extractJson } from "../json-util";
 import type { LlmRunOptions, LlmRunResult } from "../llm";
@@ -9,36 +10,39 @@ import type { LlmRunOptions, LlmRunResult } from "../llm";
  * Groq, Together, OpenRouter, local LM Studio / Ollama, or a self-hosted
  * gateway such as New API / One API.
  *
- * Retry policy (hardened after the 2026-09-11 incident where the user's own
- * self-hosted gateway `newapi.fivor.dev` was intermittently unreachable in
- * the evening, surfacing as Cloudflare 502/524/530 / empty-body errors):
+ * Retry policy (hardened across the 2026-09-11 → 09-12 incidents):
  *   • up to MAX_ATTEMPTS tries per endpoint
  *   • exponential backoff, capped at BACKOFF_MAX_MS
- *   • honors the proxy's `Retry-After` header
- *   • only retries *transient* conditions; 401/402/403/404 are considered
- *     fatal *for that endpoint* (the failover layer below may still recover)
+ *   • honors the proxy's `Retry-After` header *in full* (up to
+ *     RETRY_AFTER_MAX_MS) — a per-minute rate limit needs a long wait, and
+ *     failing over to another endpoint on the same upstream quota does not
+ *     escape it
+ *   • only retries *transient* conditions; 401/402/403/404 are fatal for that
+ *     endpoint (the failover layer below may still recover)
  *   • validates the 2xx body (empty / truncated JSON counts as transient)
+ *
+ * Reasoning-budget guard (2026-09-12): some models emit a long chain-of-
+ * thought that shares the output budget with `content`. On big tasks the
+ * reasoning can eat the whole `max_tokens` and leave `content` empty
+ * ("empty response body from model"), while the reasoning tokens also blow
+ * per-minute quota. Callers can tame this via env (applied to every request):
+ *   LLM_REASONING_EFFORT=none|minimal|low|medium|high  → `reasoning_effort`
+ *   LLM_EXTRA_BODY='{"chat_template_kwargs":{...}}'    → merged verbatim
  *
  * Failover: when one endpoint is unreachable, the call is retried against a
  * fallback endpoint (e.g. the provider's direct API instead of a flaky
- * self-hosted gateway, or a second gateway) before giving up. This keeps a
- * daily run green even if the primary gateway blips, without needing a
- * different backend. Configure via:
- *   • base URL:  LLM_BASE_URL_FALLBACK / OPENAI_BASE_URL_FALLBACK
- *                / DEEPSEEK_BASE_URL_FALLBACK / MINIMAX_BASE_URL_FALLBACK
- *   • API key :  LLM_API_KEY_FALLBACK / OPENAI_API_KEY_FALLBACK
- *                / DEEPSEEK_API_KEY_FALLBACK / MINIMAX_API_KEY_FALLBACK
- *                (each fallback URL reuses the fallback key, or the primary
- *                 key if no dedicated fallback key is set)
- * Each is comma-separated for multiple values. When any fallback is present
- * the per-endpoint budget is tightened (fewer attempts + shorter backoff) so
- * we fail over fast instead of burning the whole job timeout on a dead host.
+ * self-hosted gateway). Configure via LLM_BASE_URL_FALLBACK /
+ * OPENAI_BASE_URL_FALLBACK (and LLM_API_KEY_FALLBACK / OPENAI_API_KEY_FALLBACK
+ * for a fallback-specific key). Each is comma-separated for multiple values.
  */
 const MAX_ATTEMPTS = 5;
-const ATTEMPTS_WITH_FALLBACK = 2;
+const ATTEMPTS_WITH_FALLBACK = 3;
 const BACKOFF_BASE_MS = 2_000;
 const BACKOFF_MAX_MS = 60_000;
-const BACKOFF_MAX_MS_WITH_FALLBACK = 15_000;
+const BACKOFF_MAX_MS_WITH_FALLBACK = 30_000;
+const RETRY_AFTER_MAX_MS = 120_000;
+/** Output token budget. With reasoning disabled this is content-only. */
+const MAX_OUTPUT_TOKENS = 8192;
 
 // Cloudflare / proxy status codes that are worth retrying.
 const RETRYABLE_STATUS = new Set([408, 409, 425, 429, 500, 502, 503, 504, 524, 530]);
@@ -47,7 +51,8 @@ const RETRYABLE_STATUS = new Set([408, 409, 425, 429, 500, 502, 503, 504, 524, 5
  * Thrown when the HTTP call "succeeds" (2xx) but the body is unusable —
  * empty, or a truncated/incomplete JSON payload. The OpenAI-compatible
  * callers all expect JSON, so a malformed body is treated as a transient
- * upstream glitch (proxy cut the stream, etc.) and retried like a 5xx.
+ * upstream glitch (proxy cut the stream, reasoning ate the budget, ...) and
+ * retried like a 5xx.
  */
 class RetryableBackendError extends Error {
   constructor(message: string) {
@@ -58,18 +63,19 @@ class RetryableBackendError extends Error {
 
 interface RetryDecision {
   retryable: boolean;
-  waitMs: number;
+  /** Wait the server explicitly asked for (Retry-After), if any. */
+  serverWaitMs?: number;
 }
 
 function isRetryable(err: unknown): RetryDecision {
   if (err instanceof RetryableBackendError) {
-    return { retryable: true, waitMs: BACKOFF_BASE_MS };
+    return { retryable: true };
   }
   const msg = err instanceof Error ? err.message : String(err ?? "");
 
   // Truncated / malformed responses from a flaky proxy — transient.
   if (/Unexpected end of JSON input/i.test(msg)) {
-    return { retryable: true, waitMs: BACKOFF_BASE_MS };
+    return { retryable: true };
   }
 
   // SDK error objects expose a numeric `status`; fall back to scraping the
@@ -83,18 +89,19 @@ function isRetryable(err: unknown): RetryDecision {
     // retrying against the same endpoint; surface them so the failover layer
     // can try the next one or a bad key / missing payment gets fixed.
     if (status >= 400 && status < 500 && !RETRYABLE_STATUS.has(status)) {
-      return { retryable: false, waitMs: 0 };
+      return { retryable: false };
     }
     if (RETRYABLE_STATUS.has(status)) {
       const headers = (err as { headers?: { get?: (k: string) => string | null } } | null)
         ?.headers;
       const ra = headers?.get?.("retry-after");
-      let waitMs = BACKOFF_BASE_MS;
       if (ra) {
         const secs = Number(ra);
-        if (!Number.isNaN(secs)) waitMs = Math.min(secs * 1000, BACKOFF_MAX_MS);
+        if (!Number.isNaN(secs)) {
+          return { retryable: true, serverWaitMs: secs * 1000 };
+        }
       }
-      return { retryable: true, waitMs };
+      return { retryable: true };
     }
   }
 
@@ -105,10 +112,10 @@ function isRetryable(err: unknown): RetryDecision {
       msg,
     )
   ) {
-    return { retryable: true, waitMs: BACKOFF_BASE_MS };
+    return { retryable: true };
   }
 
-  return { retryable: false, waitMs: 0 };
+  return { retryable: false };
 }
 
 const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
@@ -169,8 +176,7 @@ interface Endpoint {
 /**
  * Resolve the ordered list of endpoints to try: the configured primary first,
  * then any fallback URLs. Each fallback URL uses the fallback key when set,
- * otherwise the primary key (so a second gateway that shares credentials
- * needs only the URL). Duplicate/empty entries are dropped.
+ * otherwise the primary key. Duplicate/empty entries are dropped.
  */
 function resolveEndpoints(cfg: OpenAICompatConfig): Endpoint[] {
   const primaryKey = process.env[cfg.apiKeyEnv] || process.env.LLM_API_KEY;
@@ -206,6 +212,31 @@ function resolveEndpoints(cfg: OpenAICompatConfig): Endpoint[] {
     }
   }
   return endpoints;
+}
+
+/**
+ * Extra request-body fields applied to every call. Lets the deployment tame a
+ * runaway chain-of-thought (which shares the output budget and can starve
+ * `content`) without a code change.
+ */
+function extraBodyParams(): Record<string, unknown> {
+  const out: Record<string, unknown> = {};
+  const effort = process.env.LLM_REASONING_EFFORT?.trim();
+  if (effort) out.reasoning_effort = effort;
+  const raw = process.env.LLM_EXTRA_BODY?.trim();
+  if (raw) {
+    try {
+      const parsed: unknown = JSON.parse(raw);
+      if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+        Object.assign(out, parsed);
+      } else {
+        console.warn("[openai-compat] LLM_EXTRA_BODY must be a JSON object; ignoring");
+      }
+    } catch {
+      console.warn("[openai-compat] LLM_EXTRA_BODY is not valid JSON; ignoring");
+    }
+  }
+  return out;
 }
 
 function getClient(
@@ -246,44 +277,49 @@ async function attemptEndpoint(
   const timeoutMs = opts.timeoutMs ?? 180_000;
   const tag = `${cfg.backend}@${endpoint.baseURL}`;
 
+  const extraBody = extraBodyParams();
+  const body: ChatCompletionCreateParamsNonStreaming = {
+    model,
+    messages: [
+      { role: "system", content: opts.systemPrompt },
+      { role: "user", content: opts.userPrompt },
+    ],
+    // Explicit max_tokens — most providers default low (DeepSeek 4096, some
+    // MiniMax variants 2048). 8192 covers all observed daily batches with
+    // headroom once reasoning is tamed. Match the Anthropic SDK's value.
+    max_tokens: MAX_OUTPUT_TOKENS,
+    // Don't force JSON mode — not all OpenAI-compat providers support
+    // response_format=json_object, and our prompts + jsonrepair handle slop.
+  };
+  // Merge deployment-level extras (reasoning_effort, provider quirks) after
+  // the typed core so unknown keys are still serialized onto the wire.
+  Object.assign(body, extraBody);
+
   let lastErr: unknown = undefined;
   for (let attempt = 1; attempt <= attempts; attempt++) {
     try {
-      const resp = await client.chat.completions.create(
-        {
-          model,
-          messages: [
-            { role: "system", content: opts.systemPrompt },
-            { role: "user", content: opts.userPrompt },
-          ],
-          // Explicit max_tokens — most providers default low (DeepSeek 4096,
-          // some MiniMax variants 2048). A 16-item batch enrichment routinely
-          // exceeds 4K output tokens once you count Chinese chars + JSON
-          // structure, and silent truncation made it through with just 1/16
-          // entries parseable. 8192 covers all observed daily batches with
-          // generous headroom. Match the explicit value Anthropic SDK uses.
-          max_tokens: 8192,
-          // Don't force JSON mode — not all OpenAI-compat providers support
-          // response_format=json_object, and our prompts + jsonrepair already
-          // handle the slop.
-        },
-        { timeout: timeoutMs },
-      );
+      const resp = await client.chat.completions.create(body, { timeout: timeoutMs });
+      const finishReason = resp.choices[0]?.finish_reason ?? "unknown";
       const text = (resp.choices[0]?.message?.content ?? "").trim();
       // All OpenAI-compatible callers expect JSON. A 2xx response with an
-      // empty body or a truncated JSON payload (proxy cut the stream) is
+      // empty body or a truncated JSON payload (proxy cut the stream, or a
+      // reasoning model that spent the whole budget on chain-of-thought) is
       // unusable and indistinguishable from a transient glitch downstream —
       // surface it as a RetryableBackendError so the loop above re-tries
       // instead of letting JSON.parse blow up the whole run.
       const cleaned = extractJson(text);
       if (cleaned.trim() === "") {
-        throw new RetryableBackendError("empty response body from model");
+        throw new RetryableBackendError(
+          `empty response body from model (finish_reason=${finishReason})`,
+        );
       }
       const truncated =
         (cleaned.startsWith("{") && !cleaned.endsWith("}")) ||
         (cleaned.startsWith("[") && !cleaned.endsWith("]"));
       if (truncated) {
-        throw new RetryableBackendError("truncated/incomplete JSON response from model");
+        throw new RetryableBackendError(
+          `truncated/incomplete JSON response from model (finish_reason=${finishReason})`,
+        );
       }
       const durationMs = Date.now() - started;
       logLlmCall({
@@ -300,7 +336,7 @@ async function attemptEndpoint(
       return { text, durationMs };
     } catch (err) {
       lastErr = err;
-      const { retryable, waitMs } = isRetryable(err);
+      const { retryable, serverWaitMs } = isRetryable(err);
       const msg = err instanceof Error ? err.message : String(err);
 
       if (!retryable) {
@@ -339,7 +375,12 @@ async function attemptEndpoint(
         throw err;
       }
 
-      const delay = Math.min(waitMs || BACKOFF_BASE_MS * 2 ** (attempt - 1), backoffMax);
+      // Honor the server's Retry-After in full (a TPM/RPM limit needs the
+      // long wait; falling over to a shared-quota endpoint won't escape it).
+      // Otherwise use exponential backoff bounded by the endpoint budget.
+      const expo = Math.min(BACKOFF_BASE_MS * 2 ** (attempt - 1), backoffMax);
+      const delay =
+        serverWaitMs != null ? Math.min(serverWaitMs, RETRY_AFTER_MAX_MS) : expo;
       console.warn(
         `[openai-compat:${tag}] attempt ${attempt}/${attempts} failed (${msg.slice(0, 80)}); retrying in ${(delay / 1000).toFixed(1)}s`,
       );
@@ -357,7 +398,7 @@ export async function runOpenAICompat(
 ): Promise<LlmRunResult> {
   const endpoints = resolveEndpoints(cfg);
   const hasFallback = endpoints.length > 1;
-  // With a fallback configured, fail over fast (we have somewhere to go).
+  // With a fallback configured, fail over faster (we have somewhere to go).
   // Without one, keep the full budget like before.
   const attempts = hasFallback ? ATTEMPTS_WITH_FALLBACK : MAX_ATTEMPTS;
   const backoffMax = hasFallback ? BACKOFF_MAX_MS_WITH_FALLBACK : BACKOFF_MAX_MS;
