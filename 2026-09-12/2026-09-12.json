@@ -1,149 +1,149 @@
 {
-  "hero_headline": "AI 巨头密集发牌：Astra、Navier-Stokes 与全球能源承压",
-  "daily_overview": "技术侧，OpenAI 公布的 GPT-6 Astra 已在 Perplexity 与 Cognition 的端到端系统中承担生产级任务，并用 10,000 个智能体与 130B tokens 在 88 小时内逼近 Navier-Stokes 奇点这一千禧难题；DeepMind 发布 AlphaGenome Atlas 与 WeatherNext 3，开源社区 T1 终端智能体与 122B MoE 架构刷新长任务推理上限，但 MIT 同时提醒 AI 算力扩张正演变为电网架构危机。财经侧，全球债券收益率飙升、美国 8 月通胀仍为 3.4%、ECB 高官警告油价或迫使进一步加息，Windshield 上市或修复欧洲 IPO 窗口，韩国首次扩写间谍法护芯片。地缘侧，沙特输油管道遭伊朗方向无人机袭击、菲律宾渡轮大火已致 35 死，BRICS 峰会临近。",
+  "hero_headline": "GPT-6 Astra全面上线，中国出席金砖峰会",
+  "daily_overview": "科技方面，OpenAI GPT-6 Astra获Perplexity与Cognition深度部署，DeepMind发布AlphaGenome Atlas人类基因组变异图谱，DeepSeek v4.1-Flash以763B参数刷新视觉因果编解码架构，MIT Tech Review则聚焦AI算力供电与末日伦理争议。财经方面，全球债市抛售加剧、美通胀升至3.4%、ECB官员警告高油价可能迫使其再度加息，HSBC启动CFO更替，Belron巨额IPO被视为修复欧洲IPO窗口的关键。时政方面，金砖峰会在印新德里开幕，中俄领导人悉数到场；特朗普访爱尔兰呼吁爱尔兰统一；沙特因伊拉克无人机袭击关停东西管道；柏林140万份被勒索文件流入暗网。",
   "tech_briefs": [
     {
-      "title": "OpenAI Astra 成主力，88 小时逼近 Navier-Stokes 奇点",
-      "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
-      "source": "Latent Space",
-      "summary": "OpenAI 称 Astra-next 以约 10,000 个智能体、130B tokens（逾 4000 万美元）在 88 小时内取得 Navier-Stokes 奇点关键发现，被视为第二个可能获授千禧奖的题目。同日消息称 Perplexity 已将 Astra 用于端到端生产与 Cognition 的 Devin 自动化测试。（多家报道）",
-      "importance": 10
-    },
-    {
-      "title": "DeepMind 推出 AlphaGenome Atlas 与 WeatherNext 3",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "source": "DeepMind Blog",
-      "summary": "DeepMind 发布 AlphaGenome Atlas，对人基因组 90 亿个单碱基变异预测分子效应，为遗传病研究提供全景地图；同期推出 WeatherNext 3，号称其最先进最准确的全局天气 AI 模型，用于长周期气候与灾害推演。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "MIT：AI 供电成为电网架构危机",
-      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
-      "source": "MIT Tech Review AI",
-      "summary": "MIT Technology Review 报道，2026 年 7 月 Ashburn 输电故障瞬间拉下超 3 吉瓦负载，暴露全球最大数据中心集群的电网脆弱性，作者认为为 AI 供电本质上是电力架构而非单纯芯片问题，将重塑美国能源基础设施投资。",
+      "title": "GPT-6 Astra获Perplexity与Cognition深度部署",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "OpenAI News",
+      "summary": "Perplexity用Astra撰写沟通、改软件、监控生产系统，复核频率大幅下降；Cognition的Devin也用Astra自测代码，减少工程师review、加快交付。两项部署显示旗舰模型进入端到端自动化生产阶段。（多家报道）",
       "importance": 9
     },
     {
-      "title": "HuggingFace 论文：T1 用 122B MoE 主攻终端长任务",
+      "title": "DeepMind发布AlphaGenome Atlas全基因组变异图谱",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source": "DeepMind Blog",
+      "summary": "AlphaGenome Atlas预测人类基因组中90亿种单碱基变异的分子效应，为遗传病、药物靶点研究和个性化医疗提供统一预测底座，是AI for Biology的又一里程碑。",
+      "importance": 8
+    },
+    {
+      "title": "DeepSeek v4.1-Flash以763B参数回归大模型",
+      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "source": "Latent Space",
+      "summary": "DeepSeek v4.1-Flash采用763B参数、8B预填充+16B解码的因果Encoder-Decoder架构并支持视觉，被社区称为「鲸鱼归来」，被视为对标GPT-6的候选者。",
+      "importance": 8
+    },
+    {
+      "title": "Hugging Face论文：T1终端Agent强化学习122B",
       "url": "https://huggingface.co/papers/2609.11042",
       "source": "HuggingFace Trending Papers",
-      "summary": "论文提出 T1，一个 122B 总参的混合专家模型，专门针对终端 Agent 的长任务强化学习（编码、科学发现等）。作者指出智能体使用正从问答转向长程任务，T1 通过在多模态终端环境中的 RL 训练显著提升长任务完成率，为下一代 SWE Agent 提供新范式。",
+      "summary": "T1是一个122B参数的Mixture-of-Experts模型，专为长期程终端任务（编程、科学发现）做强化学习训练。它面向真实操作系统交互环境，通过长链状态与工具调用学习，解决当前Agent在长时程、多步骤终端任务中容易断链、易幻觉的问题。",
       "importance": 7
     },
     {
-      "title": "GitHub 开源卫星模拟 gods-eye-view 走红",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "source": "GitHub Trending",
-      "summary": "该浏览器项目实时汇聚开源卫星与空间情报数据，在真实照片级 3D 地球上渲染全球态势，可像间谍卫星一样查看任意区域实时影像与图层。对情报研究、应急监测、地理数据可视化开发者尤其有价值。",
-      "importance": 6
+      "title": "MIT Tech Review：AI供电是架构问题而非单纯容量问题",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "source": "MIT Tech Review AI",
+      "summary": "弗吉尼亚Ashburn数据中心集群因一条输电线故障瞬间掉电3GW，文章指出AI算力的瓶颈正从GPU转向电力与电网架构，需要区域级冗余与新拓扑设计。",
+      "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "全球债券收益率飙升引发连锁风险",
+      "title": "全球债市抛售加剧，主权债投资者承压",
       "url": "https://www.economist.com/finance-and-economics/2026/09/11/surging-bond-yields-presage-pain-and-not-just-for-bond-investors",
       "source": "The Economist Finance",
-      "summary": "《经济学人》分析，顽固通胀、企业融资需求与巨额公共债务共同压缩政府债券持有者回报，全球债市抛售已从印度蔓延至欧美，风险可能外溢至房贷、养老金与企业融资。（多家报道）",
-      "importance": 10
-    },
-    {
-      "title": "油价高企，ECB 高官警告或再加息",
-      "url": "https://www.ft.com/content/a83e620a-bb72-478a-ac77-10635ec653bd?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "奥地利央行行长 Martin Kocher 表示油价推动的通胀风险高于数月之前，可能迫使 ECB 进一步加息；BBC 同期指出多国能源成本压力将决定本月各国央行路径，全球利率或将重新上行。（多家报道）",
+      "summary": "顽固通胀、企业发债需求与高公共债务共同推动收益率飙升，全球债市抛售不仅让机构投资者受损，也抬升主权融资成本。印度被视为抛售源头。",
       "importance": 9
     },
     {
-      "title": "美国 8 月通胀 3.4%，燃油挤压家庭预算",
+      "title": "美国8月通胀升至3.4%，油价挤压家庭预算",
       "url": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "美国 8 月 CPI 同比仍为 3.4%，燃料价格高企持续挤压美国家庭开支，削弱美联储降息预期，并与全球债市波动共振，市场开始重定价政策路径。",
+      "summary": "美国8月同比通胀报3.4%，燃料成本持续侵蚀家庭预算，美联储降息预期进一步走弱，全球加息风险再度抬头。",
       "importance": 8
     },
     {
-      "title": "韩国扩写间谍法护芯片，VinFast 交棒 CEO",
-      "url": "https://www.ft.com/content/6fa49d3c-e7b9-4bcd-9eb1-b737ff0c552e",
+      "title": "ECB官员警告高油价可能迫使其再度加息",
+      "url": "https://www.ft.com/content/a83e620a-bb72-478a-ac77-10635ec653bd?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "韩国 70 余年来首次扩大间谍立法，保护三星、SK 海力士等半导体核心机密；同时越南电动车巨头 VinFast 创始人将全球 CEO 交予长子 Pham Nhat Quan Anh，推进全球扩张。（多家报道）",
-      "importance": 7
+      "summary": "奥地利央行行长Kocher表示当前高通胀风险高于数月之前，若油价持续高位，欧洲央行可能被迫在降息路径之外考虑再加息。",
+      "importance": 8
     },
     {
-      "title": "Windshield 上市或重启欧洲 IPO 窗口",
+      "title": "HSBC启动新任CFO搜寻，候选池内外并重",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-12/here-s-who-hsbc-may-tap-as-its-next-chief-financial-officer",
+      "source": "Bloomberg Markets",
+      "summary": "汇丰控股已着手物色新任首席财务官，将在内部高管与外部候选人之间比较，被视为全球银行业最受关注的CFO岗位之一。",
+      "importance": 6
+    },
+    {
+      "title": "Belron巨额IPO或为修复欧洲IPO窗口关键",
       "url": "https://www.ft.com/content/0e25f645-4e80-4299-a6b6-c09c7d459871?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "全球汽车玻璃龙头 Belron 旗下 Windshield 巨型 IPO 被视为修复欧洲低迷 IPO 窗口的关键，若能成功定价，将提振欧洲投资者信心并为其他企业打开融资通道。",
-      "importance": 7
+      "summary": "英国玻璃修复集团Belron的巨额IPO被视为欧洲IPO市场回暖的关键一役，其体量与确定性有望说服机构投资者重新入场。",
+      "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "沙特输油管道遭无人机袭击，伊拉克问责军事指挥官",
-      "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "summary": "沙特关键输油管道遭从伊拉克境内、靠近伊朗边境地区发射的无人机袭击，伊拉克政府已撤换相关军事指挥官并展开调查，事件再度推升中东能源安全风险。（多家报道）",
+      "title": "金砖峰会在印新德里开幕，中俄领导人悉数到场",
+      "url": "https://www.npr.org/2026/09/12/g-s1-143054/brics-leaders-meet-in-india",
+      "source": "NPR World",
+      "summary": "莫迪主办金砖峰会，普京、习近平等多国领导人出席，议题涵盖贸易、投资与地区冲突；但中印边境摩擦未解、集团内部分歧明显，务实成果有限。（多家报道）",
       "importance": 9
     },
     {
-      "title": "菲律宾渡轮大火死亡升至 35 人，失踪者仍多",
-      "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "summary": "菲律宾海域渡轮货舱起火，火势瞬间蔓延全船，死亡人数升至 35 人，数十人仍失踪；官方警告死亡数可能继续上升，救援因有毒烟雾和余热受阻。（多家报道）",
-      "importance": 8
+      "title": "特朗普访爱尔兰呼吁统一，双边会谈同步进行",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/12/donald-trump-ireland-golf-catherine-connolly-us-politics-latest-news-updates",
+      "source": "The Guardian",
+      "summary": "特朗普在都柏林会见政界与商界领袖并表示「希望看到爱尔兰统一」，同时参加爱尔兰公开赛，引发北爱与布鲁塞尔关注。",
+      "importance": 7
     },
     {
-      "title": "BRICS 峰会开幕前伊朗议题压顶，瑞典大选险关",
-      "url": "https://www.nytimes.com/2026/09/12/world/asia/brics-summit-china-india-russia-iran.html",
-      "source": "NYT World",
-      "summary": "习近平赴印度出席金砖峰会，中东与乌克兰战事、全球能源安全料为焦点，伊朗虽在席但新成员分歧明显；同期瑞典大选仅 0.3 个百分点差距，极右翼或将首次进入执政。（多家报道）",
-      "importance": 7
+      "title": "沙特因伊拉克无人机袭击关停东西输油管道",
+      "url": "https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq",
+      "source": "The Guardian",
+      "summary": "利雅得称伊拉克发射的无人机袭击导致沙特东西管道停运；为绕开被封锁的霍尔木兹海峡，沙特近期已大幅提高该管道使用量，油价与供应链再度承压。",
+      "importance": 8
     }
   ],
-  "editor_note": "AI 能力跃升与能源、财政、地缘同时承压，今日信号高度共振。",
+  "editor_note": "AI进入端到端生产部署阶段，地缘与能源风险同步推高全球债市，简报保持中性叙事。",
   "keywords": [
     "GPT-6 Astra",
-    "Navier-Stokes",
-    "电网架构",
-    "债券收益率",
-    "ECB 加息",
-    "BRICS 峰会",
-    "沙特输油管道",
-    "DeepMind"
+    "DeepSeek v4.1-Flash",
+    "AlphaGenome",
+    "金砖峰会",
+    "全球债市抛售",
+    "美国通胀",
+    "沙特管道",
+    "Trump爱尔兰"
   ],
   "trading": {
-    "market_overview": "美股三大指数呈现震荡整理格局，SPY 现价 764.29，距 52 周高点仅 1.93%，SMA20/SMA50/SMA200 呈多头排列但 MACD 柱状值为 -1.4292（绿柱收敛），显示短期动能减弱；QQQ 与 AAPL 同处多头结构，AAPL RSI 62.8、MACD 红柱走阔，动能相对稳健。中概股整体偏弱：BABA、PDD、JD、0700.HK 均空头排列，PDD RSI 30.3、BABA RSI 36.6 接近超卖但未触发反弹信号。加密市场恐慌贪婪指数 63（贪婪），总市值 2.66 万亿（24h -2.11%），BTC 主导率 58.2%、ETH 11.5%；BTC-USD 与 SOL-USD 出现 SMA50 上穿 SMA200 金叉，ETH RSI 63 但未超买，整体仍处于上行结构但短期回调。商品外汇方面，WTI 原油 RSI 71.5 已超买、^TNX 收益率 4.97% 亦处超买（RSI 73.7）并接近 52 周高点，构成风险偏好压力；USDCNY=X RSI 21.5 严重超卖叠加 MACD 金叉，呈现技术性反弹信号。VIX 暴跌 11.21% 至 15.84，但 5 日仍反弹 9.02%，短期波动率压缩但中期未见趋势确立。",
+    "market_overview": "美股主线仍维持多头排列格局：SPY（764.29，距52周高仅-1.93%，SMA20/50/200=766.88/758.62/714.23）、QQQ、AAPL、MSFT 均处 SMA20>SMA50>SMA200 的多头结构，但 MACD 柱体普遍收敛（SPY 1.05 vs 信号 2.48、QQQ 0.67 vs 1.16、NVDA 已死叉），提示短中期动能减速。加密方面 BTC（77,348，距52周高-38.71%）虽守住 SMA50/200 多头，但 MACD 柱 1816 仍低于信号 2571，5日-2.23%；ETH RSI 64.3 偏强；恐慌贪婪指数 63（贪婪）、总市值 2.66T（24h-1.77%）、BTC 主导率 58.2%、ETH 11.6%，整体情绪偏热但短期回调。中概股集体空头：BABA、PDD、0700.HK 均呈空头排列，PDD RSI 仅 30.3、JD 32.1、BABA 36.6，超卖区密集。商品外汇分化明显：CL=F 单日-2.37% 但 RSI 71.5 超买、5日+9.58%；USDCNY=X RSI 21.5 超卖、接近52周低；黄金 GC=F 中性震荡。宏观面 ^TNX RSI 73.7 超买并接近52周高，^VIX 单日-11.21% 至 15.84 仍处空头排列。",
     "watchlist": [
       {
         "symbol": "CL=F",
         "display_name": "WTI 原油期货",
-        "stance": "偏上行",
-        "rationale": "现价 100.05，5 日累计上涨 9.58%，SMA20(88.52)/SMA50(83.23)/SMA200(79.59) 多头排列；MACD 4.19 高于信号线 2.71 且红柱走阔；但 RSI 71.5 已进入超买区，短线动能强而追高风险上升，技术面偏上行但需警惕回调。"
-      },
-      {
-        "symbol": "USDCNY=X",
-        "display_name": "美元 / 人民币",
-        "stance": "中性",
-        "rationale": "现价 6.71 接近 52 周低点（-6.72%），RSI 21.5 深度超卖，SMA20/SMA50/SMA200 呈空头排列，但 MACD 已出现金叉（0.00 附近交叉），信号线走平；极端读数与反转信号并存，短期方向待确认，标为中性更贴合指标冲突的现实。"
+        "stance": "偏下行",
+        "rationale": "CL=F 现价 100.05，单日-2.37%、5日+9.58%，RSI14 高达 71.5 触发超买；虽维持 SMA20(88.52)>SMA50(83.23)>SMA200(79.59) 多头排列，MACD 4.19 高于信号 2.71，但超买区域叠加当日显著回落，短期动量出现背离，技术面偏下行。"
       },
       {
         "symbol": "PDD",
         "display_name": "拼多多 (PDD)",
         "stance": "偏下行",
-        "rationale": "现价 77.81，距 52 周高点 -44.19%，5 日再跌 4.68%；SMA20(84.32)/SMA50(85.65)/SMA200(97.30) 全部压制在价格上方，标准空头排列；MACD -2.27 低于信号 -1.35 且绿柱扩张，RSI 30.3 逼近超卖但未触发反弹信号，技术面明确偏下行。"
+        "rationale": "PDD 现价 77.81，单日-0.04%、5日-4.68%，距52周高-44.19%；SMA20(84.32)、SMA50(85.65)、SMA200(97.3) 呈标准空头排列；RSI14 仅 30.3 接近超卖，MACD -2.27 低于信号 -1.35，绿柱扩大，趋势 bearish，技术面明确偏下行。"
       },
       {
-        "symbol": "ETH-USD",
-        "display_name": "Ethereum",
+        "symbol": "USDCNY=X",
+        "display_name": "美元 / 人民币",
         "stance": "偏上行",
-        "rationale": "现价 2511.61，单日上涨 3.06%，SMA20(2467.54)/SMA50(2160.59)/SMA200(2052.31) 多头排列；MACD 89.46 虽略低于信号 108.09，但价格站稳 20 日均线；RSI 63 处于强势但未超买，叠加加密恐慌贪婪指数 63（贪婪）、BTC 主导率 58.2%，技术面偏上行。"
+        "rationale": "USDCNY=X 现价 6.71，单日+0.02%、5日-0.05%，距52周高-6.72%、接近52周低；RSI14 仅 21.5 深度超卖，MACD 与信号 -0.011 出现金叉，空头排列中触发反转信号，超卖+金叉组合在技术层面偏上行。"
       },
       {
-        "symbol": "NVDA",
-        "display_name": "Nvidia",
-        "stance": "中性",
-        "rationale": "现价 218.29，5 日下跌 4.45%，恰好回落至 SMA20(220.16) 下方；SMA50(212.58)/SMA200(197.47) 仍支撑，多头排列结构未破坏；但 MACD 2.57 已跌破信号线 3.10 形成死叉，绿柱出现；RSI 49.8 中性，多空信号交织，暂标中性。"
+        "symbol": "AAPL",
+        "display_name": "Apple (AAPL)",
+        "stance": "偏上行",
+        "rationale": "AAPL 现价 332.27，单日+1.75%、5日+1.24%，距52周高-3.57%、距52周低+45.08%；SMA20(316.63)、SMA50(317.97)、SMA200(284.95) 多头排列，RSI14 62.8 健康偏强，MACD 3.23 高于信号 1.90，红柱扩大，动量与趋势一致偏上行。"
+      },
+      {
+        "symbol": "META",
+        "display_name": "Meta (META)",
+        "stance": "偏上行",
+        "rationale": "META 现价 648.03，单日+0.57%、5日强势+6.12%，远超 SMA20(586.47) 与 SMA50(600.9)，RSI14 67.2 偏强但未超买；MACD 14.02 显著高于信号 4.14，红柱大幅扩张，尽管 SMA200(623.23) 仍在上方，短期动能技术面明显偏上行。"
       }
     ],
-    "risk_caveat": "本报告基于公开行情数据的技术指标客观描述，不构成投资建议，仅供技术指标解读参考。所有读数均为历史统计，过去走势不代表未来表现，市场随时可能因突发事件出现非线性变化。",
+    "risk_caveat": "本报告仅基于公开技术指标读数复述，过去走势不代表未来表现，不构成任何投资建议；上述分析仅供技术指标解读参考，请读者结合自身风险偏好与基本面信息独立判断。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -366,25 +366,25 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 77239.11,
-        "pct1Day": 0.8763241884269736,
-        "pct5Day": -3.8717300063802846,
-        "pct52WeekHigh": -38.79533181450398,
-        "pct52WeekLow": 33.752550704732016,
-        "sma20": 78615.2453125,
-        "sma50": 70646.81390625,
-        "sma200": 70025.50857421875,
-        "rsi14": 54.98400236093328,
-        "macd": 2024.802346457538,
-        "macdSignal": 2761.337973138989,
-        "macdHistogram": -736.535626681451,
+        "currentPrice": 77348.47,
+        "pct1Day": 0.22633734774372039,
+        "pct5Day": -2.233915868432259,
+        "pct52WeekHigh": -38.70867438780958,
+        "pct52WeekLow": 33.941925995890465,
+        "sma20": 78591.63984375,
+        "sma50": 70910.507109375,
+        "sma200": 70091.524140625,
+        "rsi14": 55.348003956234045,
+        "macd": 1816.0440914011124,
+        "macdSignal": 2571.445578557795,
+        "macdHistogram": -755.4014871566828,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
           {
             "type": "golden-cross",
             "label": "金叉(SMA50↑SMA200)",
-            "daysAgo": 3
+            "daysAgo": 4
           },
           {
             "type": "above-sma50-sma200",
@@ -398,18 +398,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2511.61,
-        "pct1Day": 3.0573800413449543,
-        "pct5Day": -0.11687297904615522,
-        "pct52WeekHigh": -47.27231797428424,
-        "pct52WeekLow": 66.71759024874584,
-        "sma20": 2467.535363769531,
-        "sma50": 2160.5859130859376,
-        "sma200": 2052.3138232421875,
-        "rsi14": 62.97748468270858,
-        "macd": 89.46152241419804,
-        "macdSignal": 108.08792778555711,
-        "macdHistogram": -18.62640537135907,
+        "currentPrice": 2531.89,
+        "pct1Day": 0.6822238079288517,
+        "pct5Day": 1.6432228909167912,
+        "pct52WeekHigh": -46.84656819964507,
+        "pct52WeekLow": 68.06375176675402,
+        "sma20": 2471.095251464844,
+        "sma50": 2174.0826513671873,
+        "sma200": 2055.7240441894533,
+        "rsi14": 64.25346429628152,
+        "macd": 88.58623171044701,
+        "macdSignal": 104.22745902993681,
+        "macdHistogram": -15.6412273194898,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -425,26 +425,21 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 101.62,
-        "pct1Day": 2.968985466643541,
-        "pct5Day": -4.535217695944694,
-        "pct52WeekHigh": -59.86728796938824,
-        "pct52WeekLow": 68.20404033983772,
-        "sma20": 102.08403129577637,
-        "sma50": 86.85386306762695,
-        "sma200": 82.9194813156128,
-        "rsi14": 57.53879554768455,
-        "macd": 4.161726696720322,
-        "macdSignal": 5.350592233751721,
-        "macdHistogram": -1.1888655370313987,
+        "currentPrice": 102.01,
+        "pct1Day": -0.37720900113781486,
+        "pct5Day": -1.7871388586196981,
+        "pct52WeekHigh": -59.71326555557267,
+        "pct52WeekLow": 68.8495783808979,
+        "sma20": 102.4512321472168,
+        "sma50": 87.43198974609375,
+        "sma200": 83.03822994232178,
+        "rsi14": 57.80295058957073,
+        "macd": 3.943144043433122,
+        "macdSignal": 5.079010225673754,
+        "macdHistogram": -1.1358661822406315,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
-          {
-            "type": "golden-cross",
-            "label": "金叉(SMA50↑SMA200)",
-            "daysAgo": 9
-          },
           {
             "type": "above-sma50-sma200",
             "label": "多头排列"
@@ -683,8 +678,8 @@
         "currentPrice": 4.975,
         "pct1Day": 0.6270273898787186,
         "pct5Day": 4.472908700605742,
-        "pct52WeekHigh": -0.20060180541626227,
-        "pct52WeekLow": 26.045097542437283,
+        "pct52WeekHigh": 0.4644588045234186,
+        "pct52WeekLow": 0,
         "sma20": 4.753499960899353,
         "sma50": 4.671899967193603,
         "sma200": 4.375244985818863,
@@ -749,13 +744,13 @@
       "timestamp": "2026-09-12T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2657327917681.0557,
-      "total24hVolumeUsd": 105349181894.02165,
-      "marketCapChangePct24h": -2.1134680060488065,
-      "btcDominance": 58.24478819747759,
-      "ethDominance": 11.507634406809265,
-      "activeCryptocurrencies": 21085
+      "totalMarketCapUsd": 2663911052318.494,
+      "total24hVolumeUsd": 101679378146.86673,
+      "marketCapChangePct24h": -1.7747734380252698,
+      "btcDominance": 58.18611077705329,
+      "ethDominance": 11.57014821892043,
+      "activeCryptocurrencies": 21100
     },
-    "generated_at": "2026-09-12T05:40:04.842Z"
+    "generated_at": "2026-09-12T10:42:30.932Z"
   }
 }
