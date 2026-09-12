@@ -248,6 +248,13 @@ jobs:
           LLM_API_KEY_FALLBACK: ${{ secrets.LLM_API_KEY_FALLBACK }}
           OPENAI_API_KEY_FALLBACK: ${{ secrets.OPENAI_API_KEY_FALLBACK }}
           LLM_BACKEND_FALLBACK: ${{ vars.LLM_BACKEND_FALLBACK }}
+          # Reasoning controls (all optional). Some models emit a long chain-
+          # of-thought that shares the output budget with the real answer and
+          # burns per-minute quota; on big tasks `content` can come back empty.
+          #   LLM_REASONING_EFFORT=none|minimal|low|medium|high  → reasoning_effort
+          #   LLM_EXTRA_BODY='{"chat_template_kwargs":{...}}'    → merged verbatim
+          LLM_REASONING_EFFORT: ${{ vars.LLM_REASONING_EFFORT }}
+          LLM_EXTRA_BODY: ${{ vars.LLM_EXTRA_BODY }}
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           # Sources to skip in CI (comma-separated ids). linux.do's WAF blocks
