@@ -271,7 +271,12 @@ async function main() {
 
   console.log(`[daily] generating digest with ${getModelTag()}…`);
   const t0 = Date.now();
-  const { report } = await generateDailyReport(articles);
+  const { report, degraded } = await generateDailyReport(articles);
+  if (degraded) {
+    console.warn(
+      "[daily] ⚠️ LLM digest failed — publishing DEGRADED report (raw titles/excerpts). Site updated but NOT AI-summarized.",
+    );
+  }
   if (trading) report.trading = trading;
   console.log(`[daily] digest ready in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 

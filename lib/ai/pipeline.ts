@@ -102,7 +102,7 @@ function selectRoundRobin(
   return out;
 }
 
-async function callOnce(userPayloadJson: string): Promise<DailyReport> {
+export async function callOnce(userPayloadJson: string): Promise<DailyReport> {
   // Claude Code CLI's built-in system prompt biases the model toward
   // conversational markdown output. Anchor the format expectation in the
   // user message (instruction recency wins) *and* explicitly demand every
@@ -150,6 +150,9 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
           "候选新闻（JSON 数组，共 " + userPayloadJson.length + " 字符）：",
           userPayloadJson,
         ].join("\n");
+  if (process.env.DAILY_DEBUG_PROMPT) {
+    console.log("[pipeline] digest userPrompt:\n" + userPrompt);
+  }
   const { text } = await runLlm({
     systemPrompt: SYSTEM_PROMPT_DIGEST,
     userPrompt,
@@ -193,9 +196,23 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
   };
 }
 
-export async function generateDailyReport(
-  articles: ArticleInput[],
-): Promise<{ report: DailyReport; tokensUsed: number }> {
+/** Shape of one item handed to the LLM digest prompt. */
+export interface DigestPayloadItem {
+  n: number;
+  title: string;
+  url: string;
+  source: string;
+  category: Category;
+  excerpt: string;
+  published: string;
+}
+
+/**
+ * Build the exact candidate-news payload the digest LLM receives, so both
+ * `generateDailyReport` and `scripts/dry-run.ts` share one definition and the
+ * dry-run can print / reproduce the precise input that got blocked.
+ */
+export function buildDigestPayload(articles: ArticleInput[]): DigestPayloadItem[] {
   const grouped: Record<Category, ArticleInput[]> = {
     tech: [],
     finance: [],
@@ -207,7 +224,7 @@ export async function generateDailyReport(
     selectRoundRobin(grouped[c], PER_CATEGORY_LIMIT[c]),
   );
 
-  const userPayload = compact.map((a, i) => ({
+  return compact.map((a, i) => ({
     n: i + 1,
     title: a.title,
     url: a.url,
@@ -216,23 +233,138 @@ export async function generateDailyReport(
     excerpt: (a.excerpt ?? "").slice(0, 200),
     published: a.publishedAt?.toISOString() ?? "",
   }));
-  const userPayloadJson = JSON.stringify(userPayload);
+}
 
-  let report: DailyReport;
+/**
+ * SenseNova (and some providers) reject the request with HTTP 400
+ * "Inappropriate input/output rejected for security reasons" when the
+ * *content* trips their moderation filter. This is a content-safety block,
+ * not a transient/quota/network error — retrying the identical prompt will
+ * fail again, so we detect it and handle it specially.
+ */
+const SECURITY_BLOCK_RE =
+  /inappropriate input\/output rejected for security reasons/i;
+
+export function isSecurityBlock(err: unknown): boolean {
+  const msg = err instanceof Error ? err.message : String(err ?? "");
+  return SECURITY_BLOCK_RE.test(msg);
+}
+
+function errMsg(err: unknown): string {
+  return err instanceof Error ? err.message : String(err);
+}
+
+/** Strip free-text excerpts (the usual moderation trigger), keep metadata. */
+function sanitizePayload(payload: DigestPayloadItem[]): string {
+  return JSON.stringify(payload.map((p) => ({ ...p, excerpt: "" })));
+}
+
+/** Best-effort dump of the candidate-news payload when a block happens. */
+async function dumpSecurityBlockPayload(
+  json: string,
+  stage: string,
+): Promise<void> {
+  try {
+    const fs = await import("node:fs");
+    fs.mkdirSync("logs", { recursive: true });
+    const ts = new Date().toISOString().replace(/[:.]/g, "-");
+    fs.writeFileSync(`logs/security-block-${stage}-${ts}.json`, json, "utf8");
+    const n = JSON.parse(json).length;
+    console.warn(
+      `[pipeline] candidate news payload (${n} items) dumped to logs/security-block-${stage}-${ts}.json`,
+    );
+  } catch {
+    // best-effort
+  }
+}
+
+/**
+ * Degraded fallback when the LLM is unavailable or blocked: assemble a report
+ * straight from the raw article titles/excerpts so the site still updates
+ * (non-blank, correct date) instead of blacking out the whole pipeline.
+ */
+function buildDegradedReport(items: DigestPayloadItem[]): DailyReport {
+  const makeBrief = (a: DigestPayloadItem): BriefItem => ({
+    title: a.title,
+    url: a.url,
+    source: a.source,
+    summary: a.excerpt.slice(0, 160) || a.title,
+    importance: 5,
+  });
+  const tech = items.filter((a) => a.category === "tech").map(makeBrief);
+  const finance = items.filter((a) => a.category === "finance").map(makeBrief);
+  const politics = items
+    .filter((a) => a.category === "politics")
+    .map(makeBrief);
+  const top = items.slice(0, 5);
+  const hero = top[0]?.title ?? "每日简报";
+  const overview =
+    `本期由系统自动降级生成（AI 摘要服务暂不可用，可能是内容安全拦截）。` +
+    `以下为当日抓取到的 ${items.length} 条候选要闻标题速览：` +
+    top.map((a, i) => `${i + 1}. ${a.title}`).join("；");
+  return {
+    hero_headline: hero,
+    daily_overview: overview,
+    tech_briefs: tech.slice(0, 5),
+    finance_briefs: finance.slice(0, 5),
+    politics_briefs: politics.slice(0, 3),
+    editor_note:
+      "本期为降级版本：AI 摘要生成失败（疑似内容安全拦截），内容由原始标题/摘要自动拼装，仅供参考。",
+    keywords: [...new Set(items.map((a) => a.category))],
+  };
+}
+
+export async function generateDailyReport(
+  articles: ArticleInput[],
+): Promise<{ report: DailyReport; tokensUsed: number; degraded: boolean }> {
+  const payload = buildDigestPayload(articles);
+  const userPayloadJson = JSON.stringify(payload);
+  const sanitizedJson = sanitizePayload(payload);
+
+  let report: DailyReport | null = null;
+  let lastErr: unknown = null;
+
+  // Attempt 1: normal payload.
   try {
     report = await callOnce(userPayloadJson);
-  } catch (firstErr) {
-    // One retry — claude CLI occasionally wraps in narration on the first
-    // pass but obeys when the same prompt is repeated.
-    console.warn(
-      `[pipeline] first claude CLI call failed, retrying: ${
-        firstErr instanceof Error ? firstErr.message : String(firstErr)
-      }`,
-    );
-    report = await callOnce(userPayloadJson);
+  } catch (err) {
+    lastErr = err;
+    if (isSecurityBlock(err)) {
+      // Content-safety block: strip free-text excerpts (the usual trigger)
+      // and retry once with a sanitized payload.
+      console.warn(
+        `[pipeline] security block on digest (${errMsg(err)}); stripping excerpts and retrying once`,
+      );
+      await dumpSecurityBlockPayload(userPayloadJson, "primary");
+      try {
+        report = await callOnce(sanitizedJson);
+      } catch (err2) {
+        lastErr = err2;
+      }
+    } else {
+      // Legacy behavior: retry once with the same prompt (transient blips).
+      console.warn(
+        `[pipeline] first digest call failed, retrying: ${errMsg(err)}`,
+      );
+      try {
+        report = await callOnce(userPayloadJson);
+      } catch (err2) {
+        lastErr = err2;
+      }
+    }
   }
 
-  // Max subscription has no per-call token meter — we expose 0 for schema
-  // compatibility; consumers should treat 0 as "metric not available".
-  return { report, tokensUsed: 0 };
+  if (report) {
+    return { report, tokensUsed: 0, degraded: false };
+  }
+
+  // All LLM attempts failed — publish a degraded report so the site still
+  // updates (non-blank, correct date) instead of going blank.
+  console.warn(
+    `[pipeline] all LLM digest attempts failed${
+      lastErr ? ` (${errMsg(lastErr)})` : ""
+    }; publishing degraded report from raw articles`,
+  );
+  await dumpSecurityBlockPayload(userPayloadJson, "degraded");
+  return { report: buildDegradedReport(payload), tokensUsed: 0, degraded: true };
 }
