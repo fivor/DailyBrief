@@ -1,149 +1,142 @@
 {
-  "hero_headline": "黄仁勋卸任英伟达CEO，全球科技格局生变",
-  "daily_overview": "今日全球科技与财经领域波谲云诡。英伟达创始人黄仁勋宣布卸任CEO，引发市场剧烈震荡，其继任者科莱特·克雷斯上任后首个难题即应对芯片走私与地缘政治博弈。与此同时，OpenAI推出ChatGPT钱包，深化AI代理支付布局；谷歌发布Gemini 4 Hydrogen模型，推动AI普及。美国航班因通信故障大规模停飞，微软全球服务中断持续发酵，暴露基础设施脆弱性。中国市场方面，铁路客运量创纪录，消费活力凸显。",
+  "hero_headline": "英伟达CEO黄仁勋辞职，全球AI巨头进入新阶段",
+  "daily_overview": "科技领域，谷歌发布Gemini 4 Hydrogen模型，OpenAI推出ChatGPT Wallet；英伟达CEO黄仁勋辞职成为焦点。财经方面，中国铁路客运量创纪录，微软全球宕机影响持续；时政方面，美国航空通信故障导致全国航班停飞，特朗普政府面临Nvidia丑闻压力。",
   "tech_briefs": [
     {
-      "title": "英伟达CEO黄仁勋卸任，CFO克雷斯任临时CEO",
-      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-      "source": "Latent Space",
-      "summary": "英伟达创始人黄仁勋在掌舵33年后宣布卸任CEO，CFO科莱特·克雷斯被任命为临时CEO。市场关注继任者如何应对芯片管制与反垄断压力。（多家报道）",
-      "importance": 10
-    },
-    {
-      "title": "OpenAI推出ChatGPT钱包，赋能AI代理支付",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "source": "OpenAI News",
-      "summary": "OpenAI发布ChatGPT钱包，为ChatGPT Work、Codex及dots中的代理提供安全支付功能，用户可审批交易并沿用现有银行卡保护，标志着AI商业闭环的关键一步。",
+      "title": "谷歌推出Gemini 4 Hydrogen模型",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "DeepMind Blog",
+      "summary": "谷歌DeepMind发布Gemini 4 Hydrogen模型，主打高效编码与日常任务处理，号称带来尖端智能体验。",
       "importance": 9
     },
     {
-      "title": "谷歌推出Gemini 4 Hydrogen模型，主打高效推理",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "source": "DeepMind Blog",
-      "summary": "谷歌DeepMind发布Gemini 4 Hydrogen，定位为面向日常编码与推理任务的高效率模型，强调速度与成本优化，进一步扩大Gemini系列覆盖范围。（多家报道）",
+      "title": "OpenAI推出ChatGPT钱包功能",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI News",
+      "summary": "OpenAI发布ChatGPT Wallet，允许AI代理在用户批准下完成购买，沿用现有银行卡保护机制。",
       "importance": 8
     },
     {
-      "title": "阿里开源混合架构代码审查工具",
-      "url": "https://github.com/alibaba/open-code-review",
-      "source": "GitHub Trending",
-      "summary": "阿里巴巴开源open-code-review，采用确定性流水线与LLM代理混合架构，提供精准行级评论及多语言规则集（含NPE检测），已在阿里内部大规模验证，为代码质量提升提供新工具。",
+      "title": "Nvidia CEO黄仁勋辞职，CFO临时接任",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "source": "Latent Space",
+      "summary": "黄仁勋在领导Nvidia33年后辞职，CFO Colette Kress出任临时CEO，引发对芯片业领导力及美国AI政策的讨论。",
+      "importance": 10
+    },
+    {
+      "title": "Nvidia确认可追踪芯片防走私",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "MIT Tech Review AI",
+      "summary": "Nvidia私下向美议员确认可技术实现芯片追踪以打击走私，尽管业界公开质疑其可行性。",
       "importance": 7
     },
     {
-      "title": "研究：LLM物理感知可改进视频生成模型",
-      "url": "https://huggingface.co/papers/2611.16748",
-      "source": "HuggingFace Trending Papers",
-      "summary": "论文提出PhysLoop框架，利用大模型的物理感知能力实现自改进视频生成，通过细粒度物理监督解决生成视频中物理动态与因果一致性问题，为视频生成开辟新路径。",
-      "importance": 6
+      "title": "AlphaGenome 2解码细胞读取DNA机制",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "DeepMind Blog",
+      "summary": "DeepMind发布AlphaGenome 2，预测DNA序列及其变异如何影响特定人类细胞类型与疾病，助力精准医学。",
+      "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "美国航班因通信故障大规模停飞",
-      "url": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "美国联邦航空管理局因电信中断发布全国停飞令，数千架次航班受影响。官员称需国会增加拨款升级系统，暴露空管基础设施脆弱性。（多家报道）",
-      "importance": 9
-    },
-    {
-      "title": "微软就全球服务中断深表歉意，恢复工作持续",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "summary": "微软对影响Outlook和Teams的全球中断表示“深感歉意”，称正在广泛恢复服务。专家称事件凸显世界对少数科技巨头的高度依赖，需警惕集中化风险。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "中国铁路客运量创纪录：前10月达41.3亿人次",
+      "title": "中国铁路客运量创10个月4.13亿人次纪录",
       "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-railways-set-record-with-4-13-billion-trips-in-10-months",
       "source": "Bloomberg Markets",
-      "summary": "据交通运输部数据，中国铁路前10个月发送旅客41.3亿人次，同比增长4.7%，创历史新高，显示内需活力与出行需求持续释放。",
+      "summary": "中国铁路前10个月客运量达41.3亿人次，同比增长4.7%，创历史新高。",
       "importance": 7
     },
     {
-      "title": "SpaceX星舰助推器回收测试再次受挫",
-      "url": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "SpaceX在星舰双捕测试中再次中止助推器回收，助推器坠入海洋。马斯克在完全可重复使用巨型火箭系统研发上遭遇挫折，但团队表示将吸取经验继续推进。（多家报道）",
-      "importance": 6
+      "title": "微软就全球宕机致歉，服务正恢复",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "微软对全球性宕机表示深切歉意，专家称事件凸显世界对大型科技供应商的依赖。",
+      "importance": 8
     },
     {
-      "title": "印度扶持本土AI初创，避免沦为“数字殖民地”",
-      "url": "https://www.ft.com/content/599cd9ab-dbd0-4c0d-818a-f6270871cd97?syn-25a6b1a6=1",
+      "title": "美国航班因通信故障大面积停飞",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-14/us-flights-grounded-over-air-traffic-communication-issue-video",
+      "source": "Bloomberg Markets",
+      "summary": "美国空中交通通信故障导致全国航班停飞，航空管理局已解除禁令。",
+      "importance": 8
+    },
+    {
+      "title": "SBF若参与Anthropic IPO将获近400亿美元",
+      "url": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "印度政府支持初创公司Sarvam开发本土AI模型，旨在降低对西方技术依赖，确保数据主权，并打造全球AI版图上的独立地位。",
+      "summary": "据估算，若Sam Bankman-Fried未入狱，其早期投资Anthropic将在IPO中带来近400亿美元收益。",
       "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "特朗普：对伊朗策略是“维持现状”",
-      "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
-      "source": "NPR World",
-      "summary": "特朗普表示“维持现状”是海湾盟国所愿，伊朗战争陷入僵局，美国中期选举压力迫使其从威胁动武转向经济施压，中东局势面临新变量。",
-      "importance": 7
-    },
-    {
-      "title": "美国司法部打击朝鲜黑客加密诈骗，查封云端设施",
+      "title": "美国打击朝鲜黑客加密货币诈骗，查封云基础设施",
       "url": "https://www.dw.com/zh/美国打击加密货币诈骗：视频会议里的-熟人-，可能是朝鲜黑客/a-79942669?maca=chi-rss-chi-all-1127-rdf",
       "source": "DW 中文",
-      "summary": "美国司法部查封朝鲜黑客用于视频会议诈骗的云端基础设施。该“FaceStealer”骗局18个月骗取超4亿美元加密货币，同时获批冻结币安被盗资金12亿余美元。",
+      "summary": "美国司法部查封朝鲜黑客用于视频通话诈骗的云基础设施，该骗局18个月内骗走超4亿美元加密货币。",
       "importance": 8
     },
     {
-      "title": "美国麻疹相关死亡病例增至10例",
+      "title": "特朗普对伊策略：维持现状，转向经济施压",
+      "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+      "source": "NPR World",
+      "summary": "特朗普称伊朗战争陷入僵局，美方策略从威胁攻击转向经济压力，海湾盟友希望保持现状。",
+      "importance": 7
+    },
+    {
+      "title": "美国麻疹相关死亡病例达10例",
       "url": "https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported?traffic_source=rss",
       "source": "Al Jazeera",
-      "summary": "美国今年麻疹确诊超5400例，新增2例死亡使死亡总数达10例。卫生官员警告疫苗接种率下降导致疫情持续扩散，凸显公共卫生挑战。",
-      "importance": 5
+      "summary": "美国今年麻疹确诊病例超5400例，死亡病例升至10例。",
+      "importance": 6
     }
   ],
-  "editor_note": "英伟达换帅与微软宕机同日发生，警示科技业巨变与系统韧性风险。AI叙事依旧，但领导者更替与基础设施脆弱性成为新焦点。",
+  "editor_note": "英伟达权力交接与微软宕机，显示科技巨头治理与系统韧性存隐忧；AI创新加速，但风险管控亟待同步。",
   "keywords": [
     "英伟达",
-    "黄仁勋",
+    "Gemini 4",
+    "ChatGPT Wallet",
     "微软宕机",
     "航班停飞",
-    "OpenAI",
-    "Gemini 4",
-    "AI代理",
-    "中国铁路"
+    "中国铁路",
+    "朝鲜黑客",
+    "AI"
   ],
   "trading": {
-    "market_overview": "美股整体震荡偏弱：SPY 跌 0.36%，QQQ 跌 1.20%，其中 NVDA 跌幅居前（-2.01%，近 5 日 -12.75%），RSI 24.9 处于超卖，MACD 绿柱扩大；AAPL 逆势走强（+0.39%，RSI 60.6，MACD 金叉）。加密市场极度恐慌，加密恐慌贪婪指数 13，总市值 24 小时跌 5.52%；BTC 跌破 20/50/200 日均线（现价 67557 低于 SMA20 76551），RSI 24.1 超卖，MACD 绿柱走阔；ETH、SOL 同样超卖（RSI 24.1、18.5）。中概分化：BABA 近 5 日跌 13.77% 且空头排列，JD 逆势涨 1.53% 且 MACD 金叉。商品外汇偏弱：黄金期货近 5 日跌 4.6%，MACD 死叉；WTI 原油 RSI 42.3，价格低于均线。宏观面：10Y 美债收益率涨 1% 至 5.15，RSI 61，MACD 金叉；美元指数 RSI 66.8 接近超买，多头排列；VIX 反弹 3.21%，RSI 50.9。整体风险偏好承压，技术面偏空为主。",
+    "market_overview": "美股市场整体中性偏弱，SPY 与 QQQ 均低于各自 SMA20 与 SMA50，QQQ 近 1 日跌 1.2% 且 MACD 为负；但 AAPL 等权重股仍维持多头排列，科技板块分化。加密市场处于极度恐慌状态，恐慌贪婪指数仅 13，总市值 24 小时下跌 6.25% 至 2.28 万亿美元，BTC、ETH、SOL 均深陷超卖区，RSI 分别为 23、23.2、17.8，价格均远低于 SMA20。中概股整体偏空，BABA 与腾讯 0700.HK 均呈空头排列，PDD 亦在 SMA200 下方；商品外汇方面，黄金期货空头排列明显，WTI 原油在 SMA20 下方震荡，美元指数走强并接近 52 周高点，10Y 美债收益率突破关键均线。整体看，股债汇商品风险偏好下降，技术面多数资产承压。",
     "watchlist": [
-      {
-        "symbol": "NVDA",
-        "display_name": "Nvidia (NVDA)",
-        "stance": "偏下行",
-        "rationale": "NVDA 现价 162.85，近 5 日跌 12.75%，RSI 14 为 24.9 处于超卖区；MACD 柱 -14.23 较信号线 -10.11 更深，绿柱扩大；价格远低于 SMA20（198.69）和 SMA50（214.65），空头动能显著，技术面偏下行。"
-      },
       {
         "symbol": "AAPL",
         "display_name": "Apple (AAPL)",
         "stance": "偏上行",
-        "rationale": "AAPL 现价 356.27，近 5 日涨 4.06%，RSI 60.6 偏强但未超买；MACD 柱 4.17 大于信号线 3.28，处于金叉状态；价格高于 SMA20（346.15）、SMA50（339.04）和 SMA200（301.25），形成多头排列，技术面偏上行。"
+        "rationale": "股价 356.27 站上 SMA20（346.15）与 SMA50（339.04），呈多头排列；MACD 柱 4.1727 大于信号线 3.2794，出现金叉；RSI 14 为 60.6，未进入超买区。近 1 日涨 0.39%，5 日涨 4.06%，距离 52 周高点仅 -1.26%，显示短中期动能偏强。"
       },
       {
-        "symbol": "SOL-USD",
-        "display_name": "Solana (SOL-USD)",
+        "symbol": "NVDA",
+        "display_name": "Nvidia (NVDA)",
         "stance": "偏下行",
-        "rationale": "SOL 现价 76，近 5 日跌 11.88%，RSI 18.5 深度超卖；MACD 柱 -6.33 较信号 -5.23 更负，绿柱扩大；价格远低于 SMA20（91.66）和 SMA200（88.89），空头趋势未止，技术面偏下行。"
+        "rationale": "股价 162.85 大幅低于 SMA20（198.69）与 SMA50（214.65），MACD 柱 -14.2314 较信号线 -10.11 进一步走低，RSI 14 为 24.9，处于超卖区。近 5 日跌幅达 -12.75%，距离 52 周高点 -33.09%，技术面呈现明显空头动能。"
+      },
+      {
+        "symbol": "BTC-USD",
+        "display_name": "Bitcoin (BTC-USD)",
+        "stance": "偏下行",
+        "rationale": "价格 66657.83 显著低于 SMA20（76505.86）和 SMA50（80503.4），MACD 柱 -2656.126 较信号线 -1844.8645 扩大负值，RSI 14 仅 23，属深度超卖。24 小时跌 6.57%，5 日跌 10.63%，结合加密恐慌贪婪指数 13（极度恐慌），下行动能显著。"
       },
       {
         "symbol": "JD",
         "display_name": "京东 (JD)",
         "stance": "中性",
-        "rationale": "JD 现价 27.91，近 1 日涨 1.53%，RSI 57 处于正常偏强区间；MACD 柱 0.37 大于信号 0.20，保持金叉；价格略高于 SMA20（26.83）和 SMA50（26.87），但低于 SMA200（28.52），多空力量均衡，技术面中性。"
+        "rationale": "股价 27.91 略高于 SMA20（26.83）和 SMA50（26.87），RSI 14 为 57，处于中性偏强区间；MACD 柱 0.3689 大于信号线 0.1969，维持正值。但近 5 日跌 4.12%，价格仍在 SMA200（28.52）下方，多空信号交织，方向未明。"
       },
       {
         "symbol": "^TNX",
-        "display_name": "10Y 美债收益率 (%)",
+        "display_name": "10Y 美债收益率 (%) (^TNX)",
         "stance": "偏上行",
-        "rationale": "10Y 美债收益率现价 5.15，近 5 日涨 6.07%，RSI 61 偏强；MACD 柱 -0.012 大于信号 -0.033，形成金叉；价格高于 SMA20（4.99）、SMA50（5.06）和 SMA200（4.58），多头排列明确，技术面偏上行。"
+        "rationale": "收益率 5.15 高于 SMA20（4.99）与 SMA50（5.06），呈多头排列；MACD 柱 -0.012 较信号线 -0.0328 收敛，形成金叉；RSI 14 为 61，接近超买但未极端。近 5 日涨 6.07%，距离 52 周高点仅 -3.91%，收益率上行技术趋势明确。"
       }
     ],
-    "risk_caveat": "过去走势不代表未来表现，所有指标仅为当前技术状态描述。仅供技术指标解读参考，不构成任何投资建议。加密市场极度恐慌，波动风险显著；美股科技板块超卖反弹存在不确定性，需关注均线压力。",
+    "risk_caveat": "过去走势不代表未来表现，本报告仅供技术指标解读参考，不构成任何投资建议或预测。技术指标可能滞后或钝化，市场可能受突发消息或情绪影响而偏离读数反映的状态。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -372,18 +365,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 67557.38,
-        "pct1Day": -5.306183379143436,
-        "pct5Day": -9.421869761025507,
-        "pct52WeekHigh": -32.310239134675676,
-        "pct52WeekLow": 16.987001713624732,
-        "sma20": 76550.842578125,
-        "sma50": 80521.3890625,
-        "sma200": 73031.926015625,
-        "rsi14": 24.095065297967096,
-        "macd": -2584.366665918351,
-        "macdSignal": -1830.512604005327,
-        "macdHistogram": -753.854061913024,
+        "currentPrice": 66657.83,
+        "pct1Day": -6.567064466321354,
+        "pct5Day": -10.627949053272626,
+        "pct52WeekHigh": -33.211551831917674,
+        "pct52WeekLow": 15.42927911704844,
+        "sma20": 76505.86484375,
+        "sma50": 80503.39796875,
+        "sma200": 73027.4282421875,
+        "rsi14": 23.024317418997015,
+        "macd": -2656.126014208945,
+        "macdSignal": -1844.8644736634458,
+        "macdHistogram": -811.2615405454992,
         "trend": "neutral",
         "rsiState": "oversold",
         "signals": [
@@ -399,18 +392,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1906.49,
-        "pct1Day": -5.470948353361233,
-        "pct5Day": -10.112787574380995,
-        "pct52WeekHigh": -44.68527278354916,
-        "pct52WeekLow": 26.55046708419358,
-        "sma20": 2215.0263244628904,
-        "sma50": 2413.2885668945314,
-        "sma200": 2147.120594482422,
-        "rsi14": 24.084852386216582,
-        "macd": -110.40223847249445,
-        "macdSignal": -84.20868447919118,
-        "macdHistogram": -26.19355399330327,
+        "currentPrice": 1880.81,
+        "pct1Day": -6.744233839404007,
+        "pct5Day": -11.323548509444857,
+        "pct52WeekHigh": -45.43034996460884,
+        "pct52WeekLow": 24.845860191567816,
+        "sma20": 2213.742327880859,
+        "sma50": 2412.7749682617186,
+        "sma200": 2146.9921948242186,
+        "rsi14": 23.22205524940344,
+        "macd": -112.45078002787204,
+        "macdSignal": -84.6183927902667,
+        "macdHistogram": -27.832387237605346,
         "trend": "neutral",
         "rsiState": "oversold",
         "signals": [
@@ -426,18 +419,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 76,
-        "pct1Day": -6.932008275847894,
-        "pct5Day": -11.876746170522315,
-        "pct52WeekHigh": -48.723484644033036,
-        "pct52WeekLow": 25.797156719422016,
-        "sma20": 91.66024246215821,
-        "sma50": 103.8090431213379,
-        "sma200": 88.89069595336915,
-        "rsi14": 18.474249109624182,
-        "macd": -6.325015045599315,
-        "macdSignal": -5.227588704670485,
-        "macdHistogram": -1.0974263409288296,
+        "currentPrice": 74.87,
+        "pct1Day": -8.315782363325413,
+        "pct5Day": -13.186999812986913,
+        "pct52WeekHigh": -49.48588546445728,
+        "pct52WeekLow": 23.926751626093775,
+        "sma20": 91.6037425994873,
+        "sma50": 103.78644317626953,
+        "sma200": 88.88504596710204,
+        "rsi14": 17.785124086663117,
+        "macd": -6.41515727664121,
+        "macdSignal": -5.245617150878864,
+        "macdHistogram": -1.169540125762346,
         "trend": "neutral",
         "rsiState": "oversold",
         "signals": [
@@ -628,18 +621,18 @@
         "group": "commodity-fx",
         "currency": "CNY",
         "exchangeName": "CCY",
-        "currentPrice": 6.6621,
-        "pct1Day": -0.12443245520734383,
-        "pct5Day": -0.20821027575487122,
-        "pct52WeekHigh": -7.3537387531463425,
-        "pct52WeekLow": 0.2120938628158845,
-        "sma20": 6.671474957466126,
-        "sma50": 6.690567998886109,
-        "sma200": 6.780488481521607,
-        "rsi14": 37.435280756398825,
-        "macd": -0.006744594150449146,
-        "macdSignal": -0.007775070876299426,
-        "macdHistogram": 0.0010304767258502798,
+        "currentPrice": 6.6712,
+        "pct1Day": 0.011991144657206989,
+        "pct5Day": -0.07190111100342025,
+        "pct52WeekHigh": -7.227189920594087,
+        "pct52WeekLow": 0.34897713598074775,
+        "sma20": 6.671929955482483,
+        "sma50": 6.6907499980926515,
+        "sma200": 6.780533981323242,
+        "rsi14": 43.380673734296785,
+        "macd": -0.00601867138930956,
+        "macdSignal": -0.007629886324071508,
+        "macdHistogram": 0.001611214934761948,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -757,13 +750,13 @@
       "timestamp": "2026-11-14T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2308227367737.6714,
-      "total24hVolumeUsd": 95300116893.98772,
-      "marketCapChangePct24h": -5.522452519911724,
-      "btcDominance": 58.833112574005355,
-      "ethDominance": 10.093432493767548,
+      "totalMarketCapUsd": 2284221141528.338,
+      "total24hVolumeUsd": 91066019842.28616,
+      "marketCapChangePct24h": -6.24557720379699,
+      "btcDominance": 58.740108243670605,
+      "ethDominance": 10.093102258498494,
       "activeCryptocurrencies": 22238
     },
-    "generated_at": "2026-11-14T03:03:53.998Z"
+    "generated_at": "2026-11-14T03:33:59.103Z"
   }
 }
