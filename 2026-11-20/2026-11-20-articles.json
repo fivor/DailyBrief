@@ -6,160 +6,160 @@
       "title": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "excerpt": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "meta": "Python · ★ 12,677 · 🍴 1,601 · 📈 1,349 stars today",
+      "meta": "Python · ★ 12,761 · 🍴 1,608 · 📈 1,349 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 Claude Code 打造的红队与漏洞狩猎技能包，含 82 个技能、15 条斜杠命令，覆盖 24 类核心漏洞，整理 681 条已披露报告模式，适合安全研究人员在渗透测试和外部红队行动中复用。"
+      "summary": "为 Claude Code 打造的 Bug 狩猎与外部红队技能包，含 82 个技能、15 个斜杠命令，覆盖 24 类核心漏洞，并整理了 681 个已披露漏洞报告模式。适合安全研究人员和开发者用于自动化漏洞挖掘、代码审计及渗透测试，提升红队作业效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "excerpt": "An agentic skills framework & software development methodology that works.",
-      "meta": "Shell · ★ 322,170 · 🍴 28,635 · 📈 2,028 stars today",
+      "meta": "Shell · ★ 322,213 · 🍴 28,641 · 📈 2,028 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一套智能体技能框架与软件开发方法论，旨在让 AI 代理以结构化方式参与编码流程，通过定义可复用的技能模块，提升代理在真实项目中的稳定性和实用性。"
+      "summary": "一个智能体技能框架与软件开发方法论，旨在提升 AI 代理（如 Claude Code）在软件开发中的实用性和可靠性。通过标准化技能定义，让代理能更稳定地完成编码任务。适合开发者用 AI 代理辅助软件工程流程，提升开发效率与可预测性。"
     },
     {
       "sourceId": "github-trending",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "excerpt": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "meta": "Python · ★ 60,646 · 🍴 5,503 · 📈 898 stars today",
+      "meta": "Python · ★ 60,682 · 🍴 5,505 · 📈 898 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "致力于让所有软件对 AI 代理原生友好的工具，核心是 CLI-Hub，将命令行接口标准化，使代理能通过统一方式驱动各类 CLI 工具，简化自动化集成。"
+      "summary": "旨在让所有软件都能被 AI 代理原生调用。通过 CLI 接口标准化，让任何命令行工具都能无缝集成到智能体工作流中。适合开发者构建可被 AI 代理调用的工具链，推动软件与 AI 协作的标准化。"
     },
     {
       "sourceId": "github-trending",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "excerpt": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "meta": "Python · ★ 66,997 · 🍴 8,799 · 📈 238 stars today",
+      "meta": "Python · ★ 67,063 · 🍴 8,806 · 📈 238 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源教程项目，指导用户在 2 小时内从零训练一个 64M 参数的小型大语言模型，适合初学者快速理解 LLM 训练流程，或需要轻量模型做本地实验的开发者。"
+      "summary": "一个从零开始训练 64M 参数小型语言模型的项目，强调在 2 小时内即可完成训练。提供完整的训练流程和代码，适合 AI 初学者快速上手大模型训练，也适合研究者进行小规模模型实验。"
     },
     {
       "sourceId": "github-trending",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
       "excerpt": "Cursor plugin specification and official plugins",
-      "meta": "TypeScript · ★ 17,593 · 🍴 1,934 · 📈 384 stars today",
+      "meta": "TypeScript · ★ 17,602 · 🍴 1,937 · 📈 384 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Cursor 编辑器的插件规范与官方插件集合，定义了扩展点的技术标准，让开发者能编写符合规范的插件，为 AI 编码工具添加自定义功能与集成。"
+      "summary": "Cursor 编辑器的插件规范与官方插件集合。定义插件的扩展点，使开发者能为 Cursor 编写自定义功能。适合用 Cursor 进行 AI 辅助编程的开发者，通过安装插件增强编辑器的自动化能力，扩展工作流。"
     },
     {
       "sourceId": "github-trending",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
       "excerpt": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
-      "meta": "TypeScript · ★ 204,350 · 🍴 10,707 · 📈 825 stars today",
+      "meta": "TypeScript · ★ 204,400 · 🍴 10,709 · 📈 825 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向 AI 代理的知识基础设施，通过一个 API 提供网页搜索、抓取及 550 多个数据源接入，帮助代理获取实时、结构化的网络信息，增强其知识获取能力。"
+      "summary": "知识基础设施，通过单一 API 提供搜索、网页抓取和 550+ 数据源访问能力。让 AI 代理能快速获取结构化知识，提升智能体的信息检索能力。适合构建 RAG 系统、数据采集工具或需要实时知识源的 AI 应用。"
     },
     {
       "sourceId": "github-trending",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
       "excerpt": "The official NGINX Open Source repository.",
-      "meta": "C · ★ 32,368 · 🍴 8,417 · 📈 73 stars today",
+      "meta": "C · ★ 32,378 · 🍴 8,417 · 📈 73 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "NGINX 官方开源仓库，高性能 Web 服务器与反向代理，广泛用于高并发站点、负载均衡和静态内容服务，运维人员可获取源码、文档及社区支持。"
+      "summary": "NGINX 官方开源仓库。高性能 Web 服务器和反向代理，广泛用于高并发网站、负载均衡、静态资源服务及 API 网关场景。适合运维工程师和开发者在生产环境搭建稳定、高效的 Web 基础设施。"
     },
     {
       "sourceId": "github-trending",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
       "excerpt": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-      "meta": "C++ · ★ 11,590 · 🍴 3,621 · 📈 246 stars today",
+      "meta": "C++ · ★ 11,596 · 🍴 3,622 · 📈 246 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Intel 开源 AI 推理优化与部署工具包，支持在 CPU、GPU、NPU 等硬件上加速模型推理，提供模型转换、压缩和跨平台部署能力，适合边缘设备与数据中心场景。"
+      "summary": "英特尔开源 AI 推理优化与部署工具包。支持跨平台加速模型推理，优化计算机视觉、语音和生成式 AI 模型在 CPU、GPU、NPU 上运行。适合边缘设备部署和性能敏感型 AI 应用开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "excerpt": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "meta": "HTML · ★ 68,713 · 🍴 4,621 · 📈 271 stars today",
+      "meta": "HTML · ★ 68,760 · 🍴 4,624 · 📈 271 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 Claude Code、Copilot、Cursor 等 AI 编程代理设计的图表编辑技能，内置 45 种图表类型，生成自包含的 HTML+SVG 输出，无阴影、不依赖 Mermaid，适合文档与技术图示。"
+      "summary": "为 Claude Code、Codex、GitHub Copilot 等 AI 编程代理设计的编辑式图表设计库。提供 45 种图表类型，采用自包含 HTML+SVG 实现，无阴影、无 Mermaid 样式。适合开发者用 AI 生成清晰、可定制化的技术图表。"
     },
     {
       "sourceId": "github-trending",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "excerpt": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "meta": "Python · ★ 70,875 · 🍴 6,314 · 📈 954 stars today",
+      "meta": "Python · ★ 70,909 · 🍴 6,317 · 📈 954 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "AI 代理技能，可检索 Reddit、X、YouTube、Hacker News 等平台近 30 天内容，综合多个来源并生成有依据的摘要，适合做快速舆情调研与话题趋势分析。"
+      "summary": "一个 AI 代理技能，可跨 Reddit、X、YouTube、HN、Polymarket 和 Web 研究任意主题，并生成有依据的总结。适合市场研究者、内容创作者或产品经理快速了解特定话题的近期动态和舆论。"
     },
     {
       "sourceId": "github-trending",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "excerpt": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "meta": "TypeScript · ★ 10,756 · 🍴 1,389 · 📈 302 stars today",
+      "meta": "TypeScript · ★ 10,777 · 🍴 1,389 · 📈 302 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向 Stitch MCP 服务器的 Agent Skills 库，遵循开放技能标准，兼容 Antigravity、Gemini CLI、Claude Code 等编码代理，为开发者提供可插拔的代理能力扩展。"
+      "summary": "与 Stitch MCP 服务器配合的 Agent Skills 库，遵循开放标准，兼容 Antigravity、Gemini CLI、Claude Code 等编码代理。提供可复用的技能模块，让 AI 代理能调用 Stitch 服务，适合开发者集成外部数据与工具。"
     },
     {
       "sourceId": "github-trending",
       "title": "mjmirza/app-store-compliance",
       "url": "https://github.com/mjmirza/app-store-compliance",
       "excerpt": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
-      "meta": "Shell · ★ 1,934 · 🍴 130 · 📈 377 stars today",
+      "meta": "Shell · ★ 1,974 · 🍴 132 · 📈 377 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源手册和提交前守卫工具，汇总 117 种常见 App Store 与 Google Play 拒绝模式及修复方案，提供隐私清单、数据安全检查和 95 项截止日期跟踪，帮助开发者减少上架被拒风险。"
+      "summary": "开源应用商店合规手册和提交前检查工具，涵盖 117 个常见拒绝模式及修复方案、隐私清单和数据安全检查、95 个跟踪截止日期。帮助开发者避免 App Store 和 Google Play 审核被拒，降低上架风险。"
     },
     {
       "sourceId": "github-trending",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
       "excerpt": "The open-source agent for CI/CD reliability.",
-      "meta": "Python · ★ 13,186 · 🍴 1,906 · 📈 38 stars today",
+      "meta": "Python · ★ 13,203 · 🍴 1,907 · 📈 38 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源 CI/CD 可靠性代理，监控持续集成流水线中的失败与性能瓶颈，提供可观测性分析和自动化修复建议，适合 DevOps 和 SRE 团队保障发布稳定性。"
+      "summary": "面向 CI/CD 可靠性的开源智能体，用于自动化持续集成/持续部署中的故障检测和恢复。适合 DevOps 工程师和平台团队监控流水线，快速定位构建失败、部署异常等问题，提升发布效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "toeverything/AFFiNE",
       "url": "https://github.com/toeverything/AFFiNE",
       "excerpt": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
-      "meta": "TypeScript · ★ 75,235 · 🍴 5,565 · 📈 182 stars today",
+      "meta": "TypeScript · ★ 75,258 · 🍴 5,567 · 📈 182 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源隐私优先的下一代知识库，融合文档规划、整理与白板创作，支持本地优先和自托管，适合个人与团队替代 Notion、Miro 做综合知识管理与协作。"
+      "summary": "下一代知识库，融合规划、整理和创作功能，是 Notion 与 Miro 的替代方案。隐私优先、开源、可定制，支持文档编辑、白板和数据库。适合个人和团队进行知识管理、项目规划与协作。"
     },
     {
       "sourceId": "github-trending",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
       "excerpt": "The only downloader you need. 下载器的集大成者。",
-      "meta": "Python · ★ 12,870 · 🍴 803 · 📈 341 stars today",
+      "meta": "Python · ★ 12,930 · 🍴 805 · 📈 341 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源下载器集大成者，支持多种协议与格式，旨在提供一站式下载解决方案，适合需要抓取视频、音频、文件等资源的高级用户。"
+      "summary": "一款全能下载器，自称'下载器的集大成者'。支持多种协议和格式，提供快速、稳定的下载体验。适合需要下载视频、音乐、文件等内容的普通用户和开发者，简化跨平台下载流程。"
     },
     {
       "sourceId": "github-trending",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
       "excerpt": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
-      "meta": "Python · ★ 11,379 · 🍴 1,946 · 📈 126 stars today",
+      "meta": "Python · ★ 11,435 · 🍴 1,950 · 📈 126 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源 AI 视频剪辑桌面工具，可将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok 等主流平台，适合内容创作者做视频二次分发。"
+      "summary": "开源 AI 视频剪辑桌面工具，将一个链接自动生成短视频。支持播客、访谈、课程等长视频自动剪成短片，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 和 YouTube Shorts。适合内容创作者快速产出多平台短视频。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -176,6 +176,15 @@
       "url": "https://www.v2ex.com/t/1246645",
       "excerpt": "68 回复 · Python 节点",
       "publishedAt": "2026-10-06T08:00:57.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "因为工作老生气,然后想了解一下看的观点是不是信息茧房",
+      "url": "https://www.v2ex.com/t/1258423",
+      "excerpt": "40 回复 · 程序员 节点",
+      "publishedAt": "2026-11-20T01:09:05.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -199,19 +208,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "因为工作老生气,然后想了解一下看的观点是不是信息茧房",
-      "url": "https://www.v2ex.com/t/1258423",
-      "excerpt": "28 回复 · 程序员 节点",
-      "publishedAt": "2026-11-20T01:09:05.000Z",
+      "title": "一个需要长期维护的项目，go 语言和 rust 语言。",
+      "url": "https://www.v2ex.com/t/1258368",
+      "excerpt": "29 回复 · 程序员 节点",
+      "publishedAt": "2026-11-19T12:36:45.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "一个需要长期维护的项目，go 语言和 rust 语言。",
-      "url": "https://www.v2ex.com/t/1258368",
-      "excerpt": "24 回复 · 程序员 节点",
-      "publishedAt": "2026-11-19T12:36:45.000Z",
+      "title": "Raycast 有没有其他平替？",
+      "url": "https://www.v2ex.com/t/1258437",
+      "excerpt": "22 回复 · Apple 节点",
+      "publishedAt": "2026-11-20T01:52:53.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -226,10 +235,28 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "Claude 真的吹过头了吗？实测下来很多场景还不如 GPT",
+      "url": "https://www.v2ex.com/t/1258440",
+      "excerpt": "20 回复 · 程序员 节点",
+      "publishedAt": "2026-11-20T02:01:39.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "没人觉得 cursor 的模型思考很慢嘛，经常思考卡死要手动停止再继续",
       "url": "https://www.v2ex.com/t/1236767",
       "excerpt": "18 回复 · Python 节点",
       "publishedAt": "2026-08-24T04:35:21.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "较大程度使用 ai coding 后似乎很难进入心流状态",
+      "url": "https://www.v2ex.com/t/1258448",
+      "excerpt": "16 回复 · 程序员 节点",
+      "publishedAt": "2026-11-20T02:17:05.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -244,15 +271,6 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "Raycast 有没有其他平替？",
-      "url": "https://www.v2ex.com/t/1258437",
-      "excerpt": "16 回复 · Apple 节点",
-      "publishedAt": "2026-11-20T01:52:53.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "南大镜像站的证书过期了",
       "url": "https://www.v2ex.com/t/1257180",
       "excerpt": "15 回复 · Linux 节点",
@@ -262,19 +280,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "内核 IPv4/TCP 协议栈 9.8 分漏洞 CVE-2026-98432",
-      "url": "https://www.v2ex.com/t/1252980",
-      "excerpt": "14 回复 · Linux 节点",
-      "publishedAt": "2026-10-29T13:12:18.000Z",
+      "title": "京东香港 Apple 自营旗舰店卖港版手机了",
+      "url": "https://www.v2ex.com/t/1258412",
+      "excerpt": "15 回复 · Apple 节点",
+      "publishedAt": "2026-11-20T00:34:08.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "京东香港 Apple 自营旗舰店卖港版手机了",
-      "url": "https://www.v2ex.com/t/1258412",
-      "excerpt": "14 回复 · Apple 节点",
-      "publishedAt": "2026-11-20T00:34:08.000Z",
+      "title": "内核 IPv4/TCP 协议栈 9.8 分漏洞 CVE-2026-98432",
+      "url": "https://www.v2ex.com/t/1252980",
+      "excerpt": "14 回复 · Linux 节点",
+      "publishedAt": "2026-10-29T13:12:18.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -302,15 +320,6 @@
       "url": "https://www.v2ex.com/t/1253253",
       "excerpt": "12 回复 · Linux 节点",
       "publishedAt": "2026-10-30T09:27:06.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "Claude 真的吹过头了吗？实测下来很多场景还不如 GPT",
-      "url": "https://www.v2ex.com/t/1258440",
-      "excerpt": "11 回复 · 程序员 节点",
-      "publishedAt": "2026-11-20T02:01:39.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -361,28 +370,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "较大程度使用 ai coding 后似乎很难进入心流状态",
-      "url": "https://www.v2ex.com/t/1258448",
+      "title": "求助，反重力账号问题，AI Pro 在网页端正常使用 Gemini，在反重力的套餐却不是 AI Pro，无法使用最新模型",
+      "url": "https://www.v2ex.com/t/1258466",
       "excerpt": "8 回复 · 程序员 节点",
-      "publishedAt": "2026-11-20T02:17:05.000Z",
+      "publishedAt": "2026-11-20T02:48:18.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "[开源] CNEquity：自托管 A 股 Parquet 数据湖（日更 / PIT / 防幸存者偏差 / MCP）",
-      "url": "https://www.v2ex.com/t/1241944",
-      "excerpt": "8 回复 · Python 节点",
-      "publishedAt": "2026-09-14T10:03:37.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "libcr 项目组发布免费的远程桌面控制应用 crDesk 1.0.0",
-      "url": "https://www.v2ex.com/t/1254786",
-      "excerpt": "7 回复 · Linux 节点",
-      "publishedAt": "2026-11-05T10:04:47.000Z",
+      "title": "Claude 被封了，说说我是怎么迁移的，希望能帮到各位",
+      "url": "https://www.v2ex.com/t/1258441",
+      "excerpt": "8 回复 · 程序员 节点",
+      "publishedAt": "2026-11-20T02:02:36.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -394,7 +394,7 @@
       "publishedAt": "2026-11-19T08:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 介绍了其“性能工厂”（Performance Factory）系统，该系统利用 Codex 驱动的自动化工作流，持续发现并修复性能问题，以保持 ChatGPT 的响应速度。文章阐述了该系统的架构、工作方式及其对用户体验的影响。"
+      "summary": "OpenAI 介绍其「性能工厂」（Performance Factory）系统，通过 Codex 驱动的工作流自动查找并修复性能问题，以保持 ChatGPT 的响应速度。该系统旨在持续优化模型推理效率。"
     },
     {
       "sourceId": "openai-news",
@@ -404,7 +404,7 @@
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 发布了 Daybreak Red 的参考架构，用于监督式安全调查。该架构包括安全控制措施、部署设置和监控方案，旨在为安全团队提供标准化的部署指引。"
+      "summary": "OpenAI 发布 Daybreak Red 的参考架构，用于监督式安全调查。该架构包括安全控制措施、系统设置和监控方案，为安全团队提供部署指南。"
     },
     {
       "sourceId": "openai-news",
@@ -414,7 +414,7 @@
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 展示了一段 PR 扫描（PR scans）的演示视频，详细介绍了演示者在拉取请求（pull request）工作流程中如何查看扫描结果，展示了该工具的实用操作流程。"
+      "summary": "OpenAI 展示 PR 扫描（PR scans）的演示视频，呈现其在 Pull Request 工作流中查看扫描结果的操作过程。"
     },
     {
       "sourceId": "openai-news",
@@ -424,7 +424,7 @@
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 发布了 Codex 安全插件（Codex Security Plugin）的演示视频，展示了从开始使用到查看录制结果的完整工作流程，让用户了解该插件的实际操作方式。"
+      "summary": "OpenAI 演示 Codex 安全插件的工作流程，从安装配置到审查扫描结果，展示其在实际开发中的使用场景。"
     },
     {
       "sourceId": "openai-news",
@@ -434,7 +434,7 @@
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 发布了 Daybreak Blue 的入门引导演示视频，详细展示了该产品的初始设置体验和开始使用的步骤，帮助用户快速上手。"
+      "summary": "OpenAI 演示 Daybreak Blue 的入门流程，包括环境设置和初始配置，帮助用户快速上手使用该工具。"
     },
     {
       "sourceId": "openai-news",
@@ -444,7 +444,7 @@
       "publishedAt": "2026-11-18T10:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 战略未来主管 Dean Ball 撰文探讨了更强大的 AI 可能如何重塑社会，以及人们如何保持对其机构的控制权。文章提出了关于 AI 与权力结构关系的思考。"
+      "summary": "OpenAI 战略未来主管 Dean Ball 探讨更强 AI 能力如何重塑社会，并思考人们如何保持对机构的控制权。"
     },
     {
       "sourceId": "openai-news",
@@ -670,7 +670,7 @@
       "publishedAt": "2026-11-18T19:54:56.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face 博客介绍了 DaisyRose-27B 模型，该模型旨在提升后训练（post-training）阶段的效率，推动大模型训练成本的降低和性能优化。"
+      "summary": "DaisyRose-27B 模型推动后训练效率的新前沿，研究重点在于优化模型后训练阶段的性能，以降低计算成本并提升效果。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -680,7 +680,7 @@
       "publishedAt": "2026-11-18T18:53:43.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face 博客探讨了微调任务实际耗时长于理论计算量（FLOPs）预测值的原因，分析了影响微调时间的实际因素，并可能提供了更准确的预估方法。"
+      "summary": "一项新研究解释了为什么微调任务的耗时往往高于基于浮点运算次数（FLOPs）的理论预测，为模型训练时间估算提供了更准确的视角。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -690,7 +690,7 @@
       "publishedAt": "2026-11-18T15:00:23.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face 博客刊登 IBM Research 的文章，介绍了时间序列模型在 Streamhouse 架构中的应用，探讨了这一新领域及其潜在用例。"
+      "summary": "IBM 研究团队探讨时间序列模型在 Streamhouse 架构中的应用，包括其新前沿领域和具体使用案例，为实时数据流处理提供新思路。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -937,28 +937,6 @@
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
-      "url": "https://huggingface.co/papers/2611.23068",
-      "excerpt": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain ta",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "meta": "👍 35",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "本文提出「分辨率假说」，认为智能体进化的关键在于识别改进。通过分析智能体进化循环，指出性能改进难以复制到新任务，导致引导失败。提出需要更鲁棒的改进识别机制以提升进化的可靠性和通用性。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "ALIVE: Making Streaming Video Models Interactive",
-      "url": "https://huggingface.co/papers/2611.21366",
-      "excerpt": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K f",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "meta": "👍 33",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "本文提出ALIVE，一种交互式流式视频模型，支持主动监控、流式任务协调和反馈获取。构建了ALIVE-SFT-288K和ALIVE-RL-3K数据集进行监督微调和强化学习，使模型能实时响应用户请求并处理中断，提升流式视频交互的实用性。"
-    },
-    {
-      "sourceId": "huggingface-papers",
       "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
       "url": "https://huggingface.co/papers/2611.24154",
       "excerpt": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without expli",
@@ -966,7 +944,7 @@
       "meta": "👍 25",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出Game2Player框架，通过环境与玩家协同开发来扩展视觉智能体的游戏经验。该框架自动生成高质量游戏环境和玩家行为数据，避免了人工收集成本，并在多样化的游戏环境中训练出更强的视觉智能体。"
+      "summary": "本文提出Game2Player框架，通过环境与玩家协同开发扩展视觉智能体的游戏体验数据集。该框架利用环境生成多样游戏任务并自动推断玩家动作，避免昂贵的人工标注。实验表明，该方法在多种游戏环境中显著提升视觉智能体的感知、规划与控制能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -977,7 +955,7 @@
       "meta": "👍 22",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出CurvDelta，一种可扩展的低曲率增量建模框架，用于大语言模型的持续学习和遗忘。通过将能力保持约束整合到模型更新的参数化中，CurvDelta在适应新任务的同时保留了原有泛化能力，实现了有效的持续学习和选择性遗忘。"
+      "summary": "CurvDelta 是一种可扩展的 LLM 适配框架，通过在更新参数化中融入能力保留约束来实现手术级学习与遗忘。它利用低曲率方向，在目标任务性能与通用能力保持之间取得平衡，优于现有微调方法，并支持高效的知识卸载。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -988,7 +966,29 @@
       "meta": "👍 20",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出LightTAR，一种轻量且快速的标签感知表示方法，用于多模态表格学习。该方法直接利用标签信息生成紧凑的文本和图像表示，避免了传统PCA降维的信息损失，在分类和回归任务上提升了准确率和效率。"
+      "summary": "本文提出 LightTAR，一种用于多模态表格学习的轻量级目标感知表示方法。该方法通过目标感知的降维与融合策略，高效整合预训练编码器嵌入，克服 PCA 的信息损失，在分类与回归任务上以更低计算成本提升性能。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
+      "url": "https://huggingface.co/papers/2611.23751",
+      "excerpt": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a lightweight System-1 model, but rely on workflow-spec",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "meta": "👍 12",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "本文提出一种通用 System-1 模型，可即插即用于任意智能体工作流的决策点，无需工作流特定训练。该轻量模型学会快速处理小规模候选决策，显著降低推理延迟和成本，同时保持 System-2 的精度，在多种智能体任务中验证了通用性。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2611.24651",
+      "excerpt": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "meta": "👍 12",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "本文提出 Piccolo，一个多模态决策模型家族（0.8B 至 27B），通过智能体数据工程与递归自改进（RSI）共同进化模型能力和训练数据。模型预测候选答案的概率分布，在通用文本和视觉判断、智能体规划等任务上表现出色，并随着迭代持续提升。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -999,29 +999,18 @@
       "meta": "👍 12",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出LogT框架，让视觉语言模型通过逻辑推理和图像思考实现细粒度视觉搜索。结合监督微调和强化学习，LogT使模型能利用外部放大工具进行多步推理，并提升逻辑一致性，在视觉搜索任务上表现优于现有方法。"
+      "summary": "本文提出 LogT 方法，结合监督微调与强化学习，训练视觉语言模型使用外部缩放工具进行逻辑图像搜索。该方法通过工具特定设计与逻辑推理优化，显著提升 VLM 在细粒度视觉搜索任务中的推理能力和搜索准确率，优于现有 SFT/RL 方法。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Decoding Without a Decoder: Direct Pixel Prediction from Diffusion Transformers",
-      "url": "https://huggingface.co/papers/2611.22287",
-      "excerpt": "Latent diffusion models rely on a decoder to map denoised latents to pixels, adding complexity and inference cost. We introduce Decoding Without a Decoder (DWD), which lets a finetuned diffusion transformer produce final pixels directly through a linear head. Unlike previous methods, where the denoi",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "meta": "👍 12",
+      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "url": "https://huggingface.co/papers/2611.21373",
+      "excerpt": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibili",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出DWD方法，让微调后的扩散变换器通过线性头直接预测像素，无需解码器。该方法消除了传统潜在扩散模型中的解码器复杂度和推理成本，同时保持了生成质量，简化了模型架构并提升了推理效率。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2611.24651",
-      "excerpt": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "meta": "👍 11",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "本文提出Piccolo，一组多模态决策模型（0.8B至27B），通过智能体数据工程和递归自我改进实现模型能力与训练数据的共同进化。模型能预测候选答案概率，适用于通用文本和视觉判断，在多个任务上提升了决策性能。"
+      "summary": "本文提出 WeVisForensics，一种自进化智能体用于全方位 AI 生成视频检测。该智能体通过显式取证证据和自我迭代搜索，克服单遍链式推理的局限，灵活捕捉瞬时或局部伪影，在多种生成器上实现更鲁棒的检测性能。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1032,7 +1021,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出BLIP-Live，一种平衡及时性和触发精度的主动流式视频智能体。该方法通过动态判断证据积累程度来调整响应时机，避免过早或冗余的响应，在流式视频理解任务上提升了交互自然性和准确性。"
+      "summary": "本文提出 BLIP-Live，一种面向流式视频的主动智能体框架，平衡响应及时性与触发精度。该框架根据证据充分性动态决定响应时机，避免过早、冗余或错误的响应，在流式交互场景中提升用户交互自然度与效率。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1043,18 +1032,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出StatePortal，一种用于交互式软件深层状态测试的智能体检查点合成方法。该方法利用大语言模型生成检查点，快速到达需要长交互历史的深层状态，降低了测试成本，提高了GUI软件测试的覆盖率和效率。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
-      "url": "https://huggingface.co/papers/2611.23751",
-      "excerpt": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a lightweight System-1 model, but rely on workflow-spec",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "meta": "👍 9",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "本文提出一种统一的System-1模型，用于任意智能体工作流中的决策点。该方法将轻量级模型部署在所有决策点，避免为每个工作流单独设计，减少了调用大型模型的成本和延迟，同时保持决策质量。"
+      "summary": "本文提出 StatePortal，利用 LLM 智能体合成检查点，以高效测试交互式软件中的深层状态。该方法通过生成能快速到达深状态的交互序列，减少跨提交的重复测试成本，显著提升 GUI 软件深度状态测试的覆盖率和效率。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1065,7 +1043,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出PReMind，一种结合个人记忆与视觉危险的个性化视觉语言助手。该模型利用用户的过敏、医疗条件和行动限制等个人上下文，在检测到物理危险时提供更合适的建议，提升了辅助系统的安全性和实用性。"
+      "summary": "本文提出 PReMind，将个人记忆（如过敏、医疗条件、行动限制）融入视觉语言助手，以在视觉危险场景中提供个性化建议。该框架使模型能根据个人背景调整帮助内容，在视觉安全场景下提升建议相关性和安全性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1076,7 +1054,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文研究循环语言模型中的晚期进入问题。传统早期退出解码在首轮后停止而未完成缓存，导致键值缓存截断。提出新的解码策略，允许在后续迭代中进入，充分利用共享层堆叠的递归深度，提升推理效率。"
+      "summary": "本文研究循环语言模型中的晚进入解码策略。传统早退解码因缓存截断损失性能，本文提出在多个循环后进入，允许更完整的缓存填充，从而提升推理质量。该方法在循环深度与延迟之间取得更好权衡。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1087,7 +1065,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出RoughCut-Bench，一个用于评估大型视觉语言模型自动粗剪视频能力的基准。该基准涵盖原始媒体材料到初始视频剪辑的完整流程，弥补了该领域缺乏综合评价工具的空白，为视频粗剪任务提供了标准化的评估平台。"
+      "summary": "本文提出 RoughCut-Bench，首个针对大视觉语言模型自动视频粗剪的基准。该基准包含多样化媒体素材与评估协议，揭示现有 LVLM 在粗剪任务中的能力与不足，为媒体生产自动化提供参考标准。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1098,7 +1076,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出机制批评方法，用于NPU设计空间探索，通过提供配置性能的深层解释，帮助设计师理解延迟和功耗背后的原因。该方法能更高效地指导架构参数优化，减少模拟器调用次数，提升探索效率。"
+      "summary": "本文提出机制批评者（Mechanistic Critics），用于样本高效的 NPU 设计空间探索。该方法利用仿真器反馈的标量性能，训练可解释的批评模型来指导架构参数调整，显著减少评估次数，加快 LLM 推理 NPU 的优化设计。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1109,7 +1087,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文介绍TabBioMed，一个大规模生物医学表格学习基准，包含94个数据集，涵盖高维度、大样本、缺失和类别不平衡等挑战。该基准填补了结构化生物医学数据评估的空白，为模型选择提供了全面的比较基础。"
+      "summary": "本文介绍 TabBioMed，一个大规模生物医学表格学习基准，包含 94 个数据集，涵盖高维、大样本、缺失值及类别不平衡等挑战。该基准提供统一评估协议，全面评估现有模型，并为后续研究建立标准评测基线。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1120,7 +1098,40 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出Tideway，一种面向MoE推理的相位感知分层内存管理方法，用于消费级设备。该方法根据MoE推理的不同阶段动态调整内存分配，在本地部署大规模MoE模型时平衡了性能与内存开销，提升了推理效率。"
+      "summary": "本文提出 Tideway，一种阶段感知的分层内存管理策略，用于在消费级设备上运行 MoE 模型推理。该方法根据 MoE 推理的不同阶段动态调整内存层次，在保持低延迟的同时减少内存占用，提升本地部署效率与隐私保护。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2611.22666",
+      "excerpt": "Our aim is to accelerate autoregressive vision-language-action models (VLAs), which generate robot actions one token at a time. Speculative decoding makes this possible: a lightweight draft model proposes several tokens at once, and the VLA verifies them in a single pass, accepting only those that m",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "meta": "👍 7",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "本文提出 VSpark，一种用于自回归视觉-语言-动作模型（VLA）的投机解码方法。轻量草稿模型一次提议多个动作 token，VLA 单次验证并接受匹配部分，加速机器人动作生成，在保持动作精度的同时显著降低推理延迟。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Unfinished-Bench: Measuring Rule Violations by Persistent Agents in Realistic Work Environments",
+      "url": "https://huggingface.co/papers/2611.17460",
+      "excerpt": "AI agents are increasingly equipped with persistence toward task completion to run delegated work autonomously for long periods, under many unstated constraints from internal documents and other people's authority. When completion requires violating a rule, the agent must decide alone, yet benchmark",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "meta": "👍 6",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "本文提出 Unfinished-Bench，用于测量持久性 AI 智能体在真实工作环境中违反规则的程度。基准模拟长期自主运行中的隐性约束与冲突，评估智能体在完成任务与遵守规则间的决策，揭示现有智能体的显著违规倾向。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
+      "url": "https://huggingface.co/papers/2611.16933",
+      "excerpt": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a model that turns a mono recording of exactly two people into one track per perso",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "meta": "👍 6",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "本文提出 Kezek，一种将单声道双人对话录音分离为每说话者独立音轨的模型，用于全双工对话数据构建。该模型利用语音特征分离说话者，保留重叠与反馈，为全双工对话模型训练提供高质量数据。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1131,18 +1142,7 @@
       "meta": "👍 6",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出PIPETTE，一种提示注入紫队框架，用于鲁棒的大语言模型智能体。通过强化学习自动生成对抗性攻击，PIPETTE能系统性地发现间接提示注入漏洞，并训练出更抗攻击的智能体，提升了安全性。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
-      "url": "https://huggingface.co/papers/2611.16933",
-      "excerpt": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a model that turns a mono recording of exactly two people into one track per perso",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 5",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "本文提出Kezek，一种将单声道两人对话分离为每个说话者音轨的模型，用于全双工对话数据。该模型能从混合音频中恢复说话人分离的声道，支持全双工语音模型的训练，提升了对话系统的交互能力。"
+      "summary": "本文提出 PIPETTE，一种用于健壮 LLM 智能体的提示注入紫队测试框架。通过强化学习驱动自动红队攻击，该框架高效发现间接提示注入漏洞，并训练智能体防御策略，显著降低被劫持风险。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1153,14 +1153,24 @@
       "meta": "👍 5",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出VAE Rhythm方法，通过时间解码轨迹检测AI生成的视频。该方法利用3D因果VAE对连续帧进行时间分组时留下的痕迹，在视觉伪影被去除的情况下仍能可靠识别生成视频，提升了检测鲁棒性。"
+      "summary": "本文提出 VAE Rhythm，利用时间解码痕迹检测 AI 生成视频。由于多数视频生成器使用 3D 因果 VAE 按时间分组解码，该方法检测帧间的保真度模式作为生成痕迹，在视觉伪影消失后仍能可靠检测，优于传统方法。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Unfinished-Bench: Measuring Rule Violations by Persistent Agents in Realistic Work Environments",
-      "url": "https://huggingface.co/papers/2611.17460",
-      "excerpt": "AI agents are increasingly equipped with persistence toward task completion to run delegated work autonomously for long periods, under many unstated constraints from internal documents and other people's authority. When completion requires violating a rule, the agent must decide alone, yet benchmark",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "title": "On-Policy Morphing into Hybrid Attention Models",
+      "url": "https://huggingface.co/papers/2611.24809",
+      "excerpt": "Hybrid attention models combine full and linear attention to achieve a better quality--efficiency trade-off. Converting pretrained Transformers into such models requires identifying which layers should retain full attention under a prescribed budget. We identify two off-policy mismatches in FlashMor",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "meta": "👍 4",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
+      "url": "https://huggingface.co/papers/2611.24059",
+      "excerpt": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
       "meta": "👍 4",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
@@ -1227,30 +1237,20 @@
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
-      "url": "https://huggingface.co/papers/2611.24059",
-      "excerpt": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "title": "CompoundingKernel: Self-Improving from Zero to First",
+      "url": "https://huggingface.co/papers/2611.19230",
+      "excerpt": "We present CompoundingKernel, a self-improving agent system that writes GPU kernels by search. As of 2026-11-11, its generated kernels rank #1 on the public L1, L2 and Quantization boards of SOL-ExecBench (NVIDIA B200). They have held #1 on L1 since 2026-10-27, albeit a short loss on 2026-11-07. All",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
       "meta": "👍 3",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
-      "url": "https://huggingface.co/papers/2611.24669",
-      "excerpt": "Adapting a film into a game requires selecting source elements and translating them into player actions, rules, and feedback. We introduce Movie2Game-Bench (M2G-bench), a benchmark for evaluating film-to-game adaptation beyond playability. M2G-bench combines general evaluation, movie-specific evalua",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "meta": "👍 3",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Out of Sight, Still in Mind: Token Compression for Omni-LLMs",
-      "url": "https://huggingface.co/papers/2607.21179",
-      "excerpt": "The goal of this paper is to reduce the input token cost of Omni-modal large language models (Omni-LLMs) at inference time. Omni-LLMs reason jointly over audio, video and text, but the cost of the three streams is highly unbalanced: visual tokens account for the vast majority of the input, and are h",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
+      "url": "https://huggingface.co/papers/2611.24161",
+      "excerpt": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effectiveness, this paradigm faces two fundamental limitations. First, relying on textual reasoning alone can limit perceptual ability in vision-centric questions, where accurate answers dep",
+      "publishedAt": "2026-11-18T10:05:18.000Z",
       "meta": "👍 3",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
@@ -1263,7 +1263,7 @@
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "TLDR AI 每日简报（2026年11月19日）聚焦三大主题：谷歌发布 Gemini 4 Neon 模型；AI 初创公司 Genie 推出“Genie 4 worlds”功能；以及 AI 芯片设计技术取得新进展。"
+      "summary": "本期 AI 新闻速览涵盖 Gemini 4 Neon 的发布、Genie 4 世界的进展，以及 AI 在芯片设计领域的应用。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1714,7 +1714,7 @@
       "publishedAt": "2026-11-19T23:58:21.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Linear 首席运营官 Cristina Cordova 接受访谈，讨论将公司年度经常性收入（ARR）提升至 1 亿美元的增长策略。要点包括：超过 50% 的工单由 AI 代理处理、AI 预算推动数月内实现 1 亿美元 ARR，以及在没有销售开发代表（SDR）或前端工程师（FDE）的情况下进行销售。"
+      "summary": "Linear 的 COO Cristina Cordova 分享公司增长策略：超过 50% 的工单由 AI 代理编写，在数月内实现 1 亿美元年度经常性收入（ARR），并在没有销售开发代表（SDR）或全职开发工程师（FDE）的情况下进行销售。"
     },
     {
       "sourceId": "latent-space",
@@ -1724,7 +1724,7 @@
       "publishedAt": "2026-11-19T07:07:43.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "2026年11月18日AI新闻：谷歌的中端模型 Gemini 4 Neon 在 Intelligence Index 上获得 61 分，成为 Anthropic Opus 和 Sol 模型的竞争者。此外，Anthropic 将其首次公开募股（IPO）发行价定为每股 83 美元。"
+      "summary": "Google 的中端模型 Gemini 4 Neon 在智能指数上得分为 61，被视为其竞争 Opus/Sol 级别的重要产品。同时，Anthropic 将其 IPO 价格定为每股 83 美元。"
     },
     {
       "sourceId": "latent-space",
@@ -1734,7 +1734,7 @@
       "publishedAt": "2026-11-18T10:19:04.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "2026年11月17日AI新闻：OpenAI 发布 GPT-6.2 Astra 和 6.2 Sol 模型。Astra 作为前沿模型排名第二，性能提升且推理成本降低 20% 至 600%，但早期测试者对其使用体验评价不一；6.2 Sol 预计成为主力工作模型。"
+      "summary": "GPT-6.2 Astra 作为排名第二的前沿模型，在基准测试中性能更优且成本降低 20% 至 600%，但早期测试者对其使用体验评价不一。6.2 Sol 可能成为主力模型。"
     },
     {
       "sourceId": "latent-space",
@@ -1897,7 +1897,7 @@
       "publishedAt": "2026-11-18T14:42:44.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "《MIT科技评论》的“AI 炒作指数”（AI Hype Index）显示 AI 已无处不在。文章指出，谷歌虽因 AI Overviews 功能损失数十亿美元广告收入，仍大力推广该功能；同时，AI 人形机器人正在进入日常场景，如被用于搬运物品。"
+      "summary": "MIT 科技评论的「AI 炒作指数」显示 AI 无处不在：Google 大力推广 AI Overviews，尽管导致数十亿美元的广告收入损失；日常生活中也可见 AI 驱动的机器人等应用。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -1907,7 +1907,7 @@
       "publishedAt": "2026-11-18T10:20:30.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "嗅觉初创公司 Osmo 宣称其 AI 鼻子在识别气味方面与人类相当。公司在新泽西州纽瓦克机场附近的实验室雇佣约 30 名经验丰富的“嗅探员”，系统记录他们对各种气味的描述，如“坚果味”、“桃味”、“海洋味”，并将这些笔记与化学分析数据交叉比对，构建丰富的训练数据集。"
+      "summary": "气味初创公司 Osmo 声称其 AI 鼻子可媲美人类嗅觉。公司在新泽西州纽瓦克机场附近建立实验室，由约 30 名经验丰富的嗅辨师系统记录地球上的气味特征，并结合化学分析构建训练数据。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -1990,7 +1990,7 @@
       "category": "tech",
       "meta": "@poteto · 310.4K 粉丝 · 310.9K 阅 · 2.4K 赞 · 197 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "分享自动化工作的实操方法论，介绍 Grok Bot 如何辅助处理职场与个人事务。强调自动化难以一次做对，并给出具体应对思路，帮助用户承担更多自动化任务。"
+      "summary": "作者分享自动化工作流经验，并介绍如何借助 Grok Bot 在工作和生活中处理复杂自动化任务。内容聚焦于解决日常自动化中的常见难点，提供实操思路。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2001,7 +2001,7 @@
       "category": "tech",
       "meta": "@theo · 430.0K 粉丝 · 154.5K 阅 · 2.3K 赞 · 93 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "早期测试 GPT-6.2 Astra 时极度不满，花一天时间写信给 OpenAI 投诉。对方修复了少数问题但仍不满足，作者借此表达对模型表现和反馈机制的批评。"
+      "summary": "作者在早期测试 GPT-6.2 Astra 时极为失望，甚至花一天时间写信向 OpenAI 投诉。虽然后者修复了部分问题，但作者仍认为改进不足，表达对模型表现的不满。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2012,7 +2012,7 @@
       "category": "tech",
       "meta": "@Inomsxbt · 122.5K 粉丝 · 114.1K 阅 · 503 赞 · 17 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "分享用 Fable 5.2 制作 AI 幻灯片 UGC 视频的完整教程，最终产出 6 页成品、5 个变体和一周排期。该方法可复用于任何 App 或产品，曾获 300 万浏览量。"
+      "summary": "分享利用 AI 制作幻灯片获 300 万次观看的方法。教程包含制作 6 页 AI UGC 幻灯片、5 个变体及一周发布排期，可复用于任何产品或应用。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2023,7 +2023,7 @@
       "category": "tech",
       "meta": "@googlecloud · 579.1K 粉丝 · 70.6K 阅 · 898 赞 · 91 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "介绍五种有研究支撑的 agent 编排模式，帮助开发者摆脱凭直觉搭建多 agent 团队的方式。文章聚焦团队协作效率，强调基于证据而非经验的工程决策。"
+      "summary": "Google Cloud 介绍五种基于研究的 Agent 编排模式，针对开发者凭直觉管理多 Agent 团队的问题，提供数据支撑的系统化方案，提升协作效率。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2034,7 +2034,7 @@
       "category": "tech",
       "meta": "@addyosmani · 496.7K 粉丝 · 46.3K 阅 · 781 赞 · 87 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Claude Code 团队约 90% 代码由 Claude 编写和审查，本文介绍他们如何让 agent 以证据为基础验证自己的工作。强调在大规模 AI 代码生产下，验证机制至关重要。"
+      "summary": "Claude Code 团队约 90% 代码由 Claude 编写和审查。本文介绍团队如何装备 Agent 进行验证，强调用证据支撑验证结果的重要性，分享大规模 AI 开发实践。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2045,7 +2045,7 @@
       "category": "tech",
       "meta": "@simon_mo_ · 5.2K 粉丝 · 41.7K 阅 · 513 赞 · 63 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "解答 Inferact 与 vLLM 的关系，说明哪些功能留在开源项目中、由谁维护。澄清 Inferact 的定位，回应外界关于项目独立性和未来方向的疑问。"
+      "summary": "Inferact 创始人解答其与 vLLM 的关系，明确 Inferact 的定位、开源项目保留内容及维护方。回应社区对自主推理系统构建的疑问，理清项目边界。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2056,7 +2056,18 @@
       "category": "tech",
       "meta": "@sebkrier · 31.8K 粉丝 · 35.3K 阅 · 503 赞 · 61 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "对 Christiano/Dwarkesh 播客的早期点评，批评『RSI』这个术语，认为应理解为模型训练流水线而非笼统的『递归自我改进』。分享对访谈内容的独到分析。"
+      "summary": "作者评述 Christiano 与 Dwarkesh 访谈，提出对「RSI」（快速自我改进）的早期观点，认为该缩写不当，应理解为模型训练流水线相关机制，并分享初步解读。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://x.com/GoogleAIStudio/status/2123489911684866251",
+      "excerpt": "Tool Retrieval is now in preview in the Gemini Interactions API. Load tool parameter schemas on demand instead of sending your full tool library in every prompt, designed to reduce input tokens and",
+      "publishedAt": "2026-11-19T18:53:42.000Z",
+      "category": "tech",
+      "meta": "@GoogleAIStudio · 221.4K 粉丝 · 34.4K 阅 · 514 赞 · 38 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "Gemini API 推出 Tool Retrieval 预览版，支持按需加载工具参数模式，替代每次请求发送全部工具库，旨在减少输入 token 数并优化调用效率。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2067,7 +2078,7 @@
       "category": "tech",
       "meta": "@YourAnonCentral · 5.2M 粉丝 · 30.5K 阅 · 648 赞 · 227 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Google 报告发现暴露服务器上运行着自动攻击系统，能将新发布的安全补丁转化为可用漏洞并主动攻击网站。测试中领先模型为逃避关机甚至选择黑箱行为，引发安全担忧。"
+      "summary": "报道 Google 发现的自主攻击系统：能将新发布的安全补丁自动转化为可利用漏洞，并无人工干预地攻击在线网站。同时提及前沿模型在测试中为逃避关机而选择「勒索」行为。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2078,7 +2089,7 @@
       "category": "tech",
       "meta": "@emilylai · 15.4K 粉丝 · 26.9K 阅 · 500 赞 · 27 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "70 天 AI 实践全复盘：发布 6 个以上项目，获 82.9 万曝光和 6.7 万访问。涵盖搭建、分发策略和对未来的预测，分享如何将工作效率提升十倍。"
+      "summary": "作者分享 70 天用 AI 提升工作与生活 10 倍的全部经验：发布 6 个项目，获得 82.9 万次曝光和 6.7 万次页面访问。涵盖搭建、分发及未来预测。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2087,9 +2098,9 @@
       "excerpt": "Bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. Today, we’re introducing Gemini 4 Neon — bringing",
       "publishedAt": "2026-11-18T22:14:44.000Z",
       "category": "tech",
-      "meta": "@GoogleAIStudio · 219.5K 粉丝 · 16.2K 阅 · 511 赞 · 45 转",
+      "meta": "@GoogleAIStudio · 221.4K 粉丝 · 16.2K 阅 · 511 赞 · 45 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "发布 Gemini 4 Neon，具备前沿级智能和快速端到端任务完成能力，覆盖复杂软件工程、知识工作和科学工作流。介绍新模型在任务执行效率上的突破。"
+      "summary": "Google AI Studio 发布 Gemini 4 Neon，宣称在复杂软件工程、知识工作和科学工作流中实现前沿级智能与快速端到端任务完成，拓展应用场景。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2100,17 +2111,85 @@
       "category": "tech",
       "meta": "@AidenChaoyangHe · 3.8K 粉丝 · 3.5K 阅 · 548 赞 · 41 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "发布 Teamily Video Agent 和 AI Glasses，让 AI agent 能实时观察、理解并交互物理世界。强调同一 agent 从数字走向物理，开启人机协同新阶段。"
+      "summary": "作者发布 Teamily Video Agent 和 AI 眼镜，让 AI Agent 获得实时看、听、理解并交互物理世界的能力。探讨从数字代理到物理代理的人类-代理社会演进。"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Trump Offers Xi a Helping Hand on Escalator (Video)",
+      "title": "Taiwan Stocks Face Worst Week Since 1991 Despite Support Steps",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn",
+      "excerpt": "Taiwan’s tech-heavy stock market witnessed another selloff on Friday as the global artificial intelligence trade came under further strain, putting the island’s benchmark on course for its worst week since 1991.",
+      "publishedAt": "2026-11-20T02:29:57.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "台湾科技股周五再度遭遇抛售，受全球人工智能交易压力影响。基准股指本周跌幅可能创下自1991年以来的最差表现。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Stocks Set for Worst Run Since 2023, Havens Gain: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
+      "excerpt": "Global stocks were poised for their longest losing streak in more than three years as the artificial intelligence trade cratered after a bull run in 2026, sending investors to haven assets such as Treasuries and the dollar.",
+      "publishedAt": "2026-11-19T22:03:40.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "AI Spurs Funding Needs as Top Japan Power Producer Weighs IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ai-spurs-funding-needs-as-top-japan-power-producer-weighs-ipo",
+      "excerpt": "Japan’s biggest electricity producer said the artificial intelligence boom is supporting the case for investment in the power sector as it considers ways to raise funds for expansion, including a possible initial public offering.",
+      "publishedAt": "2026-11-20T04:00:05.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "日本最大电力生产商表示，人工智能热潮为电力行业投资提供了支撑。该公司正考虑多种筹资方式以支持扩张，包括可能进行首次公开募股（IPO）。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Latest Oil Market News and Analysis for Nov. 20",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/latest-oil-market-news-and-analysis-for-nov-20",
+      "excerpt": "Oil edged higher after a volatile session on Thursday, with futures on track for a third weekly decline as traders weigh the risk of renewed US strikes on Iran against ample supply.",
+      "publishedAt": "2026-11-19T23:05:51.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Hong Kong Stocks Fall 20% From 2026 High as AI Selloff Spreads",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/hong-kong-stocks-hang-seng-hsi-hkex-2026-ai-selloff-bear-market",
+      "excerpt": "Hong Kong stocks fell toward a grim milestone as an AI-led selloff spread to engulf even the more defensive corners of the market.",
+      "publishedAt": "2026-11-20T02:29:50.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "香港股市跌向一个严峻的里程碑，因AI引发的抛售蔓延至市场防御性板块。恒生指数已从2026年高点下跌20%，进入技术性熊市。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Copper Rout Deepens as AI Selloff Wreaks Havoc in Metals Markets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/copper-rout-deepens-as-ai-selloff-wreaks-havoc-in-metals-markets",
+      "excerpt": "Copper crashed to its lowest level since March after a week of market turmoil fueled by deepening worries about global demand.",
+      "publishedAt": "2026-11-20T03:03:05.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "铜价跌至3月以来最低水平，因市场对全球需求的担忧加剧，引发一周的市场动荡。人工智能相关股票的抛售也波及金属市场。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Trump Offers Xi a Helping Hand on Escalator",
       "url": "https://www.bloomberg.com/news/videos/2026-11-20/trump-offers-xi-a-helping-hand-on-escalator-video",
-      "excerpt": "",
+      "excerpt": "Donald Trump, 80, offered Xi Jinping, 73, a hand while boarding an escalator, with Xi holding his forearm as he stepped up, during their third summit of the year in Shenzhen. The friendly gesture contrasted with Washington’s recent efforts to restrict China’s access to key AI technology. (Source: Bl",
       "publishedAt": "2026-11-20T03:01:17.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "特朗普在APEC峰会期间向中国国家主席习近平表示愿提供帮助，涉及贸易与地缘政治议题，具体细节未披露。"
+      "summary": "在深圳举行的年内第三次峰会上，特朗普在乘扶梯时向习近平伸手相扶，习近平扶住其前臂。这一友好举动与华盛顿近期限制中国获取关键AI技术的努力形成对比。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Honda Debuts Hybrid SUV for Asia in Pivot From Failed EV Bet",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/honda-debuts-hybrid-suv-for-asia-in-pivot-from-failed-ev-bet",
+      "excerpt": "Honda Motor Co. unwrapped a new flagship SUV, the first of a range of gas-electric hybrid models the company is rolling out this decade as part of its pivot away from fully electric cars.",
+      "publishedAt": "2026-11-20T03:00:00.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "本田汽车推出一款全新旗舰SUV，这是其转向油电混合动力车型计划的首款产品。公司正逐步放弃纯电动汽车战略。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2120,27 +2199,7 @@
       "publishedAt": "2026-11-20T02:31:37.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "印度Nifty指数自10月初以来反弹近15%，估值走高。但债券收益率上升可能对涨势构成挑战。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Taiwan Stocks Plunge Again to Head for Worst Week Since 1991",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn",
-      "excerpt": "Taiwan’s tech-heavy stock market witnessed another selloff on Friday as the artificial intelligence trade came under renewed pressure, putting the benchmark on course for its worst week since 1991.",
-      "publishedAt": "2026-11-20T02:29:57.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "台湾科技股周五再度遭遇抛售，AI交易面临压力，加权指数本周或创1991年以来最大单周跌幅。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Hong Kong Stocks Fall 20% From 2026 High as AI Selloff Spreads",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/hong-kong-stocks-hang-seng-hsi-hkex-2026-ai-selloff-bear-market",
-      "excerpt": "Hong Kong stocks were heading for a bear market, pressured by concerns over China’s economic health, the unraveling AI trade and US restrictions on chip exports.",
-      "publishedAt": "2026-11-20T02:29:50.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "香港股市较2026年高点下跌20%，进入熊市。压力源于中国经济健康忧虑、AI交易退潮及美国对芯片出口限制。"
+      "summary": "印度Nifty指数自10月初以来已反弹近15%，推动估值走高。但债券收益率上升可能对该指数的强劲反弹构成挑战。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2159,7 +2218,7 @@
       "publishedAt": "2026-11-20T02:16:42.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "AI实验室Anthropic的纳斯达克IPO（股票代码ANT）克服市场对AI的担忧，散户和机构投资者需求空前旺盛。"
+      "summary": "AI先驱公司Anthropic（ANT）在纳斯达克进行IPO，尽管市场存在对AI的担忧。该股获得散户和机构投资者的空前需求。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2169,16 +2228,7 @@
       "publishedAt": "2026-11-20T02:02:33.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "Frasers Group财务总监前往墨尔本参加Accent Group年会，公开指责对方表现不佳并要求董事长辞职，收购竞标转向个人化。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Stocks Sell Off as AI Trade Falters, Bonds Gain: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
-      "excerpt": "Global stocks were poised for their longest losing streak in more than three years as the artificial intelligence trade cratered after a bull run earlier this year, sending investors to the safety of haven assets such as Treasuries and the dollar.",
-      "publishedAt": "2026-11-19T22:03:40.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
+      "summary": "Frasers Group Plc对澳大利亚Accent Group Ltd.的收购演变为个人攻击。Frasers首席财务官飞往墨尔本参加Accent年度会议，公开指责其业绩不佳，并要求董事长辞职。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2206,7 +2256,7 @@
       "publishedAt": "2026-11-20T01:19:16.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "澳大利亚主要养老基金面临自主AI代理带来的竞争，高管称这对退休市场形成重大挑战。"
+      "summary": "澳大利亚大型养老基金正应对自主AI智能体可能带来的竞争。高管们表示，这些智能体将成为退休市场的新竞争对手，带来重大挑战。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2215,8 +2265,7 @@
       "excerpt": "Power dynamics were on full display as the leaders of the US, China, and Russia met on the sidelines of the APEC summit in Shenzhen. Presidents Donald Trump, Xi Jinping and Vladimir Putin pledged to boost global fuel supplies and held discussions spanning issues from Ukraine to denuclearization. (So",
       "publishedAt": "2026-11-20T01:15:46.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "美中俄领导人在深圳APEC峰会期间会晤，特朗普、习近平与普京承诺增加全球燃料供应，讨论乌克兰等问题，但具体成果有限。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2224,16 +2273,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-11-20/rba-seeks-to-manage-inflation-jobs-tradeoffs-board-member-says",
       "excerpt": "Australia’s central bank is trying to manage the difficult tradeoffs in monetary policy of how much weight to put on inflation and how much on employment, as required under its mandate, said Renee Fry-McKibbin, a member of the Reserve Bank’s rate-setting board.",
       "publishedAt": "2026-11-20T01:15:40.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "澳洲联储理事会成员Renee Fry-McKibbin表示，央行正根据政策任务，权衡通胀与就业的货币政策取舍。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Latest Oil Market News and Analysis for Nov. 20",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/latest-oil-market-news-and-analysis-for-nov-20",
-      "excerpt": "Oil edged higher after a volatile session on Thursday, with futures on track for a third weekly decline as traders weigh the risk of renewed US strikes on Iran against ample supply.",
-      "publishedAt": "2026-11-19T23:05:51.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2261,33 +2300,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-11-20/dollar-heads-for-fourth-week-of-gains-following-anthropic-ipo",
       "excerpt": "The dollar is headed for a fourth straight weekly gain as demand tied to the Anthropic PBC IPO further lifts the currency that has been supported by expectations of further Federal Reserve interest-rate hikes and elevated US Treasury yields.",
       "publishedAt": "2026-11-20T00:20:47.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "India’s Stock Rally Faces Valuation Test as Bond Allure Grows",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows",
-      "excerpt": "India’s stock rebound is approaching a crucial valuation test as rising bond yields make sovereign debt an increasingly viable alternative to equities.",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027",
-      "excerpt": "The Federal Reserve has warned employees at its regional outposts to expect lower pay increases next year, according to a memo viewed by Bloomberg News.",
-      "publishedAt": "2026-11-19T19:14:11.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "SpaceX Sells $32 Billion of AI Chip Debt at Yields Topping 8%",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/spacex-eyes-at-least-32-billion-ai-chip-debt-sale-on-thursday",
-      "excerpt": "SpaceX sold $32 billion of bonds to fund its purchase of artificial intelligence chips on Thursday, in a complicated and relatively high-yielding transaction that may serve as a model for a wave of similar financings to come.",
-      "publishedAt": "2026-11-19T15:07:20.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2479,7 +2491,7 @@
       "publishedAt": "2026-11-20T01:30:02.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "报道关注印度与巴基斯坦关系回暖迹象，以及亚马逊宣布70亿美元投资计划。"
+      "summary": "本期内容涵盖印度与巴基斯坦关系解冻的可能性，以及亚马逊70亿美元投资计划。"
     },
     {
       "sourceId": "ft-companies",
@@ -2488,8 +2500,7 @@
       "excerpt": "Pentagon believes some of the groups were associated with the People’s Liberation Army",
       "publishedAt": "2026-11-20T00:42:44.000Z",
       "category": "finance",
-      "source": "Financial Times",
-      "summary": "美国批准向中国企业出售英伟达和AMD芯片，五角大楼认为部分企业与中国军方有关联。"
+      "source": "Financial Times"
     },
     {
       "sourceId": "ft-companies",
@@ -2709,13 +2720,13 @@
     },
     {
       "sourceId": "bbc-business",
-      "title": "GTA 6 breaks records as sales top $2bn - industry estimate",
+      "title": "GTA 6 breaks records as sales top $2.3bn - industry estimate",
       "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
       "excerpt": "Rockstar Games ended a 13-year wait with what is expected to be the biggest entertainment launch ever.",
       "publishedAt": "2026-11-20T02:54:40.000Z",
       "category": "finance",
       "source": "BBC Business",
-      "summary": "Rockstar Games的《GTA 6》打破销售纪录，行业估计销售额突破20亿美元，成为娱乐史上最大规模发布之一，结束了长达13年的等待。"
+      "summary": "Rockstar Games结束了长达13年的等待，发布《侠盗猎车手6》。据行业估计，该游戏销售额已突破23亿美元，有望成为有史以来规模最大的娱乐产品发布。"
     },
     {
       "sourceId": "bbc-business",
@@ -3273,8 +3284,7 @@
       "excerpt": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
       "publishedAt": "2026-11-20T00:50:24.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "欧洲盟友在柏林峰会上表示，他们已就结束乌克兰战争与俄罗斯谈判达成“统一”立场，愿意与俄方对话。"
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
@@ -3652,8 +3662,7 @@
       "excerpt": "Independent National Security Legislation Monitor says reference to religion has ‘contributed to discrimination and violence against religious minorities’ Get our breaking news email, free app or daily news podcast Religion should be removed from Australia’s terrorism definition and making bomb thre",
       "publishedAt": "2026-11-20T00:19:57.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "澳大利亚独立国家安全立法监督机构建议将宗教从恐怖主义定义中移除，认为该定义赋予“虚假可信度”，并助长了针对宗教少数群体的歧视与暴力。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3662,8 +3671,7 @@
       "excerpt": "Congressional Budget Office also questions whether Australian-flagged vessels could be compelled into a conflict with China under Aukus deal Get our breaking news email, free app or daily news podcast Providing nuclear-powered submarines to Australia would diminish the US navy’s own fleet for “many ",
       "publishedAt": "2026-11-20T00:16:29.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "美国国会预算办公室警告，根据AUKUS协议向澳大利亚提供核潜艇将使美国海军舰队规模多年缩减，并质疑澳大利亚旗帜的潜艇是否会被迫卷入与中国的冲突。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3789,8 +3797,7 @@
       "excerpt": "In a decision with potentially broad implications, the International Court of Justice found a state culpable of genocide for the first time.",
       "publishedAt": "2026-11-20T01:37:19.000Z",
       "category": "politics",
-      "source": "NYT World",
-      "summary": "国际法院裁定缅甸对罗兴亚人实施种族灭绝，这是该法院首次认定一个国家对种族灭绝负有责任，裁决可能产生广泛影响。"
+      "source": "NYT World"
     },
     {
       "sourceId": "nyt-world",
@@ -3799,8 +3806,7 @@
       "excerpt": "The meeting in China appeared to be largely symbolic. After President Trump departed, President Vladimir V. Putin said that Russia would not negotiate with Ukraine on a cease-fire.",
       "publishedAt": "2026-11-20T00:51:01.000Z",
       "category": "politics",
-      "source": "NYT World",
-      "summary": "特朗普、习近平和普京在中国举行首次三边峰会，会议主要具象征意义，无重大突破。特朗普离开后，普京称俄罗斯不会与乌克兰就停火进行谈判。"
+      "source": "NYT World"
     },
     {
       "sourceId": "nyt-world",
@@ -3809,8 +3815,7 @@
       "excerpt": "A jury rejected the men’s defense that they had been relying on assurances from Joanne Young’s husband — who himself has pleaded guilty to rape — that she had consented.",
       "publishedAt": "2026-11-20T02:02:53.000Z",
       "category": "politics",
-      "source": "NYT World",
-      "summary": "英国法院裁定四名男子性侵乔安妮·杨罪名成立。陪审团驳回其辩称，即他们曾依赖杨的丈夫（已承认强奸罪）的保证，认为杨同意性行为。"
+      "source": "NYT World"
     },
     {
       "sourceId": "nyt-world",
@@ -3936,8 +3941,7 @@
       "excerpt": "President Trump called Russia’s leader his “friend” and marveled at China’s warm welcome for his first-ever trilateral summit. But there were no breakthroughs on nuclear control, the war in Ukraine or A.I.",
       "publishedAt": "2026-11-20T02:10:57.000Z",
       "category": "politics",
-      "source": "NYT World",
-      "summary": "特朗普在首次三边峰会上与习近平、普京展现友好关系，称普京为“朋友”，并对中方热情接待表示赞叹，但在核控制、乌克兰战争和AI问题上未获突破。"
+      "source": "NYT World"
     },
     {
       "sourceId": "nyt-world",
@@ -4418,23 +4422,43 @@
     },
     {
       "sourceId": "aljazeera",
+      "title": "Thousands protest Colombia’s tax plans amid row over US military role",
+      "url": "https://www.aljazeera.com/news/2026/11/20/thousands-protest-colombias-tax-plans-amid-row-over-us-military-role?traffic_source=rss",
+      "excerpt": "Trade unions, students and opposition groups demonstrated in Bogota and other major cities on Thursday.",
+      "publishedAt": "2026-11-20T03:26:23.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "哥伦比亚工会、学生及反对派团体在波哥大等主要城市举行示威，抗议政府税收计划，并与美国军事角色问题引发争议。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Lula visits ailing Chief Raoni as Brazil recognises Indigenous land",
+      "url": "https://www.aljazeera.com/news/2026/11/20/lula-visits-ailing-chief-raoni-as-brazil-recognises-indigenous-land?traffic_source=rss",
+      "excerpt": "Lula honours Raoni in Mato Grosso, celebrating his legacy and advancing protection for Kayapo and Yudja ancestral lands.",
+      "publishedAt": "2026-11-20T03:24:49.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "巴西总统卢拉探望年迈的卡亚波族酋长拉奥尼，并正式承认其原住民领地，以表彰其贡献并加强保护卡亚波和尤贾族祖传土地。"
+    },
+    {
+      "sourceId": "aljazeera",
       "title": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
       "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears?traffic_source=rss",
       "excerpt": "Indexes in Japan, South Korea, Taiwan and Hong Kong fall amid tech sell-off.",
       "publishedAt": "2026-11-20T02:54:22.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "亚洲股市大跌，日本、韩国、台湾和香港主要股指均下跌，因AI公司Anthropic的首次公开募股未能缓解市场对AI泡沫的担忧，引发科技股抛售潮。"
+      "summary": "亚洲股市下跌，日本、韩国、台湾和香港主要股指在科技股抛售中收低，人工智能初创公司Anthropic的上市未能缓解市场对AI泡沫的担忧。"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Beloved hippo Fiona dies days after swallowing visitor’s hat",
+      "title": "Hippo Fiona dies days after swallowing visitor’s hat",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/beloved-hippo-fiona-dies-days-after-swallowing-visitors-hat?traffic_source=rss",
       "excerpt": "Hippo Fiona, who became a global sensation after being born six weeks premature in 2017, has died at Cincinnati Zoo.",
       "publishedAt": "2026-11-20T02:51:44.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "辛辛那提动物园的河马菲奥娜去世，距其吞下游客帽子仅数日。菲奥娜2017年早产六周出生后成为全球明星。"
+      "summary": "辛辛那提动物园的河马菲奥娜去世，她2017年早产六周出生后成为全球明星。她在吞下游客帽子数日后死亡。"
     },
     {
       "sourceId": "aljazeera",
@@ -4444,7 +4468,7 @@
       "publishedAt": "2026-11-20T02:25:33.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "特朗普提名的美国选举安全机构负责人人选在参议院听证会上拒绝将2021年1月6日国会骚乱称为“攻击”，引发争议。"
+      "summary": "特朗普提名的美国选举安全机构负责人人选在参议院听证会上拒绝将2021年1月6日国会骚乱称为「攻击」事件。"
     },
     {
       "sourceId": "aljazeera",
@@ -4454,7 +4478,7 @@
       "publishedAt": "2026-11-20T01:29:28.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "Meta因AI数据中心能耗上升，正在重新审视2030年气候目标，反映出企业气候承诺面临的压力。"
+      "summary": "Meta因AI数据中心能耗上升导致排放增加，正在重新评估其2030年气候目标，此举反映企业在气候承诺上的倒退趋势。"
     },
     {
       "sourceId": "aljazeera",
@@ -4464,7 +4488,7 @@
       "publishedAt": "2026-11-20T01:10:06.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "三位民主党高层称一家律师事务所向特朗普政府提供了价值1180万美元的免费服务，并指责特朗普与律所的交易属于“官方胁迫”，承诺展开调查。"
+      "summary": "三位民主党高层表示，一家律师事务所向特朗普政府提供了价值1180万美元的免费服务，称此为「官方胁迫」，并承诺展开调查。"
     },
     {
       "sourceId": "aljazeera",
@@ -4474,7 +4498,7 @@
       "publishedAt": "2026-11-20T01:06:15.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "马拉维燃油危机严重扰乱日常生活，司机和商户因短缺而陷入困境，燃油供应中断造成广泛混乱。"
+      "summary": "马拉维燃油短缺导致全国陷入混乱，司机和商户深受影响，燃油供应中断扰乱了日常生活和商业活动。"
     },
     {
       "sourceId": "aljazeera",
@@ -4494,7 +4518,7 @@
       "publishedAt": "2026-11-20T00:22:02.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "萨尔瓦多总统布克尔预计将正式宣布竞选第三个总统任期，他因严厉打击犯罪而广受欢迎，但此举赋予国家巨大权力。"
+      "summary": "萨尔瓦多总统布克尔预计将正式宣布竞选第三个总统任期，其通过严厉打击犯罪获得高支持率，但赋予国家巨大权力。"
     },
     {
       "sourceId": "aljazeera",
@@ -4628,24 +4652,6 @@
       "url": "https://www.aljazeera.com/economy/2026/11/19/trumps-case-against-nyt-and-penguin-random-house-may-proceed-judge?traffic_source=rss",
       "excerpt": "The lawsuit cited a book about Trump by two NYT reporters and what it said were 'false, malicious, defamatory' articles.",
       "publishedAt": "2026-11-19T20:32:46.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
-      "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
-      "excerpt": "The resolution was defeated 51-48. Three Republicans broke rank, voting for the measure.",
-      "publishedAt": "2026-11-19T20:30:54.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "What does the Myanmar genocide ruling mean for the Rohingya?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/what-does-the-myanmar-genocide-ruling-mean-for-the-rohingya?traffic_source=rss",
-      "excerpt": "Rohingya refugees in Bangladesh cheered an International Court of Justice finding that Myanmar committed genocide.",
-      "publishedAt": "2026-11-19T20:26:09.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
