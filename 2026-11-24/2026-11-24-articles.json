@@ -6,160 +6,160 @@
       "title": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "excerpt": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "meta": "Python · ★ 19,928 · 🍴 2,112 · 📈 2,029 stars today",
+      "meta": "Python · ★ 20,216 · 🍴 2,129 · 📈 2,029 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 Claude Code 打造的漏洞猎人技能包，含 84 个技能、15 个斜杠命令，覆盖 24 类核心漏洞的 681 个已披露报告模式，并支持外部红队工作流。适合安全研究员和渗透测试者，可显著提升 AI 辅助漏洞挖掘效率。"
+      "summary": "面向 Claude Code 的漏洞挖掘与外部红队技能包，内含 84 项技能、15 个 slash command 及 681 条已披露报告模式，覆盖 24 类核心漏洞，并附企业识别规则。适合安全团队与独立研究员在自动化渗透测试、漏洞复现与红队演练中复用沉淀好的发现经验。"
     },
     {
       "sourceId": "github-trending",
       "title": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "excerpt": "An agentic skills framework & software development methodology that works.",
-      "meta": "Shell · ★ 325,170 · 🍴 28,841 · 📈 840 stars today",
+      "meta": "Shell · ★ 325,322 · 🍴 28,854 · 📈 840 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个实用的智能体技能框架与软件开发方法论，旨在让 AI 代理协同工作更高效。提供标准化的技能组织和流程指导，适合希望将 AI 代理系统化引入软件工程团队的开发者，可提升多代理协作的可靠性。"
+      "summary": "一套 agentic skills 框架与配套软件开发方法论，为 AI 编程智能体提供可组合的技能与工作流规范。面向希望让 Cursor、Claude 等编码助手按工程化流程执行任务的开发者，适用于需求拆解、代码生成与迭代验证场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "excerpt": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "meta": "Python · ★ 63,771 · 🍴 5,796 · 📈 790 stars today",
+      "meta": "Python · ★ 64,000 · 🍴 5,816 · 📈 790 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "旨在让所有软件具备代理原生能力的开源框架。通过统一封装，将传统命令行工具转化为可被 AI 代理直接调用的接口，帮助开发者快速构建可编程的智能体工具链，适用于需要集成 CLI 能力的自动化场景。"
+      "summary": "港大数据科学实验室推出的 CLI-Anything 项目，目标是将所有软件改造为 Agent-Native，让 AI 智能体通过命令行统一操控各类工具与服务。配合 CLI-Hub 平台分发，适合构建自动化工作流与智能体生态的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "excerpt": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "meta": "Python · ★ 69,557 · 🍴 9,083 · 📈 828 stars today",
+      "meta": "Python · ★ 69,711 · 🍴 9,099 · 📈 828 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源微型大模型训练项目，两小时内即可从零训练出一个 64M 参数的语言模型。提供完整的训练流程和教程，适合想快速上手 LLM 训练原理的开发者或研究者，是教学演示与个人实验的理想起点。"
+      "summary": "在消费级显卡上约两小时从零训练一个 64M 参数大语言模型的教程项目。涵盖数据准备、模型搭建到训练调优全流程，适合想理解 LLM 训练细节的研究者与教学场景，帮助快速验证语言建模思路。"
     },
     {
       "sourceId": "github-trending",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
       "excerpt": "Cursor plugin specification and official plugins",
-      "meta": "TypeScript · ★ 18,852 · 🍴 2,047 · 📈 397 stars today",
+      "meta": "TypeScript · ★ 18,912 · 🍴 2,050 · 📈 397 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Cursor 编辑器官方插件规范与示例集合，定义了插件的接口和加载方式。开发者可据此构建自定义 Cursor 扩展，增强编辑、补全或集成外部服务。适合希望扩展 Cursor 功能或分享插件的开发者。"
+      "summary": "Cursor 官方发布的插件规范与插件集合，定义了开发者扩展 Cursor 功能的接口与实现方式。适合希望在 Cursor 中集成自定义工具、模板或工作流的开发者与团队，统一生态内的插件分发与调用标准。"
     },
     {
       "sourceId": "github-trending",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
       "excerpt": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-      "meta": "TypeScript · ★ 208,020 · 🍴 10,870 · 📈 924 stars today",
+      "meta": "TypeScript · ★ 208,177 · 🍴 10,877 · 📈 924 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 AI 代理提供知识基础设施，通过单一 API 实现搜索、抓取和访问 550 多个数据源。支持网络爬取和数据整合，适合需要实时网络数据增强大模型能力的开发者，常用于 RAG 和智能体信息检索场景。"
+      "summary": "面向 AI 智能体的知识基础设施，通过单一 API 提供搜索、网页抓取与 550 多个数据源的统一访问能力。帮助 LLM 应用开发者快速为 agent 接入实时、结构化的外部信息，减少自建爬虫与清洗管道的成本。"
     },
     {
       "sourceId": "github-trending",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
       "excerpt": "The official NGINX Open Source repository.",
-      "meta": "C · ★ 33,072 · 🍴 8,395 · 📈 174 stars today",
+      "meta": "C · ★ 33,097 · 🍴 8,394 · 📈 174 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "NGINX 官方开源仓库。NGINX 是一款高性能 Web 服务器和反向代理，广泛用于静态资源服务、负载均衡和 API 网关。运维人员、后端开发者和架构师用它来构建高可用、高并发的现代 Web 基础设施。"
+      "summary": "NGINX 开源项目的官方仓库，提供高性能 HTTP 反向代理、负载均衡、缓存及网关能力。是互联网广泛使用的服务器基础设施，适合运维与后端工程师部署高并发 Web 服务与微服务入口。"
     },
     {
       "sourceId": "github-trending",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
       "excerpt": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-      "meta": "C++ · ★ 12,305 · 🍴 3,680 · 📈 184 stars today",
+      "meta": "C++ · ★ 12,337 · 🍴 3,681 · 📈 184 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源 AI 推理优化与部署工具包，支持在 CPU、GPU、NPU 等硬件上高效运行模型。提供模型转换和性能优化功能，适合边缘计算和嵌入式场景的 AI 开发者，用于将训练好的模型部署到各种设备。"
+      "summary": "Intel 主导的开源 AI 推理优化工具包，用于编译、加速与部署机器学习模型到 CPU、GPU、NPU 等异构硬件。适合希望在本地或边缘设备高效运行推理应用的工程师，覆盖视觉、语音与生成式任务。"
     },
     {
       "sourceId": "github-trending",
       "title": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "excerpt": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "meta": "HTML · ★ 71,058 · 🍴 4,752 · 📈 620 stars today",
+      "meta": "HTML · ★ 71,208 · 🍴 4,760 · 📈 620 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向 Claude Code、Codex、Copilot、Cursor 等 AI 编程代理的编辑式图表设计技能。提供 52 种图表类型，输出自包含 HTML+SVG，无阴影无 Mermaid 依赖。适合需要精致技术图表的开发者和文档写作者。"
+      "summary": "为 Claude Code、Codex、Copilot、Cursor 等编码助手设计的编辑级图表规范，提供 52 种图类型，输出自包含 HTML+SVG，强调简洁无阴影风格。适合在 AI 辅助文档与技术方案中生成统一美观的图示。"
     },
     {
       "sourceId": "github-trending",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "excerpt": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "meta": "Python · ★ 73,501 · 🍴 6,482 · 📈 797 stars today",
+      "meta": "Python · ★ 73,649 · 🍴 6,496 · 📈 797 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "AI 代理技能，可跨 Reddit、X、YouTube、Hacker News、Polymarket 及全网研究任何主题，并综合生成有据可依的摘要。适合需要快速追踪网络动态的市场分析师和内容创作者，用于舆情洞察与趋势研究。"
+      "summary": "为 AI 智能体提供的研究技能，可跨 Reddit、X、YouTube、HN、Polymarket 及全网检索任意话题近 30 天讨论，并合成有依据的摘要。适合内容创作者、分析师与智能体开发者做热点追踪与趋势研判。"
     },
     {
       "sourceId": "github-trending",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "excerpt": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "meta": "TypeScript · ★ 12,341 · 🍴 1,515 · 📈 422 stars today",
+      "meta": "TypeScript · ★ 12,424 · 🍴 1,519 · 📈 422 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Google Labs 开源的 Agent Skills 库，与 Stitch MCP 服务器配合使用。每个技能遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code 等编码代理。适合希望扩展代理能力的 AI 工具开发者。"
+      "summary": "Google Labs 推出的 Agent Skills 技能库，配合 Stitch MCP 服务器使用，遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code 等编码智能体。便于为不同 agent 复用统一的能力集。"
     },
     {
       "sourceId": "github-trending",
       "title": "mjmirza/app-store-compliance",
       "url": "https://github.com/mjmirza/app-store-compliance",
       "excerpt": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
-      "meta": "Shell · ★ 5,047 · 🍴 320 · 📈 761 stars today",
+      "meta": "Shell · ★ 5,211 · 🍴 331 · 📈 761 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源应用商店合规手册，记录 124 个典型被拒模式及修复方案，内置隐私清单和数据安全检查。涵盖 112 个关键截止日期提醒，帮助开发者规避 App Store 和 Google Play 常见驳回原因，提升上架成功率。"
+      "summary": "面向移动应用发布者的合规手册与预提交检查工具，记录 124 类常见拒绝模式及修复方案，覆盖隐私清单、数据安全与 112 个跟踪期限。帮助独立开发者与团队避开 App Store、Google Play 审核坑。"
     },
     {
       "sourceId": "github-trending",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
       "excerpt": "The open-source agent for CI/CD reliability.",
-      "meta": "Python · ★ 14,867 · 🍴 1,992 · 📈 436 stars today",
+      "meta": "Python · ★ 14,930 · 🍴 1,996 · 📈 436 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源 CI/CD 可靠性智能体，自动监控构建、测试和部署流水线，识别故障根因并给出修复建议。适合 DevOps 工程师和平台团队，用于提升持续集成的稳定性和故障响应速度，减少人工排查成本。"
+      "summary": "开源的 CI/CD 可靠性智能体，通过自动化分析构建与部署流程，辅助识别流水线中的失败原因与稳定性风险。适合 DevOps 与 SRE 团队在持续集成环境中提升交付成功率与排查效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "toeverything/AFFiNE",
       "url": "https://github.com/toeverything/AFFiNE",
       "excerpt": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
-      "meta": "TypeScript · ★ 77,447 · 🍴 5,665 · 📈 595 stars today",
+      "meta": "TypeScript · ★ 77,549 · 🍴 5,671 · 📈 595 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "下一代开源知识库，整合规划、整理与创作于一体，兼顾白板和文档功能。主打隐私优先、可自托管和高可定制性。适合个人和团队替代 Notion 与 Miro 的混合场景，用于知识管理和协作创作。"
+      "summary": "兼顾文档编辑与白板协作的下一代知识库工具，融合 Notion 与 Miro 的能力，强调隐私优先、本地存储与开源自托管。适合需要灵活编排笔记、计划与视觉化内容的个人与小型团队。"
     },
     {
       "sourceId": "github-trending",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
       "excerpt": "The only downloader you need. 下载器的集大成者。",
-      "meta": "Python · ★ 16,431 · 🍴 990 · 📈 1,087 stars today",
+      "meta": "Python · ★ 16,655 · 🍴 1,006 · 📈 1,087 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "全能下载器工具，支持多种协议和格式，是作者宣称的\"下载器集大成者\"。适合需要从网络批量获取视频、音频或文件的用户，提供简洁高效的一站式下载解决方案，覆盖常见需求。"
+      "summary": "一款功能集大成的开源下载器，支持多种协议与站点的资源获取，主打跨平台、易部署与配置简洁。适合需要从不同来源抓取媒体与文件的用户，作为日常下载工具的轻量替代方案。"
     },
     {
       "sourceId": "github-trending",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
       "excerpt": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
-      "meta": "Python · ★ 14,533 · 🍴 2,216 · 📈 907 stars today",
+      "meta": "Python · ★ 14,750 · 🍴 2,232 · 📈 907 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源 AI 视频剪辑桌面工具，输入一个链接即可自动将播客、访谈、课程等长视频剪辑成短视频，并生成字幕、封面和发布文案。适配抖音、小红书、TikTok、Reels 等平台，适合内容创作者和营销人员。"
+      "summary": "开源 AI 视频剪辑桌面工具 AutoClip，输入一个链接即可将播客、访谈、课程等长视频自动切分为短视频，并生成字幕、封面与发布文案，适配抖音、小红书、TikTok、Reels、Shorts。适合内容创作者做二次剪辑与多平台分发。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -181,18 +181,9 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "有哪些任务是 Deepseek Flash4.1 无法胜任，而 Claude / ChatGPT 可以的？",
-      "url": "https://www.v2ex.com/t/1259180",
-      "excerpt": "46 回复 · 程序员 节点",
-      "publishedAt": "2026-11-23T08:26:24.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "Apple ID 刚刚被盗刷了！",
       "url": "https://www.v2ex.com/t/1259296",
-      "excerpt": "41 回复 · Apple 节点",
+      "excerpt": "50 回复 · Apple 节点",
       "publishedAt": "2026-11-24T00:09:26.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -210,17 +201,35 @@
       "sourceId": "v2ex-hot",
       "title": "体验多天，发现国行苹果 ai 一点都不好用！",
       "url": "https://www.v2ex.com/t/1258824",
-      "excerpt": "30 回复 · Apple 节点",
+      "excerpt": "31 回复 · Apple 节点",
       "publishedAt": "2026-11-21T16:00:44.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "还是中国牛人多啊！人们吭哧吭哧搞了 25 年，总算追上了盛教授的脚步。",
-      "url": "https://www.v2ex.com/t/1259264",
-      "excerpt": "20 回复 · 程序员 节点",
-      "publishedAt": "2026-11-23T14:30:28.000Z",
+      "title": "有多少人通过 AI 赚到工作以外额外的钱了？",
+      "url": "https://www.v2ex.com/t/1259411",
+      "excerpt": "23 回复 · 程序员 节点",
+      "publishedAt": "2026-11-24T04:49:41.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "Apple 账号无故被禁用求助",
+      "url": "https://www.v2ex.com/t/1259302",
+      "excerpt": "22 回复 · Apple 节点",
+      "publishedAt": "2026-11-24T00:39:02.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "iPad pro 10.5 2017 换到新的 m 系列，看 b 站直播提升大吗",
+      "url": "https://www.v2ex.com/t/1259352",
+      "excerpt": "21 回复 · Apple 节点",
+      "publishedAt": "2026-11-24T02:24:08.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -230,15 +239,6 @@
       "url": "https://www.v2ex.com/t/1236767",
       "excerpt": "18 回复 · Python 节点",
       "publishedAt": "2026-08-24T04:35:21.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "Apple 账号无故被禁用求助",
-      "url": "https://www.v2ex.com/t/1259302",
-      "excerpt": "17 回复 · Apple 节点",
-      "publishedAt": "2026-11-24T00:39:02.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -257,15 +257,6 @@
       "url": "https://www.v2ex.com/t/1254835",
       "excerpt": "16 回复 · Linux 节点",
       "publishedAt": "2026-11-05T15:11:47.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "哈基米发重置了！",
-      "url": "https://www.v2ex.com/t/1259291",
-      "excerpt": "14 回复 · 程序员 节点",
-      "publishedAt": "2026-11-23T21:14:55.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -361,30 +352,264 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "预想购入一款 windows 的开发本",
-      "url": "https://www.v2ex.com/t/1259341",
-      "excerpt": "5 回复 · 程序员 节点",
-      "publishedAt": "2026-11-24T02:10:46.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "iPad pro 10.5 2017 换到新的 m 系列，看 b 站直播提升大吗",
-      "url": "https://www.v2ex.com/t/1259352",
-      "excerpt": "5 回复 · Apple 节点",
-      "publishedAt": "2026-11-24T02:24:08.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "疲惫的前额叶（脑门子）",
-      "url": "https://www.v2ex.com/t/1259344",
+      "title": "求推荐简单办公 NAS",
+      "url": "https://www.v2ex.com/t/1259410",
       "excerpt": "4 回复 · 程序员 节点",
-      "publishedAt": "2026-11-24T02:15:41.000Z",
+      "publishedAt": "2026-11-24T04:28:50.000Z",
       "category": "tech",
       "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "做了个简单明了实用的日程管理工具，可本地可远程同步 caldav，支持苹果、统信、Windows",
+      "url": "https://www.v2ex.com/t/1258699",
+      "excerpt": "4 回复 · Linux 节点",
+      "publishedAt": "2026-11-21T02:18:54.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "做了个跨平台整理主流浏览器网页书签的小工具",
+      "url": "https://www.v2ex.com/t/1257317",
+      "excerpt": "4 回复 · Linux 节点",
+      "publishedAt": "2026-11-16T02:01:35.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "Ubuntu 26.04 遇到 free -h 和 htop 查不出来的诡异 OOM 内存不足，由 KHO 的 CMA 导致",
+      "url": "https://www.v2ex.com/t/1257077",
+      "excerpt": "4 回复 · Linux 节点",
+      "publishedAt": "2026-11-14T10:27:37.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "🔥 52Pokemon 黑五折扣码｜连续三天抽实物，¥3,500 奖品全送！",
+      "url": "https://linux.do/t/topic/3228880",
+      "excerpt": "黑五折扣码 POKEBF26 11 月 24 日 00:00 生效，11 月 30 日 23:59 截止。 11 月 27 日（黑五）晚上 8 点开抽，连续 3 天送出 25 份实物奖品！（北京时间） 日期 当天奖品 11 月 27 日 · 第一天 宝可梦盲盒 10 套，每套价值 ¥100 11 月 28 日 · 第二天 宝可梦盲盒 10 套，每套价值 ¥100 11 月 29 日 · 第三天 正品《璀璨宝石》桌游卡 5 套，每套价值 ¥300 抽中《璀璨宝石》的小伙伴，可以选择领取桌游卡，也可以换成 3 套宝可梦盲盒。领奖时告诉我你的选择就行。 参与资格与领奖方式 52Pokemon 中级及",
+      "publishedAt": "2026-11-23T11:31:59.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "深度体验4neon和4hydrogen几天的感受",
+      "url": "https://linux.do/t/topic/3230330",
+      "excerpt": "深度用了三四天(主要是neon，之前carbon也用了不过没用太多)，说说在我几个真实项目下使用的感受 省流 neon 普通任务体感比类似价格的opus5.5要强，比gpt理解需求能力更强更自主，如果任务是普通业务逻辑开发，不涉及创意类似乎可以完美平替opus和sol neon能力上限不是很高 复杂任务表现下感觉逻辑略强opus5.5但是ui更差，总体完成度略逊6.2sol 可以看后面案例截图 测试了几个场景 hydrogen 很快，能力也不弱，但是有3.8f一样的毛病(自信编造数据，压缩丢目标，一直读文件不写东西，《你说的对》) 长上下文的稳定性似乎不如ds4.1f 感觉更适合问答用 说下我",
+      "publishedAt": "2026-11-23T15:53:57.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "微信官方白嫖：10 亿 Token",
+      "url": "https://linux.do/t/topic/3227818",
+      "excerpt": "微信官方的「AI 小程序成长计划」10 亿 Token 12 月 31 日截止 免费云开发个人版环境 6 个月 报名路径 登录微信小程序后台 mp.weixin.qq.com → 左侧「行业能力」→「AI 小程序成长计划」→ 点「参与计划」，填个小程序介绍表单就行。 佬们开通以后套餐用量界面记得点击取消自动续费 119 个帖子 - 66 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T08:44:47.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "公益 AI Agent 微信表情包生成站，完全免费，送100次500积分兑换码，本贴长期送积分兑换码，助力每一位佬友都拥有自己的表情包！",
+      "url": "https://linux.do/t/topic/3229762",
+      "excerpt": "本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的站点存在登录，并已接入 LINUX DO Connect： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已",
+      "publishedAt": "2026-11-23T14:13:30.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "英伟达董事会恢复黄仁勋CEO职务，英伟达盘前大涨25%",
+      "url": "https://linux.do/t/topic/3229685",
+      "excerpt": "市场消息：英伟达董事会恢复黄仁勋CEO职务。 104 个帖子 - 96 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T13:59:48.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "【杂谈水】25年至26年，我的AI使用史，和我的感受——或许正身处死亡搁浅",
+      "url": "https://linux.do/t/topic/3229511",
+      "excerpt": "敲麻了 不确定有没有错字 大概看了一下应该是没有 也不让AI改了 感觉上博客的同时可以发到L站来看看 眨眼间，2026 年也要迎来尾声了。在这 11 月末的日子里随着 A\\ 这个公司的上市，他们的数学家也掏出了这个月或者这下半年最大的核弹爆炸，也就是利用 claude 模型解决了黎曼猜想。 按理来说这应该是一个值得瘫坐眩晕的消息，但是 AI 拉了 25 万页的证明，就算拉了所有人类数学家过来恐怕都要不停的看上很久才能够把所有证明过程看完。尽管已经确认了通过了 lean 的形式化验证——也就是就结果上来说是没有什么问题的，但是 AI 产生的推理过程不可读依旧是一个问题。 其实这可能和我今天文章要",
+      "publishedAt": "2026-11-23T13:31:19.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "3天后！！！董事会哭着求我回去救市",
+      "url": "https://linux.do/t/topic/3229791",
+      "excerpt": "31 个帖子 - 25 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T14:17:37.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "【开源推广】从 grill-me 生长出的工作流",
+      "url": "https://linux.do/t/topic/3230360",
+      "excerpt": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 项目地址： 上游 grow-me：GitHub - Trunks820/grow-me: 让需求长成方案：本机网页逐轮澄清需求，回答开花、追问长枝、复核黄叶、按章结果。 · GitHub 下游 grow-loop：Gi",
+      "publishedAt": "2026-11-23T16:03:23.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "【NEXA】祝贺本站本月终于收益大于0 送2000刀额度 | 免费ultrafast GPT6.2 | 1.5折ds | 哈基米4全家桶上线 |",
+      "url": "https://linux.do/t/topic/3226896",
+      "excerpt": "国际地址点我 | 国内加速点我 全新国内加速 ai.man8out.com 账号互通，1元：1刀/积分充值，1元起充， 实付 ¥/百万 tokens 是的我们终于盈利了，所以鸡蛋回来继续发 本次活动信息如下，领完2000额度或者截止到11月27日13：00为止 23日晚补充：上线了0.42倍率的ultrafast免费加速，开ultrafast无需翻倍消耗，加速不涨价 [!TIP] 新用户记得来【牢大(?)中转站】低至0.1x GPT100%无降脂 1分一张image2.6 原价luna | 新用户立得最高5额度 | 稳定 高智 高缓存 支持发票 | 1:1充值 | 生图/国模/GROK/GPT",
+      "publishedAt": "2026-11-23T06:53:16.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "💳 强烈建议将中行万事达作为境外支付主力卡",
+      "url": "https://linux.do/t/topic/3230828",
+      "excerpt": "凌晨查银行流水发现的惊喜 笔笔返1%，大于招行的0.5% 具体权益总结如下，有不懂的可以问问AI 活动类别 返现比例 每卡每月/期上限 活动门槛/范围 (境外消费) 是否需报名 活动时间 (截图显示) 活动一：基础笔笔返 1% 50美元/月(约 ¥334.07) 线下、线上任意消费（不含取现） 无需报名 2026.9.17 - 12.31 活动二：热门生活类 5% 30美元/月(约 ¥200.44) 指定商户： • 娱乐：Apple, Netflix, PS, Nintendo • 商超：Walmart, Costco 等 • 出行：Uber, Grab 等 • 外卖/快餐：KFC, 星巴克等",
+      "publishedAt": "2026-11-23T21:35:57.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "订阅Gemini  AI pro 会员使用反重力保姆级全过程：99.99 刀正规上车 Google AI Pro【非学生会员】",
+      "url": "https://linux.do/t/topic/3228527",
+      "excerpt": "今天很丝滑的就订阅成功了Gemini AI pro 会员，下面讲一下自己的经验。 准备东西和条件： 2、选区：美区 5 折 $99.99/年、台区 5 折 NT$3,250/年；别去日区（仅 75 折，21,800 日元/年）；Ultra 不打折。 3、账号与卡：干净美区白号（不在家庭组、无苹果或运营商旧订阅）+ 美区账单 + 招商银行万事达卡（我亲测直接刷过）。 干净美区白号 https://policies.google.com/country-association-form 美区账单 真实住宅地址生成器 当然我确实想知道这个真实的账单地址要怎么填，有佬会的可以指教一下谢谢～ 招商银行万",
+      "publishedAt": "2026-11-23T10:23:34.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "无限量、可破甲deepseek v4.1 flash [第二弹]",
+      "url": "https://linux.do/t/topic/3233261",
+      "excerpt": "上次大家反响还不错，就是伺服器和上游有点撑不住这么大的请求量，限流的有点狠，所以这次采cdk发放的方式限制人数 base url: https://ciallo.bar (已关闭注册，请使用cdk领取key!) LINUX DO CDK deepseek-v4.1-flash 可破甲，但是上游有外审（疑似基于关键字/正则匹配），可能不是次次都成功，失败就换个提示词再来 62 个帖子 - 54 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-24T05:51:19.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "特朗普宣布黄仁勋无罪",
+      "url": "https://linux.do/t/topic/3229761",
+      "excerpt": "25 个帖子 - 23 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T14:13:13.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "GTA6 实时移植 PC端进度(67%)",
+      "url": "https://linux.do/t/topic/3231281",
+      "excerpt": "今天凌晨一点，cyberleak 放出了 GTA6 的可执行文件，各路大神开始折腾 PC 移植，好几个 GitHub 仓库都在赶进度。 我找到一个方便查看的网站，分享给大家： PortWatch VI 实时进展 截至 2026 年 11 月 24 日，VIctory 的 README 自述已经能启动游戏、运行菜单和加载世界。不过进入世界后仍有画面缺失、渲染异常等问题，暂时还不能正常游玩 网站上的百分比怎么看？ 这是站方按照技术里程碑计算的评分，从基础工作、运行程序、出现画面、进入菜单，一直到进入游戏和稳定运行。看百分比的同时，也可以点进项目看看具体完成了什么。 网站是纯英文的，搭配哈雷总的翻译",
+      "publishedAt": "2026-11-24T01:29:33.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "单相思该怎么办？",
+      "url": "https://linux.do/t/topic/3230953",
+      "excerpt": "我喜欢班上的一个女生，叫 Amel。 但她已经不止一次明确说过，她讨厌我，不想和我有任何关系。 我知道她对我没有感觉，也不想再打扰她，但我还是经常忍不住想起她。 该怎么办？怎么才能不再想她？ 118 个帖子 - 77 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-24T00:19:28.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "反重力重置，Carbon Pro将可用，氢将适用所有用户",
+      "url": "https://linux.do/t/topic/3230793",
+      "excerpt": "现在这里是哈基米广场！ 53 个帖子 - 47 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T20:22:32.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "黄仁勋打赢复活赛",
+      "url": "https://linux.do/t/topic/3229711",
+      "excerpt": "NVIDIA Newsroom NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board. 46 个帖子 - 38 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T14:04:35.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "慢讯：超级智能正在到来",
+      "url": "https://linux.do/t/topic/3227006",
+      "excerpt": "Meta 超级智能实验室负责人 Alexandr Wang 这篇长文，值得看看 55 个帖子 - 34 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T07:06:31.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "GLM5.4雨夜便利店测试",
+      "url": "https://linux.do/t/topic/3231228",
+      "excerpt": "不得不说真是超级雷霆大思考，总共花了三，四小时才跑出来 提示词：请制作一个雨夜便利店街角小场景，不准使用blender，以第三视角观察整个场景，整体像一个可以自由拖拽、旋转、缩放观看的微缩三维模型 / 小型景观，没有任何UI界面元素。地面为一个完整的正方形底座，所有元素都搭建在这个底座上，构图紧凑、层次清晰，整体呈现出小巧、精致、可收藏的模型感。画面风格为三渲二，强调浓厚的日式二次元动画氛围，材质表现干净，轮廓明确，色彩柔和但富有夜景霓虹的层次感。场景主体是一处日式便利店街角，便利店位于底座的视觉中心，外部有典型的日式街角元素：便利店招牌、玻璃橱窗、自动门、屋檐雨棚、门口地垫、自动贩卖机、自行",
+      "publishedAt": "2026-11-24T01:17:26.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "老黄你回来了还我钱啊 🤡",
+      "url": "https://linux.do/t/topic/3229912",
+      "excerpt": "我操我前天刚把165入场的抛了啊 16 个帖子 - 13 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T14:40:24.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "新发现一家免费搭建个人建站的德国服务商",
+      "url": "https://linux.do/t/topic/3230891",
+      "excerpt": "没说有效期什么时候结束，服务器可以SSH连接，共享服务器 https://lxi.be/ 13 个帖子 - 8 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T23:31:29.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "昨晚梦到了十几年没见的小学初恋",
+      "url": "https://linux.do/t/topic/3231624",
+      "excerpt": "小学喜欢了很久的同学，小学毕业的时候谈了几个月，后来因为初中不同校就慢慢淡了，后面就一直没有联系过了。现在都大学毕业工作了，有一个谈了5年的女朋友，也没有什么矛盾，然后就是突然梦到了她。不过有一说一，好久没做过这么美的梦了 想去偷看一下她，发现只有一个啥都没有的QQ，可惜。 53 个帖子 - 46 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-24T02:10:05.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "黎曼猜想被秒了，乐观看最晚2年内所有智力工作都会被取代！程序员只能去搬砖了",
+      "url": "https://linux.do/t/topic/3227224",
+      "excerpt": "乐观看，还只有两年，正常看可能是一年内，所有企业至少裁员50%！！！！ 67 个帖子 - 59 位参与者 阅读完整话题",
+      "publishedAt": "2026-11-23T07:33:19.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "16岁的少年创办了一家人工智能导弹初创公司。他的目标是降低“每次击杀成本”",
+      "url": "https://linux.do/t/topic/3226833",
+      "excerpt": "WIRED – 20 Nov 26 This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’ Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies. ",
+      "publishedAt": "2026-11-23T06:44:28.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "英伟达董事会恢复黄仁勋的总裁、首席执行官及董事会成员职务，随后股票暴力拉升30%+",
+      "url": "https://linux.do/t/topic/3229810",
+      "excerpt": "NVIDIA Newsroom NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board. [!quote]+ NVIDIA（纳斯达克股票代码：NVDA）今日宣布，即日起，",
+      "publishedAt": "2026-11-23T14:20:56.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
     },
     {
       "sourceId": "openai-news",
@@ -394,7 +619,7 @@
       "publishedAt": "2026-11-23T21:20:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI与Cisco联合推出开源运行时Shirudo，旨在帮助团队在部署补丁时保护正在运行的系统，适用于Linux环境。"
+      "summary": "OpenAI与思科联合推出名为Shirudo的Linux开源运行时。该工具旨在帮助团队在部署补丁期间保护正在运行的系统，提升运维过程中的安全性与稳定性，面向企业级基础设施场景。"
     },
     {
       "sourceId": "openai-news",
@@ -404,7 +629,7 @@
       "publishedAt": "2026-11-23T08:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI的Stacey Wang、Craig Bruney与LECG的Mary O'Carroll及Cooley的Richard Segal探讨AI如何帮助法务团队连接业务背景、构建可复用工作流程并更有效利用外部律师。"
+      "summary": "OpenAI的Stacey Wang与Craig Bruney、LECG的Mary O'Carroll及Cooley律所的Richard Segal探讨AI在企业内部法务团队中的应用，包括连接业务背景、构建可复用工作流以及更高效地利用外部律师资源。"
     },
     {
       "sourceId": "openai-news",
@@ -414,7 +639,7 @@
       "publishedAt": "2026-11-23T08:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "Richpanel利用GPT-6 Astra和GPT-6.1 Sol为其AI支持代理配备工具和流程，并使用GPT-6 Luna进行对话，帮助公司在30天内自动化50%的支持工作。"
+      "summary": "Richpanel借助GPT-6 Astra、GPT-6.1 Sol与GPT-6 Luna三款模型，为其AI客服智能体配备工具与流程，帮助企业客户在30天内将约50%的客服交互实现自动化处理。"
     },
     {
       "sourceId": "openai-news",
@@ -424,7 +649,7 @@
       "publishedAt": "2026-11-22T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI探讨困惑度如何衡量AI模型进展，并认为这有助于开发者建立评估新兴能力的共同方法。"
+      "summary": "OpenAI阐述困惑度（perplexity）作为衡量AI模型进步的方式，探讨该指标如何帮助开发者建立统一框架，对新兴模型能力进行横向评估与比较。"
     },
     {
       "sourceId": "openai-news",
@@ -434,7 +659,7 @@
       "publishedAt": "2026-11-20T10:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI采用分层方法对抗对抗性蒸馏，结合模型训练、安全措施、检测和执法，以保护模型能力不被提取。"
+      "summary": "OpenAI介绍其对抗敌意蒸馏的分层防御策略，融合模型训练、安全防护、行为检测与执行措施四个层面，旨在防止第三方通过蒸馏手段提取其模型能力。"
     },
     {
       "sourceId": "openai-news",
@@ -443,8 +668,7 @@
       "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "category": "tech",
-      "source": "OpenAI News",
-      "summary": "Hebbia测试GPT-6 Astra进行金融研究，上市前评估发现其在来源覆盖、引用相关性和展示质量方面均有提升。"
+      "source": "OpenAI News"
     },
     {
       "sourceId": "openai-news",
@@ -670,7 +894,7 @@
       "publishedAt": "2026-11-23T16:59:40.000Z",
       "category": "tech",
       "source": "DeepMind Blog",
-      "summary": "DeepMind利用智能体团队和形式化验证技术，改进用于聚变和化学领域的量子算法，以提升计算效率。"
+      "summary": "Google DeepMind展示利用AI智能体团队与形式化验证技术改进量子算法的路径。该方法目标是为核聚变模拟与化学计算等场景发现更快收敛的量子算法，结合自动证明提升搜索效率。"
     },
     {
       "sourceId": "deepmind-blog",
@@ -941,7 +1165,7 @@
       "publishedAt": "2026-11-23T17:20:37.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Allen AI发布RoboTrack，一种用于真实世界机器人操作的点跟踪技术，旨在提升机器人在复杂环境中的感知和操作能力。"
+      "summary": "AllenAI在Hugging Face发布RoboTrack项目，专注于真实世界机器人操作中的点追踪任务。该方法用于在动态环境中对物体关键点进行持续定位，服务于机器人抓取、装配等实际应用场景。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -951,7 +1175,7 @@
       "publishedAt": "2026-11-23T00:00:00.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face博客探讨如何构建和维护智能体评估，为开发者在智能体系统的测试与验证方面提供方法指导。"
+      "summary": "Hugging Face发布技术博客，讨论如何构建与维护智能体（agentic）系统的评估框架。内容涵盖评测指标设计、数据集维护及可靠性保障等实践方法，面向AI工程师与研究者。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1207,6 +1431,17 @@
     },
     {
       "sourceId": "huggingface-papers",
+      "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+      "url": "https://huggingface.co/papers/2611.29897",
+      "excerpt": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention cac",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "meta": "👍 61",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "针对长时序、实时可控人形运动生成，提出 Motion Mamba 2.0：一种基于自回归扩散的 Mamba 架构，用于处理交互动画与人形机器人控制中随指令和空间目标变化的运动。相较现有自回归扩散方法，其克服了有界注意力在长序列上的计算瓶颈，实现增量式可控生成。"
+    },
+    {
+      "sourceId": "huggingface-papers",
       "title": "Non-penetrating World Models",
       "url": "https://huggingface.co/papers/2611.27963",
       "excerpt": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can ",
@@ -1214,18 +1449,7 @@
       "meta": "👍 55",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "研究交互式视频世界模型中的物体穿透问题，提出 NoPeBench 基准评估模型对物理障碍的响应，发现现有开源模型均无法避免穿透。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Clover-35B-A3B-Preview Technical Report",
-      "url": "https://huggingface.co/papers/2611.24636",
-      "excerpt": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously gene",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "meta": "👍 36",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "发布 Clover-35B-A3B-Preview，一个 350 亿参数、30 亿激活的 MoE 扩散语言模型，支持思考模式，采用 Gated Delta Networks 结合循环记忆。"
+      "summary": "研究交互式视频世界模型中的物体穿透问题。提出 NoPeBench 基准，评测世界模型对物理障碍的反应，实验显示所有开源模型均无法避免穿透。该工作为模型物理合理性提供诊断工具，并呼吁在生成中显式建模不可穿透性约束。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1233,10 +1457,32 @@
       "url": "https://huggingface.co/papers/2611.26954",
       "excerpt": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for superv",
       "publishedAt": "2026-11-20T00:00:00.000Z",
-      "meta": "👍 33",
+      "meta": "👍 42",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出基于在线自蒸馏的视频预见推理方法，从无标注视频中学习，无需人工标注或外部模型监督，增强模型预测未来事件或动作的能力。"
+      "summary": "面向视频前瞻推理，提出基于 On-Policy 自蒸馏的方法，使视觉语言模型能从未标注视频中预测未来事件或下一动作。现有方法依赖标注或外部大模型监督，本文通过策略内自蒸馏摆脱外部标签，提升自监督下的推理能力。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "url": "https://huggingface.co/papers/2611.24636",
+      "excerpt": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously gene",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "meta": "👍 39",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "发布 Clover-35B-A3B-Preview：一个 350 亿总参数、30 亿激活参数的 MoE 扩散语言模型，支持思考模式生成。核心思路是将 Gated Delta Networks 适配到 block diffusion，结合循环记忆与先前生成块，实现可控自回归扩散。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+      "url": "https://huggingface.co/papers/2611.30013",
+      "excerpt": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morph",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "meta": "👍 35",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "提出 DivDynBench，覆盖六种形态学类别与复杂指令，用于评测针对任意 3D 资产的自动 rigging 与运动生成。现有运动基准多限于常规人/兽骨骼与简单指令，本文系统评估结构性推理与运动控制能力，并给出 agentic rigging 方案。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1244,65 +1490,21 @@
       "url": "https://huggingface.co/papers/2611.25773",
       "excerpt": "Full-duplex interaction models exhibit strong conversational agency, enabling natural, low-latency turn-taking, backchannels, and interruptions. However, completing tasks further requires task agency: timely tool invocation and argument revision following user corrections. Frontend-backend agents se",
       "publishedAt": "2026-11-19T00:00:00.000Z",
+      "meta": "👍 28",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "Duopra 研究从全双工对话走向全双工智能体：在自然轮次切换、附和与打断的基础上，进一步完成任务执行，包括按用户纠正及时调用工具与修正参数。前后端 agent 分离设计是关键，实现低延迟双向交互与工具协作。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+      "url": "https://huggingface.co/papers/2611.28202",
+      "excerpt": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
       "meta": "👍 26",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出 Duopra 全双工交互模型，结合前后端代理实现任务代理，支持及时工具调用和用户纠正后的参数修订，提升低延迟交互能力。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
-      "url": "https://huggingface.co/papers/2611.26073",
-      "excerpt": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are a",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "meta": "👍 24",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出 AltRA-Test，一种无需共享标注者的替代标注者测试，用于统计上评估 LLM 法官替代人类标注者的合理性，适用于稀疏数据设置。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://huggingface.co/papers/2611.21885",
-      "excerpt": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite ",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "meta": "👍 23",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "探索语言模型能否直接重写自身权重，使模型能够通过自我编辑权重来改进自身，无需重新训练或外部工具。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
-      "url": "https://huggingface.co/papers/2611.15449",
-      "excerpt": "Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while preserving textual content. Existing methods treat this as a visual restoration problem, yet severely degraded text often cannot be read from local visual evidence alone. Humans instead ",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "meta": "👍 21",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出文本感知图像超分辨率需结合推理，利用视觉语言模型从低分辨率输入中恢复文字内容，超越纯视觉恢复方法。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-      "url": "https://huggingface.co/papers/2611.27973",
-      "excerpt": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "meta": "👍 19",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出 MemOnce 可扩展记忆架构，用于长程交互的 LLM，避免标准 Transformer 的线性 KV 缓存增长，实现常数内存开销。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
-      "url": "https://huggingface.co/papers/2611.26408",
-      "excerpt": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a ",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "meta": "👍 19",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "研究训练视觉模型以支持 LLM 进行权重空间编程，通过专门训练增强模型直接修改网络权重的能力。"
+      "summary": "AutoPILOT 提出用于实时游戏的视觉 agent 框架（harness）。发现多模态模型在游戏运行时表现不佳主要源于 harness 设计：模型所见输入、记忆组织与输出转动作的时机。本文系统改进这些环节，提升持续运行游戏中的可玩性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1310,21 +1512,32 @@
       "url": "https://huggingface.co/papers/2611.26516",
       "excerpt": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In this paper, we introduce plan4d, a possible next milestone towards building a gener",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "meta": "👍 16",
+      "meta": "👍 26",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出 Plan4D 生成式可规划 4D 世界模型，显式建模时间与空间一致性，增强物理基础与几何一致性，超越仅关注视频美学质量的模型。"
+      "summary": "提出 Plan4D：生成式可规划 4D 世界。现有世界模型侧重生成视频的美学质量，物理一致性与几何稳定性弱。本文通过显式 4D 建模，在时间维度保证几何一致性，被视为迈向可生成、可交互四维场景的关键一步。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-      "url": "https://huggingface.co/papers/2611.26286",
-      "excerpt": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the ",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "meta": "👍 11",
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "url": "https://huggingface.co/papers/2611.27973",
+      "excerpt": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "meta": "👍 22",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "测量同行评审中的批评重叠，发现 ICLR 评审重叠率从 2026 年 12.0% 升至 2027 年 21.3%，在 LLM 时代呈上升趋势。"
+      "summary": "MemOnce 提出面向 LLM 长程持续交互的可扩展记忆架构。标准 Transformer 逐层累积 token 级 KV cache，导致显存线性增长；本文设计可复用的记忆状态，支持长期与持续交互中的高效推理。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+      "url": "https://huggingface.co/papers/2611.15449",
+      "excerpt": "Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while preserving textual content. Existing methods treat this as a visual restoration problem, yet severely degraded text often cannot be read from local visual evidence alone. Humans instead ",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "meta": "👍 22",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "研究文本感知图像超分（TAISR）。严重退化的文本无法仅凭局部视觉证据恢复，需引入推理能力，模拟人类结合世界知识与语境推断文字内容。本文将该任务从纯视觉复原升级为推理式复原。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1335,7 +1548,51 @@
       "meta": "👍 10",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出持久空间记忆基准，评估具身代理在重复访问环境中的空间理解能力，包括视角变化识别和记忆更新。"
+      "summary": "提出「Lost in the Hallway」基准，评测具身智能体在反复访问环境时的持久空间记忆：识别重访地点、区分相似房间、并随环境变化更新记忆。现有方法在这些维度上仍存在明显不足。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "WorldLeague: Benchmarking Physical Agency",
+      "url": "https://huggingface.co/papers/2611.30989",
+      "excerpt": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "meta": "👍 8",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "WorldLeague 评测 AI 系统的物理能动性，涵盖操作 Blender、复杂游戏中遵循指令、机械臂操控物体等任务。基准要求感知、推理与执行能力的不同组合，系统刻画当前 AI 能自主达成的物理目标范围。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Distilling Visual Agents from Limited Interaction Experience",
+      "url": "https://huggingface.co/papers/2611.28618",
+      "excerpt": "How much interaction experience is needed to distill a capable visual agent? We study learning from few tasks and recorded interaction histories. Our framework selects representative trajectories using skill-context coverage and ordered visual-decision similarity. On-policy distillation (OPD) learns",
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "meta": "👍 8",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "研究从有限交互经验中蒸馏视觉 agent。框架利用技能-上下文覆盖与有序视觉-决策相似度筛选代表性轨迹，并结合 On-Policy Distillation 学习，探索构建能力 visual agent 所需的最少交互数据量。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
+      "url": "https://huggingface.co/papers/2611.29238",
+      "excerpt": "AI-driven game development holds the potential to transform diverse human inspirations into interactive experiences. However, existing systems and benchmarks primarily focus on explicit development specifications, with limited support for adapting multimodal references and evaluating actual gameplay",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "meta": "👍 8",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "GameAnything 将多样化的灵感来源转化为可玩的游戏世界。现有系统与基准聚焦显式开发规格，对多模态参考的适配与实际玩法评测支持有限，本文补齐从模糊灵感生成可玩游戏这一环节。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+      "url": "https://huggingface.co/papers/2611.25476",
+      "excerpt": "Neural networks encode learned capabilities in their weights, yet extending those capabilities with explicit task knowledge remains a fundamental challenge. Here we show that Weight-Space Programming (WSP), in which executable programs read, construct or modify a network's weights directly, can inst",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "meta": "👍 8",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "WeightCode 提出权重空间编程（WSP）：可执行程序直接读取、构造或修改网络权重，从而向神经网络安装新能力。该思路绕过微调，将任务知识以代码形式注入参数，为可解释的能力扩展提供新范式。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1346,7 +1603,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "评估前沿多模态语言代理（如 GPT-6 Astra）直接控制机器人的能力，分析其成功与失败模式，超越仅报告回合级成功率。"
+      "summary": "AgentRoboCritic 评测前沿多模态 agent（如 GPT-6 Astra）直接通过低级数值动作控制机器人的能力。现有基准仅报告 episode 级成功率，本文提供细粒度诊断，揭示 agent 如何成功或失败。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1357,7 +1614,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出 PURE 诊断基准，用于多粒度多模态身份匹配，揭示匹配准确性依赖于目标粒度，如基础层与变体层的差异。"
+      "summary": "PURE 是多粒度多模态身份匹配诊断基准。身份匹配的答案依赖目标粒度：两条记录可在基础层面匹配而在变体层面不匹配。基准刻画不同粒度下的匹配行为，评估模型的细粒度判别能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1368,62 +1625,49 @@
       "meta": "👍 7",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出 StereoVLM，利用双目视觉约束增强视觉语言模型对度量 3D 空间的推理能力，实现物理世界中的精确空间定位。"
+      "summary": "StereoVLM 提出双眼视觉语言模型，用于度量 3D 空间推理。现有 VLM 缺乏相机标定与跨视图几何约束，难以推理真实度量空间；本文引入双目输入与几何先验，提升物理世界的 3D 推理准确性。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
-      "url": "https://huggingface.co/papers/2611.21053",
-      "excerpt": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs). Cloud LLMs expose patient data. Local LLMs hallucinate, and an invented value in a tool call propagates through every later step. Here we present a method to",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "meta": "👍 7",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出 System 1 代理方法，用于本地、可靠且快速的代理 AI，避免云端 LLM 暴露临床数据，并减少本地 LLM 的幻觉传播。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-      "url": "https://huggingface.co/papers/2611.26211",
-      "excerpt": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "meta": "👍 7",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出 SpecWM，将验证转化为细化，用于流式世界模型，结合快速草稿生成与选择性目标再生成，提升推理效率。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-      "url": "https://huggingface.co/papers/2611.26511",
-      "excerpt": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these ",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "meta": "👍 7",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出 Direct3D-V3，在原生体素域进行无潜空间扩散 Transformer 3D 生成，避免潜在表示带来的限制，提升生成质量。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-      "url": "https://huggingface.co/papers/2611.26450",
-      "excerpt": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero tra",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "meta": "👍 7",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出零梯度电路嫁接原语，将精确计算直接编译进预训练语言模型权重，实现多位算术运算而无需梯度微调或外部解释器。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
-      "url": "https://huggingface.co/papers/2611.25476",
-      "excerpt": "Neural networks encode learned capabilities in their weights, yet extending those capabilities with explicit task knowledge remains a fundamental challenge. Here we show that Weight-Space Programming (WSP), in which executable programs read, construct or modify a network's weights directly, can inst",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2611.27689",
+      "excerpt": "Vision-language model (VLM)-based agents offer a promising approach to robotic manipulation, yet remain limited by inadequate memory organization, uncertain failure attribution, and limited reuse of execution experience. We propose Embodied-Harness, a dual-agent framework that improves manipulation ",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
       "meta": "👍 6",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "展示权重空间编程可直接将新能力安装进神经网络权重，通过可执行程序读取、构造或修改权重，扩展模型能力。"
+      "summary": "Embodied-Harness 是面向机器人操作的双 agent 递归自我改进框架。现有 VLM 智能体受限于记忆组织不足、失败归因不明与经验复用有限；本文通过双 agent 协同改进操作性能，促进经验积累与自我提升。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+      "url": "https://huggingface.co/papers/2611.31115",
+      "excerpt": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To sys",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "meta": "👍 5",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "RUIBench 系统研究机器人使用界面（RUI）如何决定智能体表达与执行物理动作。该接口设计常被忽视，却显著影响可靠执行。基准评测不同 RUI 设计对基础模型物理任务推理到可靠执行转化的影响。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields",
+      "url": "https://huggingface.co/papers/2611.28123",
+      "excerpt": "Operating in the physical world requires reasoning beyond what cameras directly capture. In a city, radio signals are invisible to the lens, yet their strength is governed by the buildings and streets an image does show. Given only these visible structures, can vision-language models (VLMs) infer th",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "meta": "👍 5",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events",
+      "url": "https://huggingface.co/papers/2611.24249",
+      "excerpt": "Advancing physical artificial intelligence (Physical AI) requires moving beyond static object recognition to ground how real-world mechanics (e.g., impact, friction, and force transfer) unfold over time. While multimodal aligners seek to capture these interactions by matching multi-sensor streams, p",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "meta": "👍 5",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1437,30 +1681,20 @@
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
-      "url": "https://huggingface.co/papers/2611.25179",
-      "excerpt": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure. Passing an expert demonstration shows that a checker accepts one way of completing the task. Learned policies, however, may stop after partial progress or",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "meta": "👍 5",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields",
-      "url": "https://huggingface.co/papers/2611.28123",
-      "excerpt": "Operating in the physical world requires reasoning beyond what cameras directly capture. In a city, radio signals are invisible to the lens, yet their strength is governed by the buildings and streets an image does show. Given only these visible structures, can vision-language models (VLMs) infer th",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+      "url": "https://huggingface.co/papers/2611.30207",
+      "excerpt": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task collections check these tests only against the reference fix. We ask what makes a task good training data, focusing on the correctness of its reward labels. We audit SWE-Gym with two LLM",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
       "meta": "👍 4",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events",
-      "url": "https://huggingface.co/papers/2611.24249",
-      "excerpt": "Advancing physical artificial intelligence (Physical AI) requires moving beyond static object recognition to ground how real-world mechanics (e.g., impact, friction, and force transfer) unfold over time. While multimodal aligners seek to capture these interactions by matching multi-sensor streams, p",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "title": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
+      "url": "https://huggingface.co/papers/2611.25534",
+      "excerpt": "Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by rewriting them without feedback. Such rewriting could adapt a skill to the model that uses it or erode the expert knowledge that makes it useful, yet how skills evolve under this fee",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
       "meta": "👍 4",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
@@ -1487,10 +1721,10 @@
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
-      "url": "https://huggingface.co/papers/2611.25534",
-      "excerpt": "Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by rewriting them without feedback. Such rewriting could adapt a skill to the model that uses it or erode the expert knowledge that makes it useful, yet how skills evolve under this fee",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "title": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
+      "url": "https://huggingface.co/papers/2611.30813",
+      "excerpt": "Pretrained vision is a common start for robot learning, but most comparisons still score one pooled vector from a third-person image. Bimanual policies instead read dense patch tokens from cameras on the robot. We introduce HIVE-Bench: one shared flow-matching policy reads 20 encoders from seven fam",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
       "meta": "👍 3",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
@@ -1507,21 +1741,11 @@
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
-      "url": "https://huggingface.co/papers/2611.15941",
-      "excerpt": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lack alignment with hum",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "meta": "👍 3",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "In Situ Training of Optical Neural Networks by Coding Agents",
-      "url": "https://huggingface.co/papers/2611.23875",
-      "excerpt": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be trained with the hardware. In situ training relies on an expert-built calibrated digital model of each device or on gradient-free trial and error. Coding agents, large language mode",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "meta": "👍 3",
+      "title": "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
+      "url": "https://huggingface.co/papers/2611.30771",
+      "excerpt": "Interactive intelligence requires agents to act on observations and adapt to the consequences of actions. Studying these abilities calls for diverse, challenging tasks under controlled conditions. We introduce GameDojo, a controllable interactive gameplay benchmark of 120 boss encounters across 20 g",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "meta": "👍 2",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
     },
@@ -1533,7 +1757,7 @@
       "publishedAt": "2026-11-23T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "TLDR AI简报：OpenAI发布进展，Inkling 2 Mini模型推出，Riemann猜想证明获进展。"
+      "summary": "TLDR AI在2026年11月23日刊中汇总当日要点，包括OpenAI公布模型进展、Inkling 2 Mini发布，以及黎曼猜想被证明相关报道，为订阅者提供当日AI领域关键动态速览。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1978,13 +2202,23 @@
     },
     {
       "sourceId": "latent-space",
+      "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+      "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+      "excerpt": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+      "publishedAt": "2026-11-24T04:14:16.000Z",
+      "category": "tech",
+      "source": "Latent Space",
+      "summary": "2026年11月23日，英伟达宣布恢复其创始人黄仁勋的相关职位安排。同期，OpenAI公布其内部预训练损失曲线，并向业界提出设定共享训练上限的主张，试图在前沿模型开发上引入新的协调机制。"
+    },
+    {
+      "sourceId": "latent-space",
       "title": "[AINews] Riemann Hypothesis proved...twice independently",
       "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
       "excerpt": "November 20 2026 —",
       "publishedAt": "2026-11-21T05:02:13.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "据报道，黎曼猜想被独立证明两次。此消息引发数学界和AI领域广泛关注。"
+      "summary": "2026年11月20日的AINews报道显示，黎曼猜想被两个团队各自独立地给出证明，数论领域这一百年悬案迎来可能性的重大突破，后续仍需同行评议确认。"
     },
     {
       "sourceId": "latent-space",
@@ -1994,7 +2228,7 @@
       "publishedAt": "2026-11-20T21:18:41.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "文章探讨使用AI和Lean语言自动化形式化验证过程，以对抗AI生成的劣质内容，并提升软件正确性证明的效率。"
+      "summary": "形式化验证正成为对抗AI生成低质代码（slop）的工具。传统数学证明依赖专业人员，如今AI结合Lean等定理证明器正在自动化该流程，提升软件正确性验证的可及性。"
     },
     {
       "sourceId": "latent-space",
@@ -2004,7 +2238,7 @@
       "publishedAt": "2026-11-20T07:12:24.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Anthropic完成史上最大IPO，估值达1.5万亿美元。股价从83美元定价涨至开盘111.50美元，收于97.17美元。Google同时向开发者开放Genie 4。"
+      "summary": "2026年11月19日，Anthropic完成史上最大规模IPO，估值达1.5万亿美元。其股票代码ANT定价83美元，开盘报111.50美元，收盘97.17美元。同日报道Google向开发者开放Genie 4。"
     },
     {
       "sourceId": "latent-space",
@@ -2151,15 +2385,6 @@
       "source": "Latent Space"
     },
     {
-      "sourceId": "latent-space",
-      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-      "url": "https://latent.space/p/handshake/",
-      "excerpt": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
-      "publishedAt": "2026-11-09T17:15:53.000Z",
-      "category": "tech",
-      "source": "Latent Space"
-    },
-    {
       "sourceId": "mit-tech-review-ai",
       "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
       "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
@@ -2167,7 +2392,7 @@
       "publishedAt": "2026-11-23T17:36:08.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "一位著名哲学家对Anthropic关于AI可能具备意识或感知能力的论述提出质疑。Anthropic在上市前曾将这一可能性列为投资风险因素。"
+      "summary": "Anthropic在公开上市前将AI可能具备意识或感知能力列为投资者的风险因素。这一立场引发讨论，有知名哲学家公开表示不认同Anthropic关于AI意识的可能性论证，质疑其推理前提与理论严谨性。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2177,7 +2402,7 @@
       "publishedAt": "2026-11-20T18:15:15.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "METR发布新报告更新AI能力图表，显示部分能力呈指数级提升，但模型在需要判断的任务上不如编码表现好。"
+      "summary": "AI评测非营利组织METR发布报告更新，显示部分AI能力仍在指数级提升，但模型在需要判断力的任务上表现逊于编程类任务。该报告对AI能力曲线进行了重新校准。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2253,6 +2478,17 @@
     },
     {
       "sourceId": "attentionvc-ai",
+      "title": "Human empowerment in a few fake graphs",
+      "url": "https://x.com/boazbaraktcs/status/2124884201283485934",
+      "excerpt": "One view of AI’s trajectory can be captured by this “fake graph” (with the gray region reflecting roughly where we are): AI is improving in intelligence while human intelligence is fixed. At some",
+      "publishedAt": "2026-11-23T15:14:06.000Z",
+      "category": "tech",
+      "meta": "@boazbaraktcs · 38.0K 粉丝 · 503.3K 阅 · 988 赞 · 130 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "用一组「假图表」推演 AI 发展路径：AI 智能持续提升，而人类智能相对固定，两者在某个临界点后发生交汇。作者借此讨论 AGI 到来时人类角色将如何被重新定义，属于偏观点性的思想实验，而非具体工具或教程。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
       "title": "T3 Code: build ai agent teams with all frontier models (Full-Course)",
       "url": "https://x.com/0xCodez/status/2124586834072330269",
       "excerpt": "Most people running AI agents have the same desktop. Claude Code in one terminal. Codex in another. A Gemini tab behind them. Grok on the phone. And one human in the middle, copy-pasting context",
@@ -2260,7 +2496,7 @@
       "category": "tech",
       "meta": "@0xCodez · 0 粉丝 · 176.9K 阅 · 632 赞 · 65 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "分享一套完整课程，教人用 Claude Code、Codex、Gemini、Grok 等前沿模型构建 AI 智能体团队，解决多终端切换、手动复制上下文的低效痛点，演示多模型协作工作流。"
+      "summary": "T3 Code 推出 AI Agent 团队搭建全流程课程，核心思路是把 Claude Code、Codex、Gemini、Grok 等前沿模型组合成协作团队，摆脱单人复制粘贴上下文的工作方式。课程面向想从单 Agent 转向多 Agent 流水线的开发者。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2271,7 +2507,7 @@
       "category": "tech",
       "meta": "@tobiadonadon_ · 13.8K 粉丝 · 104.6K 阅 · 721 赞 · 43 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "指出 Claude 生成落地页同质化问题，分享如何像专业设计工作室那样引导 Claude，突破千篇一律的衬线标题和斜体词套路，产出真正有辨识度的设计。"
+      "summary": "针对 Claude 生成落地页千篇一律的问题（同样的衬线标题、同样的斜体强调词），分享一套让 Claude 像真实设计工作室一样产出的方法。属于 prompt 与工作流层面的经验，帮助摆脱 AI 生成的同质化审美。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2282,7 +2518,40 @@
       "category": "tech",
       "meta": "@dair_ai · 0 粉丝 · 82.4K 阅 · 560 赞 · 61 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "盘点本周顶级 AI 论文，首篇关注自改进记忆的提示优化：在模型或基准变化时，优化器需决定进化框架中哪些部分保留，为动态适应提供新思路。"
+      "summary": "本周 AI 论文榜精选，榜首聚焦自提升式记忆机制：研究指出 harness 优化通常在固定模型与固定 benchmark 下进行，当任一方变化时，优化器需判断演化后的哪些部分应被保留。属于 harness 进化与评估稳定性的研究话题。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "Gemini Omni 1.2: Longer generations, scene extension, and precision editing now in Google Flow",
+      "url": "https://x.com/FlowbyGoogle/status/2124960667748737313",
+      "excerpt": "Gemini Omni Flash just leveled up in Google Flow, bringing powerful new capabilities alongside meaningful quality enhancements to unlock greater creative control and expand your visual storytelling",
+      "publishedAt": "2026-11-23T20:17:57.000Z",
+      "category": "tech",
+      "meta": "@FlowbyGoogle · 77.9K 粉丝 · 58.4K 阅 · 1.0K 赞 · 89 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "Google Flow 迎来 Gemini Omni Flash 升级，支持更长时长生成、场景延展（scene extension）与精准编辑能力，同时整体画质提升，为创作者提供更强的视觉叙事控制。属于 Google 视频生成方向的产品更新。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "Introducing file slicing controls in the Gemini API",
+      "url": "https://x.com/GoogleAIStudio/status/2124928707529674979",
+      "excerpt": "The Gemini API now features native file slicing controls, allowing developers to specify targeted pages, sheet ranges, and media segments for the model to load server-side. This capability reduces",
+      "publishedAt": "2026-11-23T18:10:57.000Z",
+      "category": "tech",
+      "meta": "@GoogleAIStudio · 223.6K 粉丝 · 55.3K 阅 · 792 赞 · 50 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "Gemini API 新增原生文件切片控制：开发者可指定具体页码、表格区域或媒体片段，由服务端定向加载。此举减少无关内容注入、降低 token 消耗，适合处理长文档与多媒体文件的开发者。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "How Uber Evals 1 Million Agent Skill Invocations a Month",
+      "url": "https://x.com/UberEng/status/2125008806249930999",
+      "excerpt": "Skills at Enterprise Scale A skill is a Markdown file that teaches an AI agent to do one job well, such as creating a pull request, querying a metrics store, or outlining a weekly sales presentation.",
+      "publishedAt": "2026-11-23T23:29:14.000Z",
+      "category": "tech",
+      "meta": "@UberEng · 72.5K 粉丝 · 54.6K 阅 · 812 赞 · 87 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "Uber 分享企业级 Agent Skill 实践：skill 即一份 Markdown 文件，教 AI 完成单一任务（如创建 PR、查询指标库、拟周报）。文章重点是其每月评估 100 万次 skill 调用的评测体系与规模化落地方法。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2293,7 +2562,7 @@
       "category": "tech",
       "meta": "@hwchase17 · 141.3K 粉丝 · 41.0K 阅 · 550 赞 · 42 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "提出企业 AI 落地的关键不是更强模型或更大上下文，而是构建「知识工厂」——系统化沉淀公司运作方式、标准与流程等知识，让 AI 真正服务业务。"
+      "summary": "LangChain 作者分享「知识工厂」思路：企业要让 AI 真正落地，缺的不是更强模型或更多 context，而是对公司运作方式、标准与流程的结构化知识。属于企业级 AI 落地的方法论，而非单一工具教程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2304,7 +2573,18 @@
       "category": "tech",
       "meta": "@sermakarevich · 3.1K 粉丝 · 40.8K 阅 · 589 赞 · 73 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "面向工程师和决策者的评测框架选型指南，基于公开文档与论文数据，对比主流工具实际检测能力，帮助团队选择能真正验证发布质量的评估方案。"
+      "summary": "面向上线 LLM 功能的工程师与选型管理者，横向对比主流 eval 框架，梳理各工具实际要求你编写的内容与覆盖范围，帮助挑出能真正校验交付物的方案。数字来自公开文档、仓库与论文。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "Building Mont-Saint-Michel with Astra inside Unreal Engine",
+      "url": "https://x.com/UnrealEngine/status/2124911349775868138",
+      "excerpt": "Hi, I’m Quentin Marmier, Technical Art Director at Epic Games. I’ve been having a blast building a Mont-Saint-Michel-inspired level with Astra in Unreal Engine. Mont-Saint-Michel is a French island",
+      "publishedAt": "2026-11-23T17:01:59.000Z",
+      "category": "tech",
+      "meta": "@UnrealEngine · 601.3K 粉丝 · 37.6K 阅 · 593 赞 · 46 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "Epic Games 技术艺术总监 Quentin Marmier 分享用 Astra 在 Unreal Engine 中构建「圣米歇尔山」风格关卡的过程，展示程序化生成工具在场景搭建中的实际应用，偏 UE 引擎与艺术工作流。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2315,63 +2595,155 @@
       "category": "tech",
       "meta": "@alexandr_wang · 855.8K 粉丝 · 22.8K 阅 · 537 赞 · 63 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者从数学科学背景出发，警示超级智能即将到来，未来一年的行动将深远影响人类命运，呼吁对 AI 发展轨迹保持清醒与前瞻性思考。"
+      "summary": "Scale AI 创始人 Alexandr Wang 发文称超级智能（superintelligence）正在到来，强调未来一年的集体应对方式将深刻影响最终世界形态。属偏宏观与风险视角的观点表达，无具体技术细节。"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "AI Trade Rebound Drives Limit Up Moves in Nvidia Supplier Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade",
-      "excerpt": "Asian semiconductor-related stocks climbed after Nvidia Corp.’s board reinstated Jensen Huang, resuscitating investor appetite for the artificial intelligence trade.",
-      "publishedAt": "2026-11-23T23:45:20.000Z",
+      "title": "FTSE 100 Live: UK Stocks Set to Join Global Stocks Rally",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-11-24/ftse-100-live-updates-pound-gilts-gold-prices-uk-retail-sales-nvidia-ai-stocks-jensen-huang-trump-iran-what-s-moving-uk-markets-right-now-markets-today-mwucfxwp",
+      "excerpt": "",
+      "publishedAt": "2026-11-24T06:58:48.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "英伟达董事会恢复黄仁勋职务后，亚洲半导体相关股票大涨，投资者对AI交易的兴趣重燃，多只供应商股票涨停。"
+      "summary": "彭博 Markets 发布 FTSE 100 实时追踪，显示英国股指有望跟随全球股票集体反弹。直播页同时跟踪英镑、英国国债、金价、英国零售销售数据，以及英伟达 AI 股、黄仁勋（Jensen Huang）、特朗普与伊朗议题对英国市场的影响。"
     },
     {
       "sourceId": "bloomberg-markets",
       "title": "Asian Stocks Jump as Huang’s Return Lifts AI Trade: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
-      "excerpt": "Asian shares jumped the most in three months as Jensen Huang’s return to lead Nvidia Corp. sparked a rebound in the artificial intelligence trade, sending the region’s major chipmakers surging after last week’s rout.",
+      "excerpt": "Asian shares jumped the most since July as Jensen Huang’s return to lead Nvidia Corp. sparked a rebound in the artificial intelligence trade, sending the region’s chipmakers surging after last week’s rout.",
       "publishedAt": "2026-11-23T22:06:46.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Keppel Shakes Up Singapore Telecom Sector as M1, Starhub Merge",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/keppel-agrees-to-merge-m1-and-starhub-in-all-share-deal",
-      "excerpt": "Asset manager Keppel Ltd. agreed to combine M1 Ltd. with Starhub Ltd. in an all-share deal, bringing together two of Singapore’s major telecommunications operators following months of talks.",
-      "publishedAt": "2026-11-24T01:07:27.000Z",
+      "title": "Copper Rally Fades as Demand Worries Deepen",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/copper-rally-fades-as-demand-worries-deepen-video",
+      "excerpt": "Copper erased a one-day gain sparked by Jensen Huang’s return to Nvidia Corp. Prices tumbled back toward the $12,000-a-ton level in London. Bloomberg's Mark Cranfield breaks down the situation. (Source: Bloomberg)",
+      "publishedAt": "2026-11-24T06:49:13.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "吉宝企业同意以全股交易方式将新加坡电信运营商M1与星和合并，此举重塑新加坡电信业格局。"
+      "summary": "受需求担忧加深影响，铜价涨势消退。此前由英伟达掌门人黄仁勋复出提振的一日涨幅被抹去，伦敦铜价回落至每吨 1.2 万美元附近。彭博评论员 Mark Cranfield 在视频中解析当前铜市供需与价格形势。"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Copper Resumes Decline as Investors Look Beyond Drama at Nvidia",
+      "title": "Emerging Market Stocks Rally as Huang’s Return Revives AI Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/emerging-market-stocks-rally-as-huang-s-return-revives-ai-trade",
+      "excerpt": "Emerging-market stocks rallied the most since July as investors snapped up artificial intelligence shares after Jensen Huang’s return to lead Nvidia Corp.",
+      "publishedAt": "2026-11-24T06:26:44.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "彭博报道，受黄仁勋重新执掌英伟达消息提振，新兴市场股票大幅反弹，为 7 月以来最强表现。投资者大举买入人工智能相关个股，AI 交易热度重燃，带动新兴市场整体风险偏好上升。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "South Korea Considers Potential $3 Billion Dollar Bond Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/south-korea-considers-potential-3-billion-dollar-bond-sale",
+      "excerpt": "South Korea is considering issuing potentially about $3 billion of dollar-denominated notes in January.",
+      "publishedAt": "2026-11-24T06:20:31.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "彭博报道，韩国正在考虑于 1 月在海外市场发行规模约 30 亿美元的美元计价债券。此举旨在通过境外美元债市场为财政或相关机构融资，规模与发行时点仍待确定。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Copper Erases Brief Nvidia Bounce on Demand and Rate Concerns",
       "url": "https://www.bloomberg.com/news/articles/2026-11-24/copper-resumes-decline-as-investors-look-beyond-drama-at-nvidia",
-      "excerpt": "Copper resumed a decline after a spike driven by Jensen Huang’s return to Nvidia Corp., with investors still cautious about demand.",
+      "excerpt": "Copper erased a one-day gain sparked by Jensen Huang’s return to Nvidia Corp., with prices tumbling back toward the $12,000-a-ton level in London as demand and interest-rate concerns returned to the fore.",
       "publishedAt": "2026-11-24T02:38:19.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "铜价在因黄仁勋重返英伟达引发的上涨后回落，投资者对需求仍持谨慎态度，目光转向其他因素。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Copper Smelters Face Worsening Squeeze as Negotiations Stall",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/copper-smelters-face-worsening-squeeze-as-negotiations-stall",
-      "excerpt": "Copper smelters are bracing for a period of extreme financial pressure as closely-watched negotiations over supply contracts for next year go down to the wire.",
-      "publishedAt": "2026-11-24T01:29:41.000Z",
+      "title": "China Warns Huang Comeback Doesn’t End ‘Malicious’ Risks From US",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-warns-huang-comeback-doesn-t-end-malicious-risks-from-us",
+      "excerpt": "Jensen Huang’s return to the helm of Nvidia Corp. restores the AI industry’s most prominent opponent of chip controls against China. Already, Beijing has signaled it sees little reason to expect Washington’s restrictions to ease.",
+      "publishedAt": "2026-11-24T06:12:55.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "铜冶炼厂面临日益严峻的资金压力，因明年供应合同的年度谈判陷入僵局，市场供应紧张加剧。"
+      "summary": "彭博报道，中国方面表示黄仁勋回归英伟达并不改变来自美国的所谓「恶意」风险。黄仁勋复出被视为恢复了对华芯片管控最知名的反对者，但北京已表态预计华盛顿的出口限制不会因此放松。"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Margin Calls Rose in Taiwan Before Huang Return Fueled Rally",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/margin-calls-soared-200-fold-in-taiwan-as-traders-fled-ai-bets",
-      "excerpt": "Julia Lee, a stockbroker in Taiwan, spent so much time making margin calls last week that she decided to add a human touch. She sent empathetic messages to suffering traders, saying she was there to help them ride out the storm.",
-      "publishedAt": "2026-11-23T10:11:28.000Z",
+      "title": "Goldman Says Won Stability Beats Rate Hikes in Cooling Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/goldman-says-won-stability-beats-rate-hikes-in-cooling-inflation",
+      "excerpt": "Goldman Sachs Group Inc. said stabilizing South Korea’s currency would be a more effective way to curb inflation than raising interest rates, arguing that price pressures stem more from rising import costs than from strong domestic demand.",
+      "publishedAt": "2026-11-24T04:33:10.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Singapore, China Deepen Yuan Ties With Focus on Corporates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/singapore-china-to-deepen-yuan-ties-with-focus-on-corporates",
+      "excerpt": "The central banks of Singapore and China will expand ways for financial institutions to access yuan funding in the city-state to help finance a broader range of corporate activities, in another step to promote the currency’s international use.",
+      "publishedAt": "2026-11-24T04:50:54.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "India Banking Cash Turns to Deficit, First Time Since June",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/india-s-banking-cash-turns-to-deficit-for-first-time-since-june",
+      "excerpt": "India’s banking-system liquidity slipped into deficit for the first time in about five months, as recent tax outflows drained cash from lenders.",
+      "publishedAt": "2026-11-23T08:42:10.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
+      "excerpt": "Gold held a gain after surging Monday on the back of Jensen Huang’s surprise return to the helm of Nvidia Corp., which recharged bets on artificial intelligence and spurred rallies across markets.",
+      "publishedAt": "2026-11-24T00:06:57.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Asia Stocks Jump as Huang’s Return Lifts AI Trade",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/the-asia-trade-11-24-2026-video",
+      "excerpt": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Sydney and Singapore with Haidi Stroud-Watts and Avril Hong, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping g",
+      "publishedAt": "2026-11-24T05:00:29.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "彭博视频《The Asia Trade》（2026 年 11 月 24 日）报道，受黄仁勋复出消息提振 AI 交易情绪，亚洲股市盘中上涨。节目从悉尼和新加坡直播，分析师 Haidi Stroud-Watts 与 Avril Hong 解读亚洲市场开盘动向。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Temasek-Backed M1, Starhub Merge in Singapore Telecoms Shakeup",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/keppel-agrees-to-merge-m1-and-starhub-in-all-share-deal",
+      "excerpt": "Asset manager Keppel Ltd. agreed to combine M1 Ltd. with Starhub Ltd. in an all-share deal, bringing together two major Singaporean telecommunications operators backed by state investor Temasek Holdings Pte.",
+      "publishedAt": "2026-11-24T01:07:27.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Treasuries Advance as Cheaper Oil Alleviates Inflation Concerns",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
+      "excerpt": "US Treasuries gained across the curve as a drop in oil prices eased concerns about inflation, a notable move on a day when Jensen Huang’s return to Nvidia Corp. revived investor appetite for risk assets.",
+      "publishedAt": "2026-11-24T04:42:33.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Huang Comeback Ignites Limit-Up Frenzy in Battered Asia AI Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade",
+      "excerpt": "Asia’s AI trade came roaring back Tuesday, with chipmakers and data-center plays from Taiwan to Kuala Lumpur surging as Jensen Huang’s return to Nvidia unleashed a buying frenzy across a sector battered by weeks of doubts over the durability of the AI boom.",
+      "publishedAt": "2026-11-23T23:45:20.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "MSCI Says No Change in Indonesia Market Consultation Process",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/msci-says-no-change-in-indonesia-market-consultation-process",
+      "excerpt": "US index compiler MSCI Inc. said Tuesday that it hadn’t changed its process for considering a downgrade of Indonesia’s stock-market status, a day after Bloomberg reported news of a meeting between the company’s chief executive and President Prabowo Subianto.",
+      "publishedAt": "2026-11-24T04:13:48.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2379,129 +2751,35 @@
       "sourceId": "bloomberg-markets",
       "title": "Latest Oil Market News and Analysis for Nov. 24",
       "url": "https://www.bloomberg.com/news/articles/2026-11-23/latest-oil-market-news-and-analysis-for-nov-24",
-      "excerpt": "Oil steadied after sliding more than 3% in the previous session on cautious optimism over efforts to end the US-Iran war.",
+      "excerpt": "Oil pushed lower after sliding more than 3% in the previous session on cautious optimism over efforts to end the US-Iran war.",
       "publishedAt": "2026-11-23T23:04:12.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Gold Extends Gain After Nvidia’s Rehiring of Huang Sparks Rally",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
-      "excerpt": "Gold rose for a second day, after Jensen Huang’s surprise return to the helm of Nvidia Corp. recharged bets on artificial intelligence and spurred rallies across markets.",
-      "publishedAt": "2026-11-24T00:06:57.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "金价连续第二日上涨，受黄仁勋重返英伟达提振AI押注、引发市场普涨的带动，避险需求升温。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Malaysia Index Rejig Puts Tech, Power Stocks in Focus for 2027",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027",
-      "excerpt": "Malaysia is gearing up for the first major overhaul of its equity benchmark in 17 years, a shake-up that may channel more investor money into technology and energy companies just as traders rethink the profitability of the AI trade.",
-      "publishedAt": "2026-11-24T01:12:37.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "马来西亚将进行17年来首次基准股指重大调整，科技和能源类股或将吸引更多资金流入，同时投资者重新评估AI交易的盈利性。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Canadian Stocks Recover as Huang’s Return Fuels Metals, Tech",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/canadian-stocks-recover-as-huang-s-return-fuels-metals-tech",
-      "excerpt": "Canada’s equity benchmark posted its biggest gain since April 2025, fueled by surging precious metals and technology stocks, after Nvidia Corp. reinstated Jensen Huang as its chief executive officer.",
-      "publishedAt": "2026-11-23T15:50:34.000Z",
+      "title": "Australia Bonds Set for Longest Rally Since June on RBA Cut Bets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/australia-bonds-set-for-longest-rally-since-june-on-rba-cut-bets",
+      "excerpt": "Australia’s bond market is heading for its longest rally in over five months as mounting signs of economic weakness fuel bets the Reserve Bank’s next move will be an interest-rate cut.",
+      "publishedAt": "2026-11-24T04:06:12.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "US Senate Probes Vance Role in Vitol Choice for Venezuela Oil",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-senate-probes-vance-role-in-vitol-choice-for-venezuela-oil",
-      "excerpt": "A US senator is investigating the role Vice President JD Vance played in awarding a lucrative Venezuelan oil contract to a political donor and then-executive at commodities trader Vitol Group.",
-      "publishedAt": "2026-11-24T00:11:51.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "美国参议员调查副总统万斯在将委内瑞拉石油合同授予大宗商品交易商维托尔前高管、政治献金者一事中的角色。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Petrobras Makes $470 Million Ethanol Bet in Brazil With Neomille Stake",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/petrobras-makes-470-million-ethanol-bet-in-brazil-with-neomille-stake",
-      "excerpt": "Brazil’s state-controlled oil producer Petrobras is buying a stake in corn-ethanol producer Neomille SA as part of a wider expansion into biofuels.",
-      "publishedAt": "2026-11-24T00:08:20.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "巴西国家石油公司Petrobras以4.7亿美元收购玉米乙醇生产商Neomille股份，扩大生物燃料业务布局。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Why Did Nvidia Reinstate Jensen Huang as CEO?",
-      "url": "https://www.bloomberg.com/news/features/2026-11-23/why-did-nvidia-reinstate-jensen-huang-as-ceo",
-      "excerpt": "A White House pressure campaign and a $5 trillion market slide forced Nvidia to reinstate its founder — proving that in the AI race, boardroom discipline is a luxury shareholders can’t afford.",
-      "publishedAt": "2026-11-23T23:20:08.000Z",
+      "title": "GQG Shares Set for Record Surge in Sydney With AI Trade Revival",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/gqg-shares-set-for-record-surge-in-sydney-with-ai-trade-revival",
+      "excerpt": "GQG Partners Inc.’s Australia-listed shares are on track for a record daily gain, as a rebound in the artificial intelligence trade drew investors back into Rajiv Jain’s beaten-down investment firm.",
+      "publishedAt": "2026-11-24T03:42:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Startup Options Exchange Asks SEC to Approve Two New Venues",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/startup-options-exchange-asks-sec-to-approve-two-new-venues",
-      "excerpt": "Options Xchange Group Inc., a startup bourse focused on equity derivatives, is seeking to start two new venues.",
-      "publishedAt": "2026-11-23T23:08:44.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Strong Earnings No Match for the Crumbling AI Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/strong-earnings-prove-no-match-for-the-crumbling-ai-trade",
-      "excerpt": "For years, a strong earnings season has given Wall Street something to fall back on. But the crumbling artificial-intelligence trade has ripped away that support.",
-      "publishedAt": "2026-11-22T13:30:00.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Latest Oil Market News and Analysis for Nov. 23",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/latest-oil-market-news-and-analysis-for-nov-23",
-      "excerpt": "Oil fell to the lowest since August as investors unwound hedges against a weekend escalation by US forces in Iran, with Washington taking a more dovish stance for now.",
-      "publishedAt": "2026-11-22T23:06:06.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Biotech Kymera Therapeutics Seeks $1.5 Billion in Share Sale",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/kymera-therapeutics-seeks-to-raise-1-5-billion-in-share-sale",
-      "excerpt": "Kymera Therapeutics Inc. is seeking to raise $1.5 billion in a share sale, according to a statement.",
-      "publishedAt": "2026-11-23T22:00:24.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Credit Fear Gauge Drops as Huang’s Return Boosts AI Hopes",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/credit-heads-swivel-as-huang-return-ignites-tech-debt-rally",
-      "excerpt": "Corporate-debt markets rallied globally on Monday, with US fear gauges improving the most in weeks and technology firms’ bonds rebounding after Nvidia Corp.’s board reinstated Jensen Huang as chief executive officer.",
-      "publishedAt": "2026-11-23T15:56:17.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Jensen Huang Returns to Nvidia Offices",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-23/jensen-huang-returns-to-nvidia-offices-video",
-      "excerpt": "Jensen Huang returned to the company’s Santa Clara, California, offices on Monday to applause and cheers from employees who shared videos. He spoke with them briefly at one of the entrances (Source: Bloomberg)",
-      "publishedAt": "2026-11-23T21:46:13.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Wall Street Storms Back as AI Trade Rebounds With Huang’s Return",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
-      "excerpt": "US stocks staged a stunning rally on Monday, bouncing back from last week’s brutal technology-led selloff as the surprise return of Jensen Huang to lead Nvidia Corp. propelled Wall Street to its best day since April 2025.",
-      "publishedAt": "2026-11-23T21:42:36.000Z",
+      "title": "Shares in Chinese Cobalt Producers Jump After Congo Bans Exports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/shares-in-chinese-cobalt-producers-jump-after-congo-bans-exports",
+      "excerpt": "Shares in Chinese cobalt producers surged after the Democratic Republic of Congo slapped an export ban on the battery metal from the end of the month in a bid to arrest a price decline.",
+      "publishedAt": "2026-11-24T03:17:56.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2687,13 +2965,216 @@
     },
     {
       "sourceId": "ft-companies",
-      "title": "Asian tech stocks surge after Jensen Huang’s return",
+      "title": "Tech stocks surge on Jensen Huang’s return",
       "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-      "excerpt": "Region’s markets follow Wall Street higher on Nvidia chief’s reinstatement",
-      "publishedAt": "2026-11-24T02:40:25.000Z",
+      "excerpt": "Asian markets follow Wall Street higher after Nvidia chief’s reinstatement",
+      "publishedAt": "2026-11-24T06:30:34.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "英伟达CEO黄仁勋复职后，亚洲科技股跟随华尔街走高，地区市场普遍上涨，投资者对AI交易热情重燃。"
+      "summary": "《金融时报》报道，亚洲股市跟随华尔街走高，科技股集体上涨，主要受英伟达 CEO 黄仁勋复出掌权消息提振。市场重新押注 AI 与算力相关标的，带动亚洲风险偏好回升。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "The Jensen put",
+      "url": "https://www.ft.com/content/74408261-9cb4-41ae-8d4f-3a1a9ce72930?syn-25a6b1a6=1",
+      "excerpt": "Plus, Capex or die trying",
+      "publishedAt": "2026-11-24T06:30:04.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "《金融时报》刊文《The Jensen put》，探讨黄仁勋回归英伟达领导层对市场情绪的影响，并将其比作 AI 板块的隐性支撑；同时讨论在 AI 行情中，企业资本开支（capex）的重要性，即「不减投 AI 就难以生存」的投资逻辑。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Singapore is no backdoor for US chips, PM says",
+      "url": "https://www.ft.com/content/6ca21b39-ff62-42e0-9695-9220b438f7eb?syn-25a6b1a6=1",
+      "excerpt": "Lawrence Wong vows city-state will not let companies break law by circumventing export controls",
+      "publishedAt": "2026-11-24T06:12:20.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "《金融时报》报道，新加坡总理黄循财（Lawrence Wong）表示，新加坡不会成为美国芯片转口中国或规避出口管制的后门。他承诺新加坡将不让企业以规避出口管制违法的方式进行芯片交易。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "German industrial giants launch trading house for rare earths",
+      "url": "https://www.ft.com/content/bfcb8ee8-97cc-4ef0-8234-3a8da0d3a814?syn-25a6b1a6=1",
+      "excerpt": "Also in this newsletter: Europe’s underused playing card on AI",
+      "publishedAt": "2026-11-24T06:00:05.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "《金融时报》报道，德国工业巨头联合成立一家稀有金属贸易商，旨在建立欧洲本土稀土供应与采购渠道。同期内容还提及欧洲在 AI 领域被低估的战略筹码。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "The non-league football club at the centre of a boardroom battle",
+      "url": "https://www.ft.com/content/5a756dbf-fd0a-4dfb-81dd-a20069b00505",
+      "excerpt": "The Auction Technology Group directors with a hand in The Beavers, versus the activist shareholder who’s putting them in an uncomfortable position",
+      "publishedAt": "2026-11-24T06:00:05.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "《金融时报》报道 Auction Technology Group（AAT）的内部董事会争夺战，与其旗下非联赛足球俱乐部 The Beavers 有关。文章聚焦参与经营该俱乐部的 AAT 董事与发起异议的积极型股东之间的对峙。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "FirstFT: Inside Jensen Huang’s return to power",
+      "url": "https://www.ft.com/content/5fd14979-e239-4eaf-bbfb-cde969afb514?syn-25a6b1a6=1",
+      "excerpt": "Also in today’s newsletter: fake explosives and Patriot shipments",
+      "publishedAt": "2026-11-24T05:31:13.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "《金融时报》FirstFT 通讯聚焦黄仁勋重掌英伟达的幕后细节，分析其对 AI 行业与科技股预期的影响。同批通讯还提及虚假爆炸装置事件与「爱国者」防空系统发货相关内容。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "EU to seek changes to UN climate talks process after COP failure",
+      "url": "https://www.ft.com/content/f01d609c-485d-4d1d-ac0a-5fa1fd5c7612",
+      "excerpt": "Acrimony and finger-pointing over the breakdown comes after a year of increasingly extreme climate disasters",
+      "publishedAt": "2026-11-24T05:00:25.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Committee of MPs set to criticise Heathrow’s third runway plan",
+      "url": "https://www.ft.com/content/f6816dbe-2108-415c-a32c-9c6fd7a2d959?syn-25a6b1a6=1",
+      "excerpt": "Scheme will damage the environment while providing limited economic gain, report into £33bn project says",
+      "publishedAt": "2026-11-24T05:00:25.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Silicon Valley’s too big to fail moment",
+      "url": "https://www.ft.com/content/5a5ad497-11e7-493b-8ee4-46e65e59d873?syn-25a6b1a6=1",
+      "excerpt": "Washington’s intervention at Nvidia harks back to the 2008 financial crisis",
+      "publishedAt": "2026-11-24T05:00:25.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "What are you thinking? It depends who’s asking",
+      "url": "https://www.ft.com/content/a547a707-0ddd-4e45-b2e4-b29dabb72057?syn-25a6b1a6=1",
+      "excerpt": "We may answer questions differently if AI is conducting the interview",
+      "publishedAt": "2026-11-24T05:00:25.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Compass exit should spur London to beef up its bench",
+      "url": "https://www.ft.com/content/d23b5a83-0ada-4d94-adb1-de826a896174?syn-25a6b1a6=1",
+      "excerpt": "Financial hubs are like football teams, and it’s time for London market to focus on the next generation",
+      "publishedAt": "2026-11-24T05:00:24.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "The Nvidia protocol: spies and Big Tech",
+      "url": "https://www.ft.com/content/c96c40c5-6b07-4433-b65f-19105e9ccb44?syn-25a6b1a6=1",
+      "excerpt": "AI groups are now at the heart of geopolitics. Some are not ready",
+      "publishedAt": "2026-11-24T05:00:16.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "SpaceX-Tesla: the directors negotiating the biggest merger ever",
+      "url": "https://www.ft.com/content/2585e45e-9133-4215-a2d8-e1275e1033b9?syn-25a6b1a6=1",
+      "excerpt": "Five executives are charged with combining Elon Musk’s sprawling enterprises into a potential $3.5tn colossus",
+      "publishedAt": "2026-11-24T05:00:16.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Compass reignites City exodus fears",
+      "url": "https://www.ft.com/content/eb2618d4-46db-4d1b-bdc8-62c69c07cb16?syn-25a6b1a6=1",
+      "excerpt": "Catering company is latest heavyweight to plan New York shift as groups seek to boost liquidity and valuations",
+      "publishedAt": "2026-11-24T05:00:15.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "The political tide is turning on US audits",
+      "url": "https://www.ft.com/content/b7726a77-5f25-4c9c-8900-1609479b34b8?syn-25a6b1a6=1",
+      "excerpt": "More signs are emerging of the industry regulator’s new approach under chair Jim Logothetis",
+      "publishedAt": "2026-11-24T05:00:15.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Hargreaves Lansdown is being untangled with AI",
+      "url": "https://www.ft.com/content/0da0e206-5fda-4bab-89a9-4d43340fbd3b?syn-25a6b1a6=1",
+      "excerpt": "The UK’s largest investment platform wants to fix its outdated technology and slow culture under private equity ownership",
+      "publishedAt": "2026-11-24T05:00:15.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Aldi slashes product ranges as Lidl gains ground",
+      "url": "https://www.ft.com/content/dc339083-12ff-4a83-92c6-6afdf71185df?syn-25a6b1a6=1",
+      "excerpt": "Germany-based retailer seeks to return to its discounter roots to lure shoppers to its stores",
+      "publishedAt": "2026-11-24T05:00:15.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "We are the ‘Tesla’ of ratings, says tiny agency behind private credit boom",
+      "url": "https://www.ft.com/content/26739054-0455-449b-9566-97fb4986088d?syn-25a6b1a6=1",
+      "excerpt": "Egan-Jones president argues the rating group can churn out thousands of scores due to its investment in technology",
+      "publishedAt": "2026-11-24T05:00:15.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Britain bought fake C4 explosives for Ukraine",
+      "url": "https://www.ft.com/content/b5873050-2b90-4889-bbf6-902234e51e9f?syn-25a6b1a6=1",
+      "excerpt": "Flagship UK procurement unit paid a part-time US police officer for tonnes of plastic explosives with no detectable RDX, the main ingredient in military C4",
+      "publishedAt": "2026-11-24T05:00:07.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "European fertiliser suppliers shutting plants as energy prices soar",
+      "url": "https://www.ft.com/content/97e74bf5-081b-4f56-900f-36f1fd3b0e20?syn-25a6b1a6=1",
+      "excerpt": "A third of ammonia production suspended because of power costs, raising reliance on imports",
+      "publishedAt": "2026-11-24T05:00:06.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Hotel groups push into branded luxury apartments",
+      "url": "https://www.ft.com/content/17cf3373-d5e1-4161-b1d2-b10e3b0dfdf8?syn-25a6b1a6=1",
+      "excerpt": "Marriott, Hilton and other hospitality companies are offering residences as a way to generate extra income and cover the upfront costs of new hotels",
+      "publishedAt": "2026-11-24T05:00:06.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Has the Birkin bag had its day?",
+      "url": "https://www.ft.com/content/a02e3faa-fe65-4a92-9add-ee38b96af83d",
+      "excerpt": "Too pricey, too gauche, say critics of the Hermès tote, despite strong sales, but the risk of overexposure is pushing buyers to more under-the-radar brands",
+      "publishedAt": "2026-11-24T05:00:06.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Does Jensen Huang’s return to Nvidia mean the chip group is too big to fail?",
+      "url": "https://www.ft.com/content/ecdc724e-5923-4e57-9d72-c6551c9634f9?syn-25a6b1a6=1",
+      "excerpt": "Nvidia gains nearly $1tn in value after Jensen Huang reinstated",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "category": "finance",
+      "source": "Financial Times"
     },
     {
       "sourceId": "ft-companies",
@@ -2702,8 +3183,7 @@
       "excerpt": "Saudi national is also alleged to have photographed confidential documents",
       "publishedAt": "2026-11-24T01:31:42.000Z",
       "category": "finance",
-      "source": "Financial Times",
-      "summary": "美国检察官称，OpenAI一名沙特籍工程师涉嫌持有数十份会议录音，并拍摄机密文件，案件正在调查中。"
+      "source": "Financial Times"
     },
     {
       "sourceId": "ft-companies",
@@ -2715,212 +3195,13 @@
       "source": "Financial Times"
     },
     {
-      "sourceId": "ft-companies",
-      "title": "Inside the ‘war room’ that lobbied Trump to bring back ousted tech boss",
-      "url": "https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1",
-      "excerpt": "Silicon Valley titans enlisted US president and JD Vance to rescue the billionaire tech boss whom they viewed as critical for the AI industry",
-      "publishedAt": "2026-11-23T22:46:14.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Trump made up to $15mn on Nvidia shares after Huang’s return",
-      "url": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763?syn-25a6b1a6=1",
-      "excerpt": "Profit on 30% jump in chip group’s share price based on maximum amount US president could have owned in latest disclosure",
-      "publishedAt": "2026-11-23T22:21:44.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "FirstFT: Nvidia adds nearly $1tn in value after Jensen Huang reinstated",
-      "url": "https://www.ft.com/content/5fd14979-e239-4eaf-bbfb-cde969afb514?syn-25a6b1a6=1",
-      "excerpt": "Also in today’s newsletter: Ukraine blows up Russian warship in Libya’s Benghazi and Nepal’s PM seals aid deal with India’s Narendra Modi",
-      "publishedAt": "2026-11-23T22:08:21.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Nasdaq jumps 7% as Nvidia shares soar",
-      "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-      "excerpt": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
-      "publishedAt": "2026-11-23T22:01:02.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Nvidia gains nearly $1tn in value after Jensen Huang reinstated",
-      "url": "https://www.ft.com/content/20d2ebe3-e945-4659-a122-31bf85a4e4e5?syn-25a6b1a6=1",
-      "excerpt": "Interim chief and senior management were unaware of the discussions over the weekend",
-      "publishedAt": "2026-11-23T21:05:44.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "US lawmakers vow to sharpen Huang probes as he returns to Nvidia",
-      "url": "https://www.ft.com/content/6b4e5bfb-d566-4a61-a12c-057881a261b8?syn-25a6b1a6=1",
-      "excerpt": "Democrats and Republicans insist tech CEO must testify in public",
-      "publishedAt": "2026-11-23T19:11:29.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "The startling return of Jensen Huang",
-      "url": "https://www.ft.com/content/d23fd311-ac96-4dfb-88ef-b1ccb2197f13?syn-25a6b1a6=1",
-      "excerpt": "Trump’s intervention to reinstate the Nvidia boss sets a dangerous precedent",
-      "publishedAt": "2026-11-23T18:11:30.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "The COP failure the world needed",
-      "url": "https://www.ft.com/content/08f218f7-6e9a-4267-b9cf-6aab727b8e14?syn-25a6b1a6=1",
-      "excerpt": "The disaster that was the climate gathering in Antalya should prompt overdue reform",
-      "publishedAt": "2026-11-23T17:51:27.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Russia poised to put nuclear weapon in space within 60 days, Germany warns",
-      "url": "https://www.ft.com/content/dd00f616-1fef-4a26-a5f9-2b1bf83cc489?syn-25a6b1a6=1",
-      "excerpt": "Berlin is ‘taking seriously’ intelligence reports shared by western allies that Moscow could deploy ‘Sputnik-S’ armed satellite as soon as next month",
-      "publishedAt": "2026-11-23T17:37:46.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Capita’s pesky civil service pension mandate may be its saving grace",
-      "url": "https://www.ft.com/content/e99cf35e-7d96-4eff-8c50-cb66f7d55b48?syn-25a6b1a6=1",
-      "excerpt": "There are few competitors ready to take on the UK group",
-      "publishedAt": "2026-11-23T17:22:20.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Capita shares drop 74% on cash call after civil service pension failures",
-      "url": "https://www.ft.com/content/d5e951e6-b5f6-4286-9de4-495c9a3c2472?syn-25a6b1a6=1",
-      "excerpt": "UK outsourcer replaces chief executive Adolfo Hernandez alongside recapitalisation and profit guidance cut",
-      "publishedAt": "2026-11-23T16:55:05.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Return is a triumph of money over morals",
-      "url": "https://www.ft.com/content/189b5df2-2d06-42db-8843-1a542efb0a8f?syn-25a6b1a6=1",
-      "excerpt": "The chipmaker’s soaring stock suggests investors are on board with its co-founder’s astonishing comeback",
-      "publishedAt": "2026-11-23T16:51:47.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "SpaceX’s big bad Black Friday bond hangover",
-      "url": "https://www.ft.com/content/5ddc1453-026e-4adb-a5eb-950e7d666abc",
-      "excerpt": "🪐 🚀",
-      "publishedAt": "2026-11-23T16:41:40.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Banker paid ex-prince Andrew £750,000 after winning award at his event, court told",
-      "url": "https://www.ft.com/content/9d7841cb-56c8-4d84-92f3-6d2946fbd7aa?syn-25a6b1a6=1",
-      "excerpt": "Brother of King Charles is set to testify next month in £40mn civil fraud trial",
-      "publishedAt": "2026-11-23T16:36:16.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "DR Congo reimposes cobalt export ban to shore up prices",
-      "url": "https://www.ft.com/content/7421ec30-dde5-409a-971c-64359c21ea3d?syn-25a6b1a6=1",
-      "excerpt": "Move marks second time in two years that the world’s top producer of the metal has cut off supply to try to gain leverage over market",
-      "publishedAt": "2026-11-23T16:13:19.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "What happens when bubbles burst",
-      "url": "https://www.ft.com/content/aa71d6bc-bbca-4e95-81b1-20895ac0cb59?syn-25a6b1a6=1",
-      "excerpt": "AI enthusiasm has turned into major investor concern that a market might be heading for a fall",
-      "publishedAt": "2026-11-23T16:00:11.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Hilco approached to sell off Poundland’s stock if retailer fails",
-      "url": "https://www.ft.com/content/0ee5c4f7-f6c8-4dcc-b947-3770c0253faf?syn-25a6b1a6=1",
-      "excerpt": "Discount retailer set to enter administration on Wednesday night unless a buyer is found",
-      "publishedAt": "2026-11-23T14:58:15.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Mercedes gets edge over Tesla in race for self-driving success in Europe",
-      "url": "https://www.ft.com/content/d69b4757-1fd0-40f6-b131-63832fc8e4d0?syn-25a6b1a6=1",
-      "excerpt": "EU emerges as new battleground for intelligent cars and robotaxis",
-      "publishedAt": "2026-11-23T13:40:19.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "EU launches antitrust probe into Coca-Cola bottler",
-      "url": "https://www.ft.com/content/a9686a35-ba71-4f5c-8fe8-ca3bc34a67b1?syn-25a6b1a6=1",
-      "excerpt": "Commission investigates whether Coca-Cola Europacific Partners abused dominant position",
-      "publishedAt": "2026-11-23T12:32:10.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Rene Haas affirms his ‘long-term commitment’ to Arm after Nvidia approach",
-      "url": "https://www.ft.com/content/6f3e2cbe-9ce4-47e7-be69-a2e765da8f9c",
-      "excerpt": "UK chip company’s chief signs new contract after being approached as possible candidate to replace Jensen Huang",
-      "publishedAt": "2026-11-23T12:28:53.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "CrowdStrike to buy Zscaler in $44bn deal as cyber threats mount",
-      "url": "https://www.ft.com/content/762bd05d-8e20-4abf-9bc5-4e6f9bf628cb?syn-25a6b1a6=1",
-      "excerpt": "All-stock acquisition comes as businesses and governments across the world grapple with wave of tech outages",
-      "publishedAt": "2026-11-23T11:02:10.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Palmer Luckey’s start-up bank hits $1bn in loans",
-      "url": "https://www.ft.com/content/a561a19d-fdd6-4cab-9ae9-58d8e0efbd0e?syn-25a6b1a6=1",
-      "excerpt": "Lender set up by Anduril founder expected to draw scrutiny from Democrats over his ties to Trump administration",
-      "publishedAt": "2026-11-23T11:00:08.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
       "sourceId": "bbc-business",
-      "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
       "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
       "excerpt": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-      "publishedAt": "2026-11-24T01:11:54.000Z",
+      "publishedAt": "2026-11-24T04:36:31.000Z",
       "category": "finance",
-      "source": "BBC Business",
-      "summary": "英伟达恢复黄仁勋CEO职务，此前其涉及与疑似间谍的婚外情；特朗普称促成此事。黄仁勋回归后公司市值增加1万亿美元。"
+      "source": "BBC Business"
     },
     {
       "sourceId": "bbc-business",
@@ -2951,22 +3232,21 @@
     },
     {
       "sourceId": "bbc-business",
+      "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
+      "url": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists.",
+      "publishedAt": "2026-11-24T00:01:04.000Z",
+      "category": "finance",
+      "source": "BBC Business"
+    },
+    {
+      "sourceId": "bbc-business",
       "title": "The rise and fall and rise again of Jensen Huang",
       "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
       "excerpt": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
       "publishedAt": "2026-11-23T15:49:52.000Z",
       "category": "finance",
       "source": "BBC Business"
-    },
-    {
-      "sourceId": "bbc-business",
-      "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
-      "url": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists.",
-      "publishedAt": "2026-11-24T00:01:04.000Z",
-      "category": "finance",
-      "source": "BBC Business",
-      "summary": "英美两国的忙碌母亲们正花钱请公司代办个人事务清单，每月花费约250英镑，认为此举物有所值。"
     },
     {
       "sourceId": "bbc-business",
@@ -3456,13 +3736,12 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
       "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
       "excerpt": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-      "publishedAt": "2026-11-24T01:11:54.000Z",
+      "publishedAt": "2026-11-24T04:36:31.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "英伟达在特朗普施压下恢复黄仁勋CEO职务，此前其因与疑似间谍的婚外情被停职。黄仁勋的回归帮助公司市值增加1万亿美元。"
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
@@ -3475,19 +3754,29 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-      "publishedAt": "2026-11-23T20:48:35.000Z",
+      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
+      "publishedAt": "2026-11-24T02:15:59.000Z",
       "category": "politics",
       "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
-      "title": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
-      "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
-      "publishedAt": "2026-11-24T00:23:25.000Z",
+      "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Saurav Das said that immigration authorities at Delhi airport told him that his passport had been \"flagged\".",
+      "publishedAt": "2026-11-24T05:33:07.000Z",
+      "category": "politics",
+      "source": "BBC World",
+      "summary": "印度“蟑螂”党领导人Saurav Das称，他在新德里机场被移民官员告知护照被“标记”，因此未能登机前往英国。"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
+      "publishedAt": "2026-11-23T20:48:35.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -3511,28 +3800,19 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The UK is joined by several other nations in recognising an ICJ ruling that Myanmar carried out genocide.",
-      "publishedAt": "2026-11-23T21:03:34.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "What failure of COP31 reveals about a divided world",
-      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
-      "publishedAt": "2026-11-23T17:24:25.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
       "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
       "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
       "excerpt": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
       "publishedAt": "2026-11-23T18:04:20.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
+      "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
+      "publishedAt": "2026-11-24T00:23:25.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -3547,10 +3827,20 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "Prominent Zimbabwean preacher arrested on sexual assault allegations",
-      "url": "https://www.bbc.co.uk/news/articles/cxyvdmjr893zo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Uebert Angel, a British-Zimbabwean national, leads a charismatic church with branches in several countries.",
-      "publishedAt": "2026-11-23T14:55:14.000Z",
+      "title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
+      "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Hasina has spoken several times of her desire to return, but this is the first time she has set a date.",
+      "publishedAt": "2026-11-24T06:23:01.000Z",
+      "category": "politics",
+      "source": "BBC World",
+      "summary": "孟加拉国前总理谢赫·哈西娜（Sheikh Hasina）表示，她计划于12月16日回国。此前她多次表达回国意愿，但这是她首次明确设定具体日期。"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The UK is joined by several other nations in recognising an ICJ ruling that Myanmar carried out genocide.",
+      "publishedAt": "2026-11-23T21:03:34.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -3561,8 +3851,7 @@
       "excerpt": "BBC's Lily Jamali reports from Nvidia's headquarters, where she gauges the reaction to Huang's return after Trump says he brokered a deal.",
       "publishedAt": "2026-11-24T01:21:41.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "BBC记者莉莉·贾玛利在英伟达总部报道，了解公司内部对黄仁勋在特朗普称促成协议后重新担任CEO的反应。"
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
@@ -3737,13 +4026,31 @@
     },
     {
       "sourceId": "guardian-world",
+      "title": "Malaysia to send thousands of migrants back to Myanmar as PM acknowledges junta’s ‘atrocities’",
+      "url": "https://www.theguardian.com/world/2026/nov/24/malaysia-to-send-thousands-of-migrants-back-to-myanmar",
+      "excerpt": "Prime minister Anwar Ibrahim’s announcement comes days after the ICJ found Myanmar had committed genocide against the Rohingya minority Malaysia says it will send thousands of migrants and refugees back to Myanmar, despite acknowledging that many asylum seekers in the country had been victims of “at",
+      "publishedAt": "2026-11-24T05:54:14.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "在加沙国际法院裁定缅甸对罗兴亚人实施种族灭绝后数日，马来西亚总理安瓦尔·易卜拉欣宣布，将遣返数千名缅甸移民及难民，尽管政府承认这些寻求庇护者中许多人面临迫害风险。"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "South Korea tells island residents to take shelter after Russian military aircraft approach",
+      "url": "https://www.theguardian.com/world/2026/nov/24/south-korea-tells-island-residents-to-take-shelter-after-russian-military-aircraft-approach",
+      "excerpt": "The order was issued after aircraft entered the country’s air defence identification zone over the island of Ulleungdo Residents of a remote South Korean island were ordered to take shelter on Tuesday morning after several Russian military aircraft came close to entering its airspace, prompting a pr",
+      "publishedAt": "2026-11-24T04:14:43.000Z",
+      "category": "politics",
+      "source": "The Guardian"
+    },
+    {
+      "sourceId": "guardian-world",
       "title": "China sentences official to death for spying for foreign country",
       "url": "https://www.theguardian.com/world/2026/nov/24/china-official-ma-death-sentence-spying-leaking-national-secrets",
       "excerpt": "Accused official leaked national secrets to unnamed country and received payments worth over $150,000, state-linked publisher says A Chinese official has been sentenced to death for spying for a foreign country, a government-linked publisher has said. Gold Wall Press, a publishing company associated",
       "publishedAt": "2026-11-24T02:37:36.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "据官方背景出版商金墙出版社报道，一名中国官员因向外国泄露国家机密并收受超过15万美元报酬，被判处死刑。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3765,68 +4072,62 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "South Korean minister quits after AI cheating scandal engulfs university exams",
-      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
-      "excerpt": "Choi Kyo-jin says he ‘failed to prepare adequately’ for entrance exams following last-minute scramble to tighten measures South Korea’s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up to key university entrance exams last week. The country has been g",
-      "publishedAt": "2026-11-22T12:12:07.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "China commits to low-carbon electrification and help for others to improve",
-      "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
-      "excerpt": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the same, a senior member of the Chinese delegation at the Cop31 UN clim",
-      "publishedAt": "2026-11-21T09:47:57.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Australian politics live: Greens secure ‘multibillion dollar fines’ for big tech in digital duty of care; ANZ predicts RBA will cut rates in June",
+      "title": "Australian politics live: ‘State-sanctioned theft’: Australian news outlets demand content is protected from AI scraping and paid for in response to parliamentary inquiry",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
       "excerpt": "Get our breaking news email, free app or daily news podcast The government will save more than it spends, says Jim Chalmers, but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed down, the government only gives us a few d",
-      "publishedAt": "2026-11-24T02:52:52.000Z",
+      "publishedAt": "2026-11-24T06:44:48.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "澳大利亚财长吉姆·查默斯表示，政府将实现盈余，但不会采取“大刀阔斧”的预算削减方式。绿党推动对大型科技公司实施“数字注意义务”，预计带来数十亿澳元罚款。澳新银行预测澳联储将于6月降息。"
+      "summary": "澳大利亚联邦财长Jim Chalmers表示，政府中期预算更新预计将结余而非赤字，但不会采取“削减烧钱”式的激进紧缩。与此同时，澳大利亚新闻机构正就国会听证呼吁保护内容免受AI抓取，并要求AI企业为使用其内容付费。"
     },
     {
       "sourceId": "guardian-world",
-      "title": "Beau Lamarre-Condon chose ‘long walk’ to witness box rather than silence, his barrister tells court",
+      "title": "Sports whistleblowers protected under proposed laws amid Australian cricket ball tampering saga",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/24/sports-whistleblowers-protected-proposed-laws-australian-cricket-ball-tampering-sandpapergate-ntwnfb",
+      "excerpt": "Amendments to government bill by Coalition and Greens would establish protections for those reporting wrongdoing in sport Get our daily political email, free app or daily news podcast Whistleblowers coming forward to report corruption or misconduct in sports would be protected under draft laws put f",
+      "publishedAt": "2026-11-24T06:20:10.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "在澳大利亚板球球改丑闻背景下，政府拟议法案经联盟党和绿党修正后，将为举报体育领域腐败与不当行为的吹哨人提供法律保护，强化对体育领域问责机制的制度保障。"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’",
+      "url": "https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai",
+      "excerpt": "Singers among 7,000 artists and creatives urging Labor to protect copyright law in face of lobbying from AI companies Get our breaking news email, free app or daily news podcast Kate Bush, Grace Jones and Sir Ian Rankin have joined 7,000 artists and creatives around the world pleading for the Austra",
+      "publishedAt": "2026-11-24T05:58:15.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "Kate Bush、Grace Jones与Sir Ian Rankin等约7000名艺术家及创意工作者联署，呼吁澳大利亚政府不要为AI公司放行“AI盗窃”，并要求在国会审议中保护现有版权法，抵制科技行业游说。"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "Beau Lamarre-Condon could have told crown ‘do your worst’ and not given evidence, defence says",
       "url": "https://www.theguardian.com/australia-news/2026/nov/24/beau-lamarre-condon-trial-barrister-closing-statement-ntwnfb",
-      "excerpt": "Former police officer has pleaded not guilty to murders of Jesse Baird and Luke Davies in Baird’s Paddington home in February 2024 Get our breaking news email, free app or daily news podcast Beau Lamarre-Condon could have sat in silence and let the crown “do its worst”, but he made the choice to tak",
-      "publishedAt": "2026-11-24T01:25:20.000Z",
+      "excerpt": "Former police officer has pleaded not guilty to murders of Jesse Baird and Luke Davies in Baird’s Paddington home in February 2024 Get our breaking news email, free app or daily news podcast Beau Lamarre-Condon could have sat in silence and told the crown “do your worst”, but he made the choice to t",
+      "publishedAt": "2026-11-24T05:49:34.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "前警官博·拉马尔-康登的律师在结案陈词中表示，其当事人选择“长路”走向证人席而非保持沉默，他否认2024年2月在帕丁顿家中谋杀杰西·贝尔德和卢克·戴维斯的指控。"
+      "summary": "在Beau Lamarre-Condon谋杀案审判中，辩方律师在结案陈词中指出，被告本可以选择沉默并“任凭检方作为”，却仍选择陈述。Lamarre-Condon对2024年2月在Baird家中谋杀Jesse Baird与Luke Davies的指控均不认罪。"
     },
     {
       "sourceId": "guardian-world",
-      "title": "Cop31 collapses: why did climate talks fall apart? - The Latest",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/23/cop31-collapses-why-did-climate-talks-fall-apart-the-latest",
-      "excerpt": "Countries at the Cop31 climate summit failed to reach a keystone agreement for the first time in 17 years. The talks, co-chaired by Turkey and Australia, were intended to produce a pact that would have injected urgency into climate action and financing for vulnerable states. Instead, the deal failed",
-      "publishedAt": "2026-11-23T17:19:55.000Z",
+      "title": "Social media companies could be fined 5% of global revenue after Labor and Greens join forces on online safety laws",
+      "url": "https://www.theguardian.com/technology/2026/nov/24/social-media-big-tech-fines-global-revenue-australia-digital-duty-care-laws",
+      "excerpt": "Individual Australians will be able to sue big tech firms for harm suffered online under compromise deal Follow our Australia politics live blog for latest updates Get our daily political email, free app or daily news podcast Big tech companies may face “multibillion-dollar” fines and individuals co",
+      "publishedAt": "2026-11-24T04:03:16.000Z",
       "category": "politics",
       "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
-      "title": "Plant-based lunches could cut Australia’s emissions by 15m tonnes, new research shows",
-      "url": "https://www.theguardian.com/environment/2026/nov/23/plant-based-lunches-could-cut-australia-emissions-by-15m-tonnes-new-research-shows",
-      "excerpt": "Nationwide change in lunch habits could cut more climate pollution than grounding every domestic flight Get our breaking news email, free app or daily news podcast Australians could collectively cut climate pollution by more than 15m tonnes – more than grounding every domestic flight – simply by cha",
-      "publishedAt": "2026-11-23T13:58:01.000Z",
+      "title": "Ebikes, screens and failing manners pose challenge for Dutch cycling culture",
+      "url": "https://www.theguardian.com/world/2026/nov/24/ebikes-screens-and-failing-manners-pose-challenge-for-dutch-cycling-culture",
+      "excerpt": "Awareness campaign reminds public ‘traffic is a team sport’ amid less civility and more collisions on roads For decades the Netherlands has been famed for its proud cycling culture, with a network of 23,000 miles of bike paths used by everyone from children under eight to adults over 80. In recent y",
+      "publishedAt": "2026-11-24T05:00:07.000Z",
       "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Domestic violence perpetrators are using smart car features to abuse, researchers warn",
-      "url": "https://www.theguardian.com/society/2026/nov/23/smart-car-tracking-control-features-domestic-violence-warning-ntwnfb",
-      "excerpt": "Exclusive: Alarming report reveals how tracking and monitoring functions and digital key access have been used to facilitate abuse Get our breaking news email, free app or daily news podcast Earlier this year a man in Australia was found guilty of using a connected car app to harass his former partn",
-      "publishedAt": "2026-11-23T13:57:45.000Z",
-      "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "荷兰引以为傲的骑行文化正面临挑战：电动自行车普及、骑行者使用屏幕分散注意力及礼仪下滑导致碰撞增多。当局发起提醒活动，强调“交通是一项团队运动”，以期改善道路秩序。"
     },
     {
       "sourceId": "guardian-world",
@@ -3861,15 +4162,6 @@
       "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
       "excerpt": "European Commission president Ursula von der Leyen sets out 22nd package of sanctions Turning to Ukraine, Nato’s Rutte stresses the need to secure the flow of “crucial supplies” or air defence weapons and ammunition to Ukraine. “It helps Ukraine to defend itself today, but it also strengthens Ukrain",
       "publishedAt": "2026-11-23T16:42:56.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Leaked data shows more than 1,000 Russian military suicides during Ukraine war",
-      "url": "https://www.theguardian.com/world/2026/nov/23/leaked-data-shows-more-than-1000-russian-military-suicides-during-ukraine-war",
-      "excerpt": "Exclusive: Figures from cache of 11m death certificates reveal suicides account for about a regiment of Russia’s war dead Russia’s war dead: the hidden toll of the Ukraine conflict In late October 2024, Alexei Bolgov, a sergeant guarding a military headquarters in the occupied Donetsk region, told h",
-      "publishedAt": "2026-11-23T16:00:51.000Z",
       "category": "politics",
       "source": "The Guardian"
     },
@@ -3970,8 +4262,7 @@
       "excerpt": "Hundreds of people were at the compound when a blaze broke out on Saturday and then raged for hours.",
       "publishedAt": "2026-11-24T00:35:20.000Z",
       "category": "politics",
-      "source": "NYT World",
-      "summary": "印度尼西亚一家糖果厂周六发生大火，大火持续数小时，已造成24人死亡。事发时工厂内有数百人。"
+      "source": "NYT World"
     },
     {
       "sourceId": "nyt-world",
@@ -4047,6 +4338,26 @@
     },
     {
       "sourceId": "nyt-world",
+      "title": "Pope Francis Diary Excerpts Published in New Book",
+      "url": "https://www.nytimes.com/2026/11/24/world/europe/pope-francis-diary.html",
+      "excerpt": "Over decades, before and after he became leader of the Roman Catholic Church, Francis recorded occasional entries about his fears and doubts.",
+      "publishedAt": "2026-11-24T06:00:05.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "一本新书发布了教宗方济各的日记摘录，展现他在成为罗马天主教会领袖前后数十年的思考，其中记录了他对信仰与人生的一些恐惧和怀疑。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Radio Offers Russian Troops Classic Rock, Nostalgia — and Pleas to Surrender",
+      "url": "https://www.nytimes.com/2026/11/24/world/europe/ukraine-russia-psyops-radio-izium.html",
+      "excerpt": "What seem like frontline Russian radio stations are actually a Ukrainian psychological operation, hoping to sow despair among the Kremlin’s soldiers.",
+      "publishedAt": "2026-11-24T05:01:05.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "在乌克兰伊久姆前线上，看似属于俄罗斯的广播电台实为乌克兰方面的心理战行动，通过播放经典摇滚、引发思乡情绪并呼吁士兵投降，试图瓦解克里姆林宫军队的士气。"
+    },
+    {
+      "sourceId": "nyt-world",
       "title": "The Woman Who Took Canada to Court Over Genocide",
       "url": "https://www.nytimes.com/2026/11/23/world/canada/nakuset-montreal.html",
       "excerpt": "Na’kuset is a longtime champion for Indigenous communities across Canada using her experiences to fuel her advocacy.",
@@ -4068,9 +4379,10 @@
       "title": "The Return of Jensen Huang",
       "url": "https://www.nytimes.com/2026/11/23/world/jensen-huang-return-nvidia-ukraine.html",
       "excerpt": "The Nvidia C.E.O. is back, President Trump is celebrating and markets are rallying.",
-      "publishedAt": "2026-11-23T20:39:04.000Z",
+      "publishedAt": "2026-11-24T05:44:37.000Z",
       "category": "politics",
-      "source": "NYT World"
+      "source": "NYT World",
+      "summary": "《纽约时报》报道黄仁勋正式回归英伟达出任CEO，特朗普公开表示支持，市场在消息公布后出现明显反弹，AI概念股受到提振。"
     },
     {
       "sourceId": "nyt-world",
@@ -4172,24 +4484,6 @@
       "source": "NYT World"
     },
     {
-      "sourceId": "nyt-world",
-      "title": "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
-      "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html",
-      "excerpt": "The kingpin, Fausto Isidro Meza Flores, was captured in a violent operation in Mexico. He was one of the F.B.I.’s 10 most wanted fugitives.",
-      "publishedAt": "2026-11-22T10:16:39.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Catherine, Princess of Wales, Documents Life With Cancer in BBC Film",
-      "url": "https://www.nytimes.com/2026/11/21/world/europe/princess-kate-bbc-cancer-film.html",
-      "excerpt": "“Cancer does change you,” Catherine, who is in remission, says in a trailer for the film. It will be released this month.",
-      "publishedAt": "2026-11-23T15:41:25.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
       "sourceId": "npr-world",
       "title": "Russian incursions into NATO territory are increasing",
       "url": "https://www.npr.org/2026/11/23/nx-s1-6051013/russian-incursions-into-nato-territory-are-increasing",
@@ -4278,6 +4572,16 @@
       "publishedAt": "2026-11-21T22:01:32.000Z",
       "category": "politics",
       "source": "NPR World"
+    },
+    {
+      "sourceId": "dw-chinese",
+      "title": "川普力促黃仁勳回歸引爭議 國會仍將調查國安風險",
+      "url": "https://www.dw.com/zh/川普力促黃仁勳回歸引爭議-國會仍將調查國安風險/a-80027866?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "在員工歡呼聲之中，NVIDIA共同創辦人黃仁勳23日重返自己一手創辦的公司；他之所以能獲得「第二次機會」，主因是矽谷盟友的斡旋遊說，以及川普和萬斯直接介入。但白宮這麼做也引發爭議；美國國會不分黨派，則仍認為有必要就輝達的國安爭議，調查到底。",
+      "publishedAt": "2026-11-24T06:22:00.000Z",
+      "category": "politics",
+      "source": "DW 中文",
+      "summary": "NVIDIA联合创始人黄仁勋11月23日重返公司任CEO，主要受硅谷盟友斡旋及特朗普、万斯介入推动。但此举引发争议，美国国会两党人士仍认为有必要对英伟达涉中国国家安全风险展开调查。"
     },
     {
       "sourceId": "dw-chinese",
@@ -4541,13 +4845,79 @@
       "source": "DW 中文"
     },
     {
-      "sourceId": "dw-chinese",
-      "title": "專訪：民主黨重掌國會，華府對台政策會出現轉向嗎？",
-      "url": "https://www.dw.com/zh/專訪：民主黨重掌國會，華府對台政策會出現轉向嗎？/a-79947376?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "美國期中選舉後，華府對台政策會出現轉向嗎？歐洲在維護台海和平方面扮演怎樣的角色？德國馬歇爾基金會印太項目負責人葛來儀接受DW專訪時發出警告，遭擱置近一年的140億美元對台軍售若持續延宕，恐讓北京誤以為自己對美國軍售決策擁有影響力甚至否決權。",
-      "publishedAt": "2026-11-14T10:12:00.000Z",
+      "sourceId": "aljazeera",
+      "title": "Nvidia live: Markets surge as Jensen Huang returns as CEO",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/nvidia-live-markets-surge-as-jensen-huang-returns-as-ceo?traffic_source=rss",
+      "excerpt": "Huang's reinstatement breathes new life into an AI market rally days after shares in the tech giant were dumped.",
+      "publishedAt": "2026-11-24T06:24:25.000Z",
       "category": "politics",
-      "source": "DW 中文"
+      "source": "Al Jazeera",
+      "summary": "英伟达（Nvidia）首席执行官黄仁勋（Jensen Huang）重返岗位后，科技股与AI板块情绪明显回暖，此前一日其股价曾被抛售。黄仁勋的回归为AI市场注入了新的动能，推动相关资产反弹。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Arsenal vs Dortmund: Champions League – Predictions, how to watch, lineups",
+      "url": "https://www.aljazeera.com/sports/2026/11/24/arsenal-borussia-dortmund-champions-league-predictions-lineups-streaming?traffic_source=rss",
+      "excerpt": "Europe's premier club competition pits English champions Arsenal against German league leaders Dortmund on Tuesday.",
+      "publishedAt": "2026-11-24T05:56:41.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Pennsylvania reports ninth measles death in ongoing state outbreak",
+      "url": "https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak?traffic_source=rss",
+      "excerpt": "CDC and state figures on measles deaths differ as Pennsylvania faces an escalating health crisis in 46 counties.",
+      "publishedAt": "2026-11-24T04:59:13.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "美国宾夕法尼亚州报告麻疹疫情中的第九例死亡病例，州内46个县受到波及，CDC与州卫生当局对死亡人数的统计存在差异，公共卫生危机持续升级。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Danish court backs ‘ghetto law’ used to evict ‘non-Western’ residents",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/danish-court-backs-ghetto-law-used-to-evict-non-western-residents?traffic_source=rss",
+      "excerpt": "Denmark’s Supreme Court has ruled against the ‘non-Western’ tenants evicted from Mjolnerparken housing estate.",
+      "publishedAt": "2026-11-24T04:52:06.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "丹麦最高法院裁定支持所谓“贫民窟法”，该法律此前被用于驱逐Mjolnerparken住宅区中被称为“非西方背景”的租户，法院驳回了相关住户的上诉。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Car bomb strikes governor’s office in Meta, Colombia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
+      "excerpt": "A car bomb exploded in the city of Villavicencio in Colombia’s Meta Department.",
+      "publishedAt": "2026-11-24T04:49:31.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "India’s best known bottled water under scrutiny",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/indias-best-known-bottled-water-under-scrutiny?traffic_source=rss",
+      "excerpt": "India is testing samples from every bottled water company after one batch of Bisleri bottled water was ruled unsafe.",
+      "publishedAt": "2026-11-24T04:44:35.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "WHO chief visits Cuba as healthcare system deteriorates",
+      "url": "https://www.aljazeera.com/news/2026/11/24/who-chief-visits-cuba-as-healthcare-system-deteriorates?traffic_source=rss",
+      "excerpt": "Analysts say fuel shortages blamed on US sanctions are worsening the crisis.",
+      "publishedAt": "2026-11-24T04:35:37.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
+      "url": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request?traffic_source=rss",
+      "excerpt": "Fausto Meza Flores faces drug trafficking and weapons charges after his capture in a violent Sinaloa operation.",
+      "publishedAt": "2026-11-24T03:20:55.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4556,8 +4926,7 @@
       "excerpt": "Footage of an excavator near Sheshnag Lake in India-administered Kashmir has sparked outrage.",
       "publishedAt": "2026-11-24T02:35:27.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "一段显示挖掘机在印控克什米尔喜马拉雅山区的谢什纳格湖附近作业的视频引发公愤，该湖被视为神圣湖泊。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4566,8 +4935,7 @@
       "excerpt": "Secretary-General Antonio Guterres has become increasingly vocal about AI as end of term nears.",
       "publishedAt": "2026-11-24T02:27:19.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "联合国秘书长安东尼奥·古特雷斯呼吁世界各国在一年内就人工智能监管达成协议。随着其任期接近尾声，他对AI议题的呼吁日益频繁。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4576,8 +4944,7 @@
       "excerpt": "Qatar’s Prime Minister says he’s working towards deescalating tensions between Iran and the US.",
       "publishedAt": "2026-11-24T01:32:12.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "卡塔尔首相表示，在会见美国国务卿鲁比奥后，正致力于缓和伊朗与美国之间的紧张局势，并试图重启美伊对话。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4586,8 +4953,7 @@
       "excerpt": "The ruling could clear the way for Trump to argue prosecutors relied on evidence protected by presidential immunity.",
       "publishedAt": "2026-11-24T01:17:48.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "上诉法院重启特朗普在封口费案中寻求联邦管辖权的努力，该裁决可能为特朗普辩称检方依赖受总统豁免权保护的证据扫清道路。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4596,28 +4962,25 @@
       "excerpt": "Final resumption of carrier's route between Dubai and Tel Aviv depends on Israeli security authorities' approval.",
       "publishedAt": "2026-11-24T01:09:51.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "以色列部长批准迪拜航空恢复飞往特拉维夫的航班，但最终复飞还需以色列安全部门的批准。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Bukele shares details on deaths of Salvadoran troops in Haiti intervention",
+      "title": "Bukele shares details on deaths of El Salvador’s troops in Haiti",
       "url": "https://www.aljazeera.com/news/2026/11/24/bukele-shares-details-on-deaths-of-salvadoran-troops-in-haiti-intervention?traffic_source=rss",
       "excerpt": "Bukele's military intervention in Haiti comes after four Salvadoran technicians were kidnapped by gangs in October.",
       "publishedAt": "2026-11-24T01:06:00.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "萨尔瓦多总统布克尔公布在海地干预行动中阵亡士兵的细节。此前，四名萨尔瓦多技术员在10月被黑帮绑架。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "US adds Megaspeed, firm at centre of Nvidia scandal, to export control list",
+      "title": "US adds Megaspeed to trade blacklist as Nvidia’s Huang returns as CEO",
       "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list?traffic_source=rss",
-      "excerpt": "Bureau of Security and Industry adds Singapore-based firm and six other entities to export control list.",
+      "excerpt": "Bureau of Industry and Security adds Singapore-based firm involved in Nvidia spy scandal to export control list.",
       "publishedAt": "2026-11-24T00:52:47.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "美国工业与安全局将新加坡公司Megaspeed及其余六个实体列入出口管制清单。Megaspeed是英伟达丑闻的核心企业。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4626,8 +4989,7 @@
       "excerpt": "The Democratic Party is debating how best to use its large margin of victory in the US midterm elections.",
       "publishedAt": "2026-11-24T00:39:22.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "民主党内部正讨论如何利用在中期选举中赢得的较大国会多数席位优势。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4636,8 +4998,7 @@
       "excerpt": "The animal that sparked panic in Istanbul on Sunday because people thought it was a lion, was not a lion afterall.",
       "publishedAt": "2026-11-24T00:35:58.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "周日引发伊斯坦布尔恐慌、被误认为狮子的动物，经确认并非狮子。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4661,7 +5022,7 @@
       "sourceId": "aljazeera",
       "title": "Iran war live: Iran says three ships catch fire after hitting Hormuz mines",
       "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines?traffic_source=rss",
-      "excerpt": "Iran's Revolutionary Guards say three oil tankers have caught fire after hitting naval mines in the Strait of Hormuz.",
+      "excerpt": "Iran's top negotiator rules out talks until the US meets seven conditions and warns against any enemy miscalculation.",
       "publishedAt": "2026-11-24T00:00:00.000Z",
       "category": "politics",
       "source": "Al Jazeera"
@@ -4695,7 +5056,7 @@
     },
     {
       "sourceId": "aljazeera",
-      "title": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street?",
+      "title": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street",
       "url": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street?traffic_source=rss",
       "excerpt": "Trump claims credit for Huang's return, raising concerns over federal government meddling in corporate board decisions.",
       "publishedAt": "2026-11-23T23:06:03.000Z",
@@ -4712,76 +5073,13 @@
       "source": "Al Jazeera"
     },
     {
-      "sourceId": "aljazeera",
-      "title": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
-      "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
-      "excerpt": "US Treasury sanctions over two dozen Iranian entities, citing efforts to disrupt Tehran's global financial activities.",
-      "publishedAt": "2026-11-23T21:30:40.000Z",
+      "sourceId": "the-diplomat",
+      "title": "The Never-Ending China-US Story",
+      "url": "https://thediplomat.com/2026/11/the-never-ending-china-us-story/",
+      "excerpt": "From Trump to Biden and back again, Washington keeps talking about apparent turning points. Yet the main problems remain unresolved.",
+      "publishedAt": "2026-11-23T19:20:00.000Z",
       "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Israel’s southern Syria incursion triggers fear and destruction",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israels-southern-syria-incursion-triggers-fear-and-destruction?traffic_source=rss",
-      "excerpt": "Families in Koya have been shot at, had their homes set on fire, and been forced to flee after Israeli incursions.",
-      "publishedAt": "2026-11-23T21:19:17.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
-      "url": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss",
-      "excerpt": "Virginia and Oregon filed separate lawsuits on Monday, accusing the company of promoting Grok's 'spicy mode'.",
-      "publishedAt": "2026-11-23T21:15:33.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "US drug prices leave patients facing impossible choices",
-      "url": "https://www.aljazeera.com/news/2026/11/23/us-drug-prices-leave-patients-facing-impossible-choices?traffic_source=rss",
-      "excerpt": "Despite having jobs and health insurance, some of the US's sickest patients have trouble affording medicines they need.",
-      "publishedAt": "2026-11-23T21:02:00.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
-      "url": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf?traffic_source=rss",
-      "excerpt": "Ahmadi and four production team members also face two-year bans on travel and artistic activity.",
-      "publishedAt": "2026-11-23T20:41:56.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Iran hits US bases and civilian sites in the Gulf after a lull",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
-      "excerpt": "Tehran has ramped up attacks in recent days as the US naval blockade and sanctions campaign hurt the country.",
-      "publishedAt": "2026-11-23T20:26:40.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Turkish police hunting for lioness stalking Istanbul",
-      "url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
-      "excerpt": "Questions being asked about big cat's origins, with suspicion falling on the country's growing role in animal smuggling.",
-      "publishedAt": "2026-11-23T20:22:28.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Jensen Huang reinstated as Nvidia chief: How did we get here?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-reinstated-as-nvidia-chief-how-did-we-get-here?traffic_source=rss",
-      "excerpt": "Just 11 days after resigning over a suspected espionage scandal, Jensen Huang has been reinstated as Nvidia’s CEO.",
-      "publishedAt": "2026-11-23T20:22:12.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
+      "source": "The Diplomat"
     },
     {
       "sourceId": "the-diplomat",
@@ -5041,15 +5339,6 @@
       "url": "https://thediplomat.com/2026/11/the-icjs-myanmar-genocide-ruling-what-comes-next/",
       "excerpt": "The verdict marked broke new legal ground, but enforcing the judgment on Naypyidaw will not be easy.",
       "publishedAt": "2026-11-20T05:15:00.000Z",
-      "category": "politics",
-      "source": "The Diplomat"
-    },
-    {
-      "sourceId": "the-diplomat",
-      "title": "Where the Mango Meets the Orchid: Prospects in Pakistan-Singapore Relations",
-      "url": "https://thediplomat.com/2026/11/where-the-mango-meets-the-orchid-prospects-in-pakistan-singapore-relations/",
-      "excerpt": "The recent visit to Pakistan by Singapore's foreign minister offers an opportunity to establish a framework of cooperation connecting South Asia with Southeast Asia.",
-      "publishedAt": "2026-11-20T00:15:00.000Z",
       "category": "politics",
       "source": "The Diplomat"
     }
